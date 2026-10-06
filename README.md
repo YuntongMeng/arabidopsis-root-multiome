@@ -9,10 +9,10 @@ Project 3 investigates cell-population-specific osmotic-stress responses in Arab
 | Core | Scope in this release | Status |
 | --- | --- | --- |
 | Core 1 | RNA QC, robust clustering, conservative population annotation, biological-sample pseudobulk DE, and P1 candidate/GO contextualization | Complete; full rerun passed |
-| Core 2 | Reserved for the next core of the original project plan; detailed scope to be restored from the agreed plan before implementation | Planned; no analysis released |
-| Core 3 | Reserved for the final core of the original project plan; detailed scope to be restored from the agreed plan before implementation | Planned; no analysis released |
+| Core 2 | Planned subsequent project module | Not started |
+| Core 3 | Planned final project module | Not started |
 
-The two future-core descriptions above deliberately do not infer missing planning details. This snapshot contains only Core 1 analysis code and results.
+Core 2 and Core 3 are plans only; neither has been conducted. This release contains only Core 1 analysis code and results.
 
 ## Core 1 workflow and decisions
 
