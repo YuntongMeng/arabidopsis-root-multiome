@@ -1,0 +1,15 @@
+# Local R/RStudio state
+.Rproj.user/
+.Rhistory
+.RData*
+.DS_Store
+# Original matrix archive and sample matrices: download from GEO
+/data/rna/GSE235495_RAW.tar
+/data/rna/control_rep*/
+/data/rna/stress_rep*/
+# Full analysis checkpoints and timestamped rerun working directories
+*.rds
+!results/core1_frozen/core1_existing_results.rds
+/results/reproducibility/*.rds
+/results/core1_rerun_*/
+/results/core1_reproduction/

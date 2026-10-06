@@ -1,0 +1,5 @@
+sample,features,before,after,removed
+control_rep1,52691,3431,3388,43
+control_rep2,57150,6631,6562,69
+stress_rep1,57323,7827,7774,53
+stress_rep2,57834,6585,6553,32

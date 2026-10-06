@@ -1,0 +1,8 @@
+"Description","Atrichoblast","Columella","Cortex","Dividing_meristematic","Dividing_S_phase","Endodermis","Endodermis_like","Epidermal_like","Initial_like","LRC_like","Pericycle","Trichoblast","Unresolved_transition"
+"cold acclimation",0,0,0,0,0,0,0,0,0,0,1,0,0
+"jasmonic acid metabolic process",0,0,0,0,0,1,1,0,0,0,1,1,1
+"long-chain fatty acid metabolic process",0,0,0,0,0,1,1,0,0,0,1,1,1
+"response to acid chemical",0,0,0,0,0,0,0,0,0,0,1,0,0
+"response to cold",0,1,0,0,0,0,2,1,0,1,3,0,1
+"response to water",0,0,0,0,0,0,0,0,0,0,1,0,0
+"response to water deprivation",0,0,0,0,0,0,0,0,0,0,1,0,0

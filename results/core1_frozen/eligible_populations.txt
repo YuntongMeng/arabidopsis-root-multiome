@@ -1,0 +1,13 @@
+Atrichoblast
+Columella
+Cortex
+Dividing_meristematic
+Dividing_S_phase
+Endodermis
+Endodermis_like
+Epidermal_like
+Initial_like
+LRC_like
+Pericycle
+Trichoblast
+Unresolved_transition

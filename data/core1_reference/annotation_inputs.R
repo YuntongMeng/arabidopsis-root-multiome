@@ -1,0 +1,23 @@
+list(marker_panel_v2 = list(Trichoblast = c("AT5G49270", "AT5G37800", 
+"AT5G58010"), Atrichoblast = "AT1G79840", Cortex = c("AT1G09750", 
+"AT3G21670"), Endodermis = c("AT3G54220", "AT5G57620", "AT2G36100", 
+"AT4G28100"), Xylem = c("AT5G44030", "AT5G53730"), Phloem = c("AT1G79430", 
+"AT1G22710"), Pericycle = "AT4G29100", QC = c("AT3G11260", "AT5G62165", 
+"AT5G17430", "AT2G28900", "AT3G20840", "AT3G55550")), marker_panel_v3 = list(
+    Trichoblast = c("AT5G49270", "AT5G37800", "AT5G58010"), Atrichoblast = "AT1G79840", 
+    Cortex = c("AT1G09750", "AT3G21670"), Endodermis = c("AT3G54220", 
+    "AT5G57620", "AT2G36100", "AT4G28100"), Xylem = c("AT5G44030", 
+    "AT5G53730"), Phloem = c("AT1G79430", "AT1G22710"), Pericycle = "AT4G29100", 
+    QC = c("AT3G11260", "AT5G62165", "AT5G17430", "AT2G28900", 
+    "AT3G20840", "AT3G55550"), LRC = c("AT1G79580", "AT1G62300"
+    ), Columella = c("AT1G79580", "AT1G33280"), Initial = c("AT1G79950", 
+    "AT1G62360"), QC_extended = c("AT3G11260", "AT5G62165", "AT5G17430", 
+    "AT2G28790", "AT3G02245")), validation_markers = c("AT5G49270", 
+"AT1G79840", "AT1G09750", "AT3G54220", "AT2G36100", "AT1G79430", 
+"AT1G22710", "AT5G44030", "AT3G11260", "AT5G62165"), annotation_map = c(`0` = "LRC_like", 
+`1` = "Initial_like", `2` = "Trichoblast", `3` = "Pericycle", 
+`4` = "Endodermis_like", `5` = "LRC_like", `6` = "Phloem_related", 
+`7` = "Atrichoblast", `8` = "Epidermal_like", `9` = "Dividing_meristematic", 
+`10` = "Cortex", `11` = "Dividing_S_phase", `12` = "Unresolved_transition", 
+`13` = "Columella", `14` = "Atrichoblast_like", `15` = "Endodermis", 
+`16` = "Phloem", `17` = "Xylem"))

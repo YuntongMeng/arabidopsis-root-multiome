@@ -1,0 +1,14 @@
+"cell_population","genes_tested","DEGs","up","down"
+"Atrichoblast",17862,687,488,199
+"Columella",15649,151,55,96
+"Cortex",17150,259,86,173
+"Dividing_S_phase",17545,214,115,99
+"Dividing_meristematic",18184,410,323,87
+"Endodermis",13562,104,16,88
+"Endodermis_like",17186,504,82,422
+"Epidermal_like",17650,535,275,260
+"Initial_like",19369,443,284,159
+"LRC_like",19704,524,155,369
+"Pericycle",17523,663,136,527
+"Trichoblast",19301,739,251,488
+"Unresolved_transition",13819,96,50,46

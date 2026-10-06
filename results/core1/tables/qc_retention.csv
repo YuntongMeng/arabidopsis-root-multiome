@@ -1,0 +1,5 @@
+"sample","before","after","removed","percent_removed"
+"control_rep1",3431,3388,43,1.25327892742641
+"control_rep2",6631,6562,69,1.04056703362992
+"stress_rep1",7827,7774,53,0.677143222179635
+"stress_rep2",6585,6553,32,0.485952923310554

@@ -1,0 +1,341 @@
+"p_val","avg_log2FC","pct.1","pct.2","p_val_adj","cluster","gene","SYMBOL","GENENAME"
+0,2.83067732302543,0.356,0.074,0,"0","AT4G29340","AtPRF4","Profilin is a low-molecular weight, actin monomer-binding protein that regulates the organization of actin cytoskeleton in eukaryotes, including higher plants. PRF4 and PRF5 are late pollen-specific and are not detectable in other cell types of the plant body including microspores and root hairs. Immunocytochemical studies at the subcellular level reveal that both the constitutive and pollen-specific profilins are abundant in the cytoplasm. In vegetative cell types, such as root apical cells, profilins showed localization to nuclei in addition to the cytoplasmic staining."
+0,2.80159685867877,0.662,0.149,0,"0","AT3G12977","NAC1L",NA
+0,2.69461373119672,0.371,0.076,0,"0","AT1G07560",NA,NA
+0,2.55319736034258,0.28,0.06,0,"0","AT5G61250","AtGUS1","Belongs to the plant glycoside hydrolase family 79. Encodes a protein with several posttranslational modification sites including O-&#946;-GlcNAc attachment sites and serine-, threonine- and  tyrosine-phosphorylation sites, suggesting that this protein is extensively modified posttranslationally. The protein is predicted  (WoLF PSORT program) to be secreted."
+0,2.55165935886392,0.287,0.065,0,"0","AT1G70860",NA,NA
+0,2.53586289309757,0.255,0.066,0,"0","AT5G38030","DTX30",NA
+0,2.47633225045482,0.327,0.08,0,"0","AT5G45070","AtPP2-A8",NA
+0,2.4388380426108,0.45,0.121,0,"0","AT1G73300","scpl2",NA
+0,2.42093713480816,0.26,0.061,0,"0","AT5G36870","ATGSL09","encodes a gene similar to callose synthase"
+0,2.39981826851172,0.33,0.084,0,"0","AT2G32295",NA,NA
+0,2.3856138942925,0.281,0.068,0,"0","AT2G28970",NA,NA
+0,2.2718704012615,0.326,0.088,0,"0","AT2G30840",NA,"encodes a protein whose sequence is similar to 2-oxoglutarate-dependent dioxygenase"
+0,2.25520323460998,0.366,0.105,0,"0","AT1G06983",NA,NA
+0,2.20616218876895,0.264,0.069,0,"0","AT5G07680","ANAC079",NA
+0,2.19679639190528,0.257,0.083,0,"0","AT3G58810","ATMTP3","Member of Zinc transporter (ZAT) family. Contributes to basic cellular Zn tolerance and controls Zn partitioning, particularly under conditions of high  rates of Zn influx into the root symplasm. Localizes to  the vacuolar membrane."
+0,2.1569635841563,0.653,0.189,0,"0","AT1G51830","SIF1",NA
+0,2.1383489698252,0.265,0.07,0,"0","AT1G36640",NA,NA
+0,2.13257486306774,0.383,0.111,0,"0","AT3G09220","LAC7","putative laccase,  a member of laccase family of genes (17 members in Arabidopsis)."
+0,2.11027918850661,0.256,0.077,0,"0","AT1G10340",NA,NA
+0,2.09308066139027,0.453,0.153,0,"0","AT2G28160","ATBHLH029","Encodes a putative transcription factor that regulates iron uptake responses.  mRNA is detected in the outer cell layers of the root and accumulates in response to iron deficiency.  The expression of many iron-regulated genes is dependent on FIT1.  It specifically regulates FRO2 at the level of mRNA accumulation and IRT1 at the level of protein accumulation.Similar to FER in tomato and is a regulator of iron uptake."
+0,2.54618780081651,0.412,0.097,0,"1","AT2G28790",NA,NA
+0,2.53875282728371,0.317,0.067,0,"1","AT2G12646","PLATZ7",NA
+0,2.36214519162677,0.46,0.115,0,"1","AT3G15240",NA,NA
+0,2.25437295834065,0.394,0.124,0,"1","AT5G28640","AN3","Encodes a protein with similarity to mammalian transcriptional coactivator that is involved in cell proliferation during leaf and flower development. Loss of function mutations have narrow, pointed leaves and narrow floral organs. AN3 interacts with members of the growth regulating factor (GRF) family of transcription factors."
+0,2.23701917885069,0.35,0.088,0,"1","AT2G23050","MEL4","A member of the NPY gene family (NPY1/AT4G31820, NPY2/AT2G14820, NPY3/AT5G67440, NPY4/AT2G23050, NPY5/AT4G37590).  Involved in auxin-mediated organogenesis."
+0,2.14605008152429,0.28,0.066,0,"1","AT5G48940","RGFR2",NA
+0,2.12893075164859,0.549,0.182,0,"1","AT3G15357",NA,NA
+0,2.12018456980891,0.328,0.082,0,"1","AT2G19670","ATPRMT1A",NA
+0,2.10542022767335,0.689,0.246,0,"1","AT4G25630","ATFIB2","encodes a fibrillarin, a key nucleolar protein in eukaryotes which associates with box C/D small nucleolar RNAs (snoRNAs) directing 2'-O-ribose methylation of the rRNA. This gene also encodes a novel box C/D snoRNA, U60.2f in its fifth intron that accumulates in seedlings and that their targeted residue on the 25 S rRNA is methylated."
+0,2.09987174623416,0.302,0.077,0,"1","AT5G08620","ATRH25","Similar in sequence to DEAD-box RNA helicases. Binds RNA. Involved in drought, salt and cold stress responses."
+0,2.08857165904832,0.836,0.389,0,"1","AT3G23830","AtGRP4","encodes a glycine-rich RNA binding protein. Gene expression is induced by cold and reduced by ionic (salt) and non-ionic (mannitol) osmotic stress. Lines overexpressing the gene are slightly more tolerant to osmotic stress during germination."
+0,2.07301262270863,0.787,0.342,0,"1","AT3G57150","AtCBF5","Encodes a putative pseudouridine synthase (NAP57)."
+0,2.01166838784371,0.665,0.246,0,"1","AT5G27120",NA,"SAR DNA-binding protein, putative, strong similarity to SAR DNA-binding protein-1 (Pisum sativum) GI:3132696; contains Pfam profile PF01798: Putative snoRNA binding domain; has similarity to MAR binding NOP58 protein"
+0,2.00811579624145,0.789,0.338,0,"1","AT1G56110","NOP56","NOP56-like protein"
+0,2.00578286171341,0.839,0.417,0,"1","AT4G12600",NA,NA
+0,2.00171974400416,0.676,0.259,0,"1","AT5G62190","AtRH7","DEAD/DEAH box RNA helicase PRH75"
+0,2.00031173001014,0.265,0.075,0,"1","AT4G23750","CRF2","encodes a member of the ERF (ethylene response factor) subfamily B-5 of ERF/AP2 transcription factor family. The protein contains one AP2 domain. There are 7 members in this subfamily. Monopteros target gene."
+0,1.99208969004717,0.875,0.463,0,"1","AT2G20490","EDA27",NA
+0,1.98816221998211,0.516,0.161,0,"1","AT3G58660",NA,NA
+0,1.98762175481739,0.34,0.106,0,"1","AT3G16150","ASPGB1",NA
+0,4.19718021919325,0.306,0.03,0,"2","AT4G25790","AtCAPE4",NA
+0,4.15425691446706,0.408,0.058,0,"2","AT5G04960","PME46",NA
+0,4.02497038368291,0.687,0.179,0,"2","AT4G40090","AGP3",NA
+0,3.95251613546278,0.406,0.061,0,"2","AT4G08410","EXT8",NA
+0,3.93749633709935,0.579,0.121,0,"2","AT1G62980","ATEXP18","Alpha-expansin 18. Naming convention from the Expansin Working Group (Kende et al, 2004. Plant Mol Bio)"
+0,3.93394306745019,0.256,0.028,0,"2","AT2G47530",NA,NA
+0,3.90616181010662,0.445,0.074,0,"2","AT5G19800","AtHRGP2",NA
+0,3.89751712965926,0.284,0.031,0,"2","AT3G10710","PMEI-PME24",NA
+0,3.88852785751422,0.34,0.048,0,"2","AT5G22410","RHS18",NA
+0,3.87307526778239,0.552,0.114,0,"2","AT5G67400","PRX73",NA
+0,3.85820673860062,0.759,0.264,0,"2","AT5G57625","AtCAPE5",NA
+0,3.82091548305848,0.328,0.038,0,"2","AT5G24313",NA,NA
+0,3.79339357383755,0.4,0.063,0,"2","AT4G08400","EXT7",NA
+0,3.76816742534412,0.33,0.051,0,"2","AT1G54970","ATPRP1","encodes a proline-rich protein that is specifically expressed in the root."
+0,3.74552706125264,0.715,0.245,0,"2","AT4G02270","RHS13",NA
+0,3.7443730375706,0.509,0.107,0,"2","AT5G35190","EXT13",NA
+0,3.71759232139602,0.286,0.044,0,"2","AT5G06630","EXT9",NA
+0,3.71703507357772,0.522,0.118,0,"2","AT5G06640","EXT10",NA
+0,3.70065836652575,0.477,0.099,0,"2","AT2G24980","EXT6",NA
+0,3.69199032399015,0.473,0.079,0,"2","AT4G34580","AtSFH1","Encodes COW1 (can of worms1), a phosphatidylinositol transfer protein essential for root hair tip growth. The N-terminus of the COW1 protein is 32% identical to an essential phosphatidylinositol transfer protein (PITP), the yeast Sec14 protein (sec14p) while the C-terminus is 34.5% identical to a late nodulin of Lotus japonicus, Nlj16. Expression of COW1 complements the growth defect associated with Sec14p dysfunction in yeast. GFP fused to the COW1 protein specifically accumulates at the site of root hair outgrowth."
+0,4.86047926244194,0.342,0.028,0,"3","AT3G46130","ATMYB48","Encodes a putative transcription factor (MYB48) that functions to regulate flavonol biosynthesis primarily in cotyledons."
+0,4.23015690371666,0.394,0.046,0,"3","AT1G31050","PFA1",NA
+0,4.2213762920418,0.255,0.033,0,"3","AT3G02850","SKOR","Encodes SKOR, a member of Shaker family potassium ion (K+) channel.  This family includes five groups based on phylogenetic analysis (FEBS Letters (2007) 581: 2357): I (inward rectifying channel): AKT1 (AT2G26650), AKT5 (AT4G32500) and SPIK (also known as AKT6, AT2G25600); II (inward rectifying channel): KAT1 (AT5G46240) and KAT2 (AT4G18290); III (weakly inward rectifying channel): AKT2 (AT4G22200); IV (regulatory subunit involved in inwardly rectifying conductance formation): KAT3 (also known as AtKC1, AT4G32650); V (outward rectifying channel): SKOR (AT3G02850) and GORK (AT5G37500).  Mediates the delivery of K+ from stelar cells to the xylem in the roots towards the shoot. mRNA accumulation is modulated by abscisic acid. K+ gating activity is modulated by external and internal K+."
+0,4.16645703448642,0.747,0.158,0,"3","AT5G43180",NA,NA
+0,3.94817921486598,0.805,0.205,0,"3","AT3G62040",NA,NA
+0,3.92932670267402,0.444,0.087,0,"3","AT2G41480","AtPRX25",NA
+0,3.86447645367357,0.283,0.046,0,"3","AT2G40460",NA,NA
+0,3.85310499868614,0.368,0.069,0,"3","AT3G47510",NA,NA
+0,3.84383053649291,0.417,0.085,0,"3","AT4G08290","UMAMIT20",NA
+0,3.72978500060196,0.553,0.116,0,"3","AT2G40900","UMAMIT11",NA
+0,3.70882409665388,0.417,0.072,0,"3","AT2G36650",NA,NA
+0,3.66825674535395,0.278,0.044,0,"3","AT1G49470",NA,NA
+0,3.60177955734974,0.356,0.074,0,"3","AT3G08040","ATFRD3","Encodes a member of the MATE (multidrug and toxin efflux family), expressed in roots but not shoots. Mutants accumulate excess iron, manganese and zinc, and express root Fe(III) chelatase activity even under iron sufficiency conditions. FRD3 is likely to function in root xylem loading of an iron chelator or other factor necessary for efficient iron uptake out of the xylem or apoplastic space and into leaf cells."
+0,3.55952881840295,0.691,0.22,0,"3","AT2G19110","ATHMA4","Encodes a protein with similarity to Zn ATPase. Can rescue Zn deficiency in yeast and  Cd resistance, suggesting a role in Zn and Cd transport."
+0,3.52323921423659,0.278,0.052,0,"3","AT2G17820","AHK1","Encodes a member of the histidine kinase family."
+0,3.51640174681574,0.338,0.077,0,"3","AT2G28780",NA,NA
+0,3.49882198816452,0.382,0.115,0,"3","AT1G20160","ATSBT5.2",NA
+0,3.48490690596716,0.647,0.172,0,"3","AT5G10580",NA,NA
+0,3.4465521139905,0.523,0.124,0,"3","AT4G15340","04C11","Encodes a protein that catalyzes the production of the tricyclic triterpene arabidiol when expressed in yeast."
+0,3.37883570614647,0.261,0.056,0,"3","AT4G33770","AtITPK2",NA
+0,4.56631804397282,0.474,0.051,0,"4","AT1G04220","DAISY","Encodes KCS2, a member of the 3-ketoacyl-CoA synthase family involved in the biosynthesis of VLCFA (very long chain fatty acids)."
+0,3.7909469133009,0.282,0.051,0,"4","AT5G13900","LTPG30",NA
+0,3.63117293219301,0.276,0.036,0,"4","AT1G53940","GLIP2","Encodes a lipase, has in vitro lipase activity with p-nitrophenyl acetate and p-nitrophenyl butyrate, gene expression induced by hormones, negatively regulates auxin signaling, involved in disease resistance"
+0,3.57539599618248,0.409,0.082,0,"4","AT2G48140","EDA4",NA
+0,3.46537393840897,0.278,0.043,0,"4","AT5G54230","AtMYB49","Encodes a putative transcription factor (MYB49)."
+0,3.38038593494798,0.814,0.233,0,"4","AT2G48130","LTPG15",NA
+0,3.37385861384728,0.52,0.109,0,"4","AT4G24130","SVB5",NA
+0,3.35783394871913,0.526,0.099,0,"4","AT2G28470","BGAL8","putative beta-galactosidase (BGAL8 gene)"
+0,3.33519486842557,0.322,0.059,0,"4","AT1G01610","ATGPAT4","Encodes a protein with glycerol-3-phosphate acyltransferase activity. Involved in cutin assembly. Is functional redundant of GPAT8."
+0,3.30006982751909,0.288,0.053,0,"4","AT2G28210","ACA2",NA
+0,3.20455310530608,0.882,0.357,0,"4","AT2G38380",NA,NA
+0,3.18764722861178,0.392,0.07,0,"4","AT1G14160","CASPL1A1",NA
+0,3.12368850944477,0.342,0.072,0,"4","AT5G41040","ASFT","Encodes a feruloyl-CoA transferase required for suberin synthesis. Has feruloyl-CoA-dependent feruloyl transferase activity towards substrates with a primary alcohol."
+0,3.12357613647728,0.335,0.068,0,"4","AT5G35110","ASR1",NA
+0,3.06648316734317,0.94,0.432,0,"4","AT3G22600","LTPG5",NA
+0,3.0464390930416,0.984,0.636,0,"4","AT3G32980","PRX32",NA
+0,2.97660636271659,0.473,0.108,0,"4","AT2G16750",NA,NA
+0,2.96878212394293,0.316,0.073,0,"4","AT1G09090","ATRBOHB","NADPH-oxidase AtrbohB plays a role in seed after-ripening. Major producer of superoxide in germinating seeds. AtrbohB  pre-mRNA is alternatively spliced in seeds in a hormonally and developmentally  regulated manner. ABA caused accumulation of AtrbohB- mRNA and prevented prevented AtrbohB-a mRNA expression in fresh seeds."
+0,2.90402859257578,0.609,0.235,0,"4","AT4G04840","ATMSRB6",NA
+0,2.89876002301503,0.283,0.062,0,"4","AT1G72490","AtNGR2",NA
+0,4.33329244868938,0.442,0.04,0,"5","AT1G65390","ATPP2-A5",NA
+0,3.81860221698542,0.483,0.052,0,"5","AT4G15393","CYP702A5","a member of the cytochrome P450 gene family. molecular function unknown."
+0,3.72267065345049,0.621,0.074,0,"5","AT1G01320","FLL2",NA
+0,3.69901682269924,0.345,0.036,0,"5","AT1G61810","BGLU45",NA
+0,3.39005542998261,0.28,0.031,0,"5","AT1G77990","AST56","cDNA encoding a sulfate transporter."
+0,3.38543974109403,0.25,0.026,0,"5","AT4G36670","AtPLT6",NA
+0,3.19674224342586,0.34,0.041,0,"5","AT3G46500",NA,NA
+0,3.08386148239915,0.482,0.078,0,"5","AT1G30370","DLAH",NA
+0,3.04932227596901,0.316,0.043,0,"5","AT2G25000","ATWRKY60","Pathogen-induced transcription factor. Forms protein complexes with itself and with WRKY40. Coexpression with WRKY18 or WRKY40 made plants more susceptible to both  P. syringae and B. cinerea. WRKY18, WRKY40, and WRKY60 have partially redundant roles in response to the hemibiotrophic bacterial pathogen Pseudomonas syringae and the necrotrophic fungal pathogen Botrytis cinerea, with WRKY18 playing a more important role than the other two."
+0,3.04915143259894,0.343,0.048,0,"5","AT3G26290","CYP71B26","putative cytochrome P450"
+0,2.91850285138537,0.264,0.051,0,"5","AT4G12480","EARLI1","a putative lipid transfer protein, vernalization-responsive and cold-induced"
+0,2.91529775546679,0.33,0.052,0,"5","AT5G64890","PEP2",NA
+0,2.75106655512535,0.684,0.155,0,"5","AT5G47560","ATSDAT","Encodes a tonoplast malate/fumarate transporter."
+0,2.73554493234041,0.291,0.047,0,"5","AT5G25630",NA,NA
+0,2.69666450672892,0.348,0.07,0,"5","AT4G33050","AtIQM1",NA
+0,2.63831943286111,0.279,0.043,0,"5","AT1G22430",NA,NA
+0,2.6212444575318,0.367,0.069,0,"5","AT3G07105",NA,NA
+0,2.6139503651755,0.286,0.049,0,"5","AT4G36220","CYP84A1","encodes ferulate 5-hydroxylase (F5H). Involved in lignin biosynthesis."
+0,2.57732255144096,0.367,0.072,0,"5","AT4G12470","AZI1","Encodes AZI1 (AZELAIC ACID INDUCED 1).  Involved in the priming of salicylic acid induction and systemic immunity triggered by pathogen or azelaic acid."
+0,2.57340362561697,0.463,0.109,0,"5","AT1G21110","IGMT3",NA
+0,3.68520348395046,0.4,0.057,0,"6","AT1G72140","NPF5.12",NA
+0,3.5620571178649,0.769,0.149,0,"6","AT2G02310","AtPP2-B6",NA
+0,3.48753713936133,0.254,0.024,0,"6","2:16449155-16450000",NA,NA
+0,3.33821893087948,0.344,0.038,0,"6","AT5G52120","AtPP2-A14",NA
+0,3.30507140970056,0.261,0.025,0,"6","5:17402441-17403256",NA,NA
+0,3.24647187711347,0.255,0.026,0,"6","3:5149138-5149991",NA,NA
+0,3.24520874956161,0.271,0.03,0,"6","4:17467858-17468647",NA,NA
+0,3.21484653815645,0.253,0.026,0,"6","1:29445303-29446186",NA,NA
+0,3.20593888675544,0.257,0.025,0,"6","3:20694278-20695175",NA,NA
+0,3.18948445268521,0.259,0.027,0,"6","5:26588011-26588897",NA,NA
+0,3.18186597629332,0.267,0.027,0,"6","3:89658-90598",NA,NA
+0,3.17119521239072,0.25,0.025,0,"6","2:8642377-8643283",NA,NA
+0,3.12618740694344,0.271,0.04,0,"6","AT5G22570","ATWRKY38","member of WRKY Transcription Factor; Group III"
+0,3.11324322236985,0.25,0.027,0,"6","1:7702907-7703751",NA,NA
+0,3.10270238711068,0.296,0.031,0,"6","4:15412335-15413292",NA,NA
+0,3.09614003134298,0.251,0.028,0,"6","5:23095370-23096319",NA,NA
+0,3.09425467110655,0.252,0.03,0,"6","3:5023098-5024009",NA,NA
+0,3.08958311466421,0.414,0.069,0,"6","AT3G19970",NA,NA
+0,3.08874864545991,0.286,0.032,0,"6","4:10258961-10259851",NA,NA
+0,3.08319886586742,0.277,0.03,0,"6","4:18275909-18276771",NA,NA
+0,4.46219655979,0.594,0.12,0,"7","AT2G33790","AGP30","pollen Ole e 1 allergen protein containing 14.6% proline residues, similar to arabinogalactan protein (Daucus carota) GI:11322245, SP:Q03211 Pistil-specific extensin-like protein precursor (PELP) {Nicotiana tabacum}; contains Pfam profile PF01190: Pollen proteins Ole e I family"
+0,4.22900491117909,0.4,0.03,0,"7","AT3G43720","LTPG2",NA
+0,3.88978077494524,0.269,0.021,0,"7","AT1G79840","GL2","Glabra 2, a homeodomain protein affects epidermal cell identity including trichomes, root hairs, and seed coat. It also down-regulates seed oil content. Expressed in atrichoblasts and required to suppress root hair development. Also expressed abundantly during early seed development.  Directly regulated by WER."
+0,3.86689281807645,0.288,0.027,0,"7","AT1G25450","CER60","Encodes KCS5, a member of the 3-ketoacyl-CoA synthase family involved in the biosynthesis of VLCFA (very long chain fatty acids)."
+0,3.61294603287819,0.265,0.037,0,"7","AT4G38400","ATEXLA2","member of EXPANSIN-LIKE. Naming convention from the Expansin Working Group (Kende et al, 2004. Plant Mol Bio)"
+0,3.60354343992846,0.563,0.151,0,"7","AT4G19030","AT-NLM1","an aquaporin whose expression level is reduced by ABA, NaCl, dark, and dessication. is expressed at relatively low levels under normal conditions. Also functions in arsenite transport and tolerance."
+0,3.58613160330549,0.256,0.039,0,"7","AT2G39040",NA,NA
+0,3.57496355519067,0.536,0.083,0,"7","AT4G22230",NA,"Encodes a defensin-like (DEFL) family protein."
+0,3.5214168578839,0.253,0.022,0,"7","AT3G48260","WNK3","Encodes a member of the WNK family (9 members in all) of protein kinases, the structural design of which is clearly distinct from those of other known protein kinases, such as receptor-like kinases and mitogen-activated protein kinases."
+0,3.48566868466058,0.646,0.139,0,"7","AT5G44585","PROSCOOP12",NA
+0,3.47622402582952,0.694,0.15,0,"7","AT1G54890",NA,NA
+0,3.44450113910752,0.499,0.164,0,"7","AT1G65310","ATXTH17","Encodes a xyloglucan endotransglucosylase/hydrolase with only only the endotransglucosylase (XET; EC   2.4.1.207) activity towards xyloglucan and non-detectable endohydrolytic (XEH; EC 3.2.1.151) activity. Expressed in the mature or basal regions of both the main and lateral roots, but not in the tip of these roots where cell division occurs."
+0,3.32152918946776,0.418,0.052,0,"7","AT1G27950","LTPG1","Encodes LTPG1, a lipid transfer protein with a predicted GPI (glycosylphosphatidylinositol)-anchor domain.  Localized in the plasma membrane. Disruption of the LTPG1 gene causes alterations of cuticular lipid composition, but no significant changes on total wax and cutin monomer loads are seen."
+0,3.2964621428994,0.777,0.194,0,"7","AT3G16410","NSP4","Encodes a nitrile-specifier protein NSP4. NSP4 is one out of five (At3g16400/NSP1, At2g33070/NSP2, At3g16390/NSP3, At3g16410/NSP4 and At5g48180/NSP5) A. thaliana epithiospecifier protein (ESP) homologues that promote simple nitrile, but not epithionitrile or thiocyanate formation."
+0,3.28266651961498,0.278,0.054,0,"7","AT4G01630","ATEXP17","member of Alpha-Expansin Gene Family. Naming convention from the Expansin Working Group (Kende et al, 2004. Plant Mol Bio)"
+0,3.276650521908,0.374,0.086,0,"7","AT1G05660",NA,NA
+0,3.26781451745318,0.266,0.039,0,"7","AT2G43880",NA,NA
+0,3.1957914078288,0.666,0.129,0,"7","AT3G10720","PMEI-PME25",NA
+0,3.12798889579089,0.292,0.047,0,"7","AT2G47550","PMEI-PME20",NA
+0,3.06680377369667,0.9,0.474,0,"7","AT2G43610",NA,NA
+0,4.45022667781767,0.743,0.077,0,"8","AT1G27140","ATGSTU14","Encodes glutathione transferase belonging to the tau class of GSTs. Naming convention according to Wagner et al. (2002)."
+0,3.97849195936697,0.296,0.021,0,"8","AT5G15890","TBL21","Encodes a member of the TBL (TRICHOME BIREFRINGENCE-LIKE) gene family containing a plant-specific DUF231 (domain of unknown function) domain. TBL gene family has 46 members, two of which (TBR/AT5G06700 and TBL3/AT5G01360) have been shown to be involved in the synthesis and deposition of secondary wall cellulose, presumably by influencing the esterification state of pectic polymers. A nomenclature for this gene family has been proposed (Volker Bischoff & Wolf Scheible, 2010, personal communication)."
+0,3.91844047496332,0.476,0.046,0,"8","AT1G14220",NA,NA
+0,3.75543218655385,0.938,0.227,0,"8","AT3G48340","CEP2",NA
+0,3.64109233336323,0.666,0.103,0,"8","AT4G22214",NA,"Encodes a defensin-like (DEFL) family protein."
+0,3.62005055017367,0.851,0.251,0,"8","AT2G18980","PRX16",NA
+0,3.61853782772691,0.303,0.04,0,"8","AT3G16390","NSP3","Encodes a nitrile-specifier protein NSP3. NSP3 is one out of five (At3g16400/NSP1, At2g33070/NSP2, At3g16390/NSP3, At3g16410/NSP4 and At5g48180/NSP5) A. thaliana epithiospecifier protein (ESP) homologues that promote simple nitrile, but not epithionitrile or thiocyanate formation."
+0,3.53263025402371,0.887,0.194,0,"8","AT1G23750",NA,NA
+0,3.49098630405384,0.962,0.5,0,"8","AT1G04040",NA,NA
+0,3.41507510208353,0.519,0.092,0,"8","AT4G22217",NA,"Encodes a defensin-like (DEFL) family protein."
+0,3.3844660432188,0.409,0.047,0,"8","AT5G13990","ATEXO70C2","A member of EXO70 gene family, putative exocyst subunits, conserved in land plants. Arabidopsis thaliana contains 23 putative EXO70 genes, which can be classified into eight clusters on the phylogenetic tree."
+0,3.35673128983081,0.275,0.028,0,"8","AT3G50130",NA,NA
+0,3.31966287051814,0.995,0.712,0,"8","AT1G66270","BGLU21",NA
+0,3.27020460056877,0.849,0.629,0,"8","AT5G46890",NA,NA
+0,3.25346717172027,0.455,0.058,0,"8","AT1G26945","KDR","Encodes a basic helix-loop-helix (bHLH) protein involved in blue/far-red light signaling. Physically interacts with HFR1 and negatively regulates its activity."
+0,3.23266080734242,0.299,0.032,0,"8","AT3G21750","UGT71B1","Encodes a glucosyltransferase that can attach glucose to a number of hydroxylated phenolic compounds as well as quercetins in vitro"
+0,3.18118876647019,0.329,0.034,0,"8","AT4G30610","BRS1","Encodes a secreted glycosylated serine carboxypeptidase with broad substrate preference that is involved in brassinosteroid signalling via BRI1.  It is proteolytically processed in vivo by a separate as yet unidentified protease."
+0,3.17566676765933,0.286,0.027,0,"8","AT5G46060",NA,NA
+0,3.17426988647738,0.516,0.155,0,"8","AT2G47540",NA,NA
+0,3.17268505774267,0.826,0.22,0,"8","AT1G33800","AtGXMT1",NA
+0,6.36252674450534,0.318,0.006,0,"9","AT1G78865",NA,NA
+0,6.26411790199401,0.505,0.011,0,"9","AT1G63100","SCL28",NA
+0,6.19606074222528,0.578,0.033,0,"9","AT4G33270","AtCDC20.1","putative cdc20 protein (CDC20.1)"
+0,6.1491592212733,0.606,0.023,0,"9","AT5G13840","CCS52B",NA
+0,6.14587727009048,0.473,0.017,0,"9","AT4G33260","AtCDC20.2","putative cdc20 protein (CDC20.2)"
+0,6.14215035539227,0.524,0.018,0,"9","AT5G56120",NA,NA
+0,6.06415924175581,0.628,0.044,0,"9","AT3G02640",NA,NA
+0,6.03097717459127,0.351,0.008,0,"9","AT3G05330","ATN","Encodes a protein with moderate sequence similarity to the maize microtubule-binding protein TANGLED1.    A single base-pair deletion (-A) at position Chr3:1519176 in Columbia relative to the Landsberg erecta and Achkarren-2 ecotype (see ESTs DR378436 and CB26450) introduces a frame-shift and premature termination codon. The protein encoded from the Columbia gene is truncated by 29 amino acids relative to the Landsberg erecta and Achkarren-2 encoded proteins. Involved in the identification of the division plane during mitosis amd cytokinesis"
+0,5.98374936878572,0.414,0.013,0,"9","AT3G61118",NA,NA
+0,5.94407569382777,0.515,0.021,0,"9","AT3G51740","IMK2","encodes a leucine-repeat receptor kinase expressed in inflorescence meristem. Locus association was made from performing sequence analysis with IMK3 (MRLK) whose locus association was provided by the authors."
+0,5.93723363715292,0.621,0.043,0,"9","AT2G25060","AtENODL14",NA
+0,5.91088934738038,0.457,0.023,0,"9","AT3G12870",NA,NA
+0,5.89857731804115,0.329,0.007,0,"9","AT3G15550",NA,NA
+0,5.87868341161006,0.41,0.01,0,"9","AT3G55660","ATROPGEF6","Encodes a member of KPP-like gene family, homolog of KPP (kinase partner protein) gene in tomato.  Also a member of the RopGEF (guanine nucleotide exchange factor) family, containing the novel PRONE domain (plant-specific Rop nucleotide exchanger), which is exclusively active towards members of the Rop subfamily."
+0,5.86346048134607,0.352,0.008,0,"9","AT3G56100","IMK3","Protein kinase expressed in meristematic cells. Phosphorylates AGL24."
+0,5.82090653892567,0.552,0.038,0,"9","AT5G25090","AtENODL13",NA
+0,5.80030670656032,0.724,0.07,0,"9","AT5G16250",NA,NA
+0,5.75091856529558,0.733,0.064,0,"9","AT1G08560","ATSYP111","member of SYP11 syntaxin Gene Family"
+0,5.74788281877149,0.608,0.028,0,"9","AT3G51280",NA,NA
+0,5.72427584032686,0.275,0.006,0,"9","AT1G26760","ATXR1",NA
+0,4.27815369602954,0.483,0.054,0,"10","AT1G20190","ATEXP11","member of Alpha-Expansin Gene Family. Naming convention from the Expansin Working Group (Kende et al, 2004. Plant Mol Bio)"
+0,3.99190847810398,0.298,0.025,0,"10","AT3G05150",NA,NA
+0,3.97637960500111,0.833,0.366,0,"10","AT1G12090","ELP","extensin-like protein (ELP)"
+0,3.89886319184326,0.509,0.11,0,"10","AT5G62210",NA,NA
+0,3.87725469485226,0.258,0.031,0,"10","AT5G11420",NA,NA
+0,3.79679587086589,0.304,0.044,0,"10","AT5G64620","ATC/VIF2","Plant cell wall (CWI) and vacuolar invertases (VI)  play important roles in carbohydrate metabolism, stress responses  and sugar signaling."
+0,3.79015778822055,0.603,0.12,0,"10","AT2G45180","DRN1",NA
+0,3.6632695092563,0.635,0.115,0,"10","AT1G17300",NA,NA
+0,3.50883967598184,0.919,0.331,0,"10","AT5G65390","AGP7",NA
+0,3.26220220488792,0.471,0.088,0,"10","AT5G07990","CYP75B1","Required for flavonoid 3' hydroxylase activity."
+0,3.15241077696845,0.661,0.179,0,"10","AT5G48880","KAT5","Encodes a peroxisomal 3-keto-acyl-CoA thiolase 2 precursor. EC2.3.1.16 thiolases. AT5G48880.1 is named PKT1 and AT5G48880.2 is named PKT2."
+0,3.09327569897576,0.344,0.052,0,"10","AT3G25290",NA,NA
+0,3.0742240978244,0.499,0.101,0,"10","AT2G47930","AGP26",NA
+0,3.02387221946675,0.532,0.103,0,"10","AT2G34070","TBL37","Encodes a member of the TBL (TRICHOME BIREFRINGENCE-LIKE) gene family containing a plant-specific DUF231 (domain of unknown function) domain. TBL gene family has 46 members, two of which (TBR/AT5G06700 and TBL3/AT5G01360) have been shown to be involved in the synthesis and deposition of secondary wall cellulose, presumably by influencing the esterification state of pectic polymers. A nomenclature for this gene family has been proposed (Volker Bischoff & Wolf Scheible, 2010, personal communication)."
+0,3.01638884657327,0.381,0.13,0,"10","AT2G14900","GASA7",NA
+0,2.99930308123802,0.357,0.06,0,"10","AT2G38170","ATCAX1","Encodes a high affinity vacuolar calcium antiporter.  The residue His 338 is critical to Ca2+ transport activity. Disruption of CAX1 reduces manganese and zinc of shoot tissue and results in a decrease in the activity of vacuolar V-type proton ATPase."
+0,2.96826301089679,0.474,0.202,0,"10","AT4G11290","PER39",NA
+0,2.96364761528928,0.481,0.12,0,"10","AT1G05680","UGT74E2","Encodes a UDP-glucosyltransferase, UGT74E2,  that acts on IBA (indole-3-butyric acid) and affects auxin homeostasis. The transcript and protein levels of this enzyme are strongly induced by H2O2 and may allow integration of ROS (reactive oxygen species) and auxin signaling. This enzyme can also transfer glycosyl groups to several compounds related to the explosive TNT when this synthetic compound is taken up from the environment."
+0,2.92617114006379,0.31,0.05,0,"10","AT5G64330","JK218","Involved in blue light response signaling pathway; interacts with the blue light photoreceptor NPH1.Null mutations abolish phototrophic responses of etiolated seedlings to low fluence blue light.  Protein contains multiple protein-protein interaction domains."
+0,2.9153372674166,0.338,0.082,0,"10","AT1G29025",NA,NA
+0,3.89497903551182,0.835,0.213,0,"11","AT5G22880","H2B","Encodes a histone 2B (H2B) protein. This protein can be ubiquitinated in planta, and this modification depends on the HUB1 and HUB2 E3 ubiquitin ligases."
+0,3.63465596877763,0.492,0.075,0,"11","AT5G10390","H3.1",NA
+0,3.58382179661574,0.858,0.289,0,"11","AT5G10400","H3.1",NA
+0,3.37404860729654,0.855,0.337,0,"11","AT5G59870","h2a.w.6","Encodes HTA6, a histone H2A protein."
+0,3.33033111782242,0.813,0.247,0,"11","AT3G46320",NA,NA
+0,3.32715408128165,0.784,0.209,0,"11","AT1G07790","HTB1","Encodes a histone 2B (H2B) protein."
+0,3.3010673904082,0.916,0.426,0,"11","AT5G65360","H3.1",NA
+0,3.2990218219798,0.813,0.267,0,"11","AT3G27360","H3.1",NA
+0,3.27839210869531,0.922,0.422,0,"11","AT1G09200","H3.1",NA
+0,3.26046636037593,0.839,0.268,0,"11","AT3G45930",NA,NA
+0,3.24340960763077,0.284,0.059,0,"11","AT1G54050","HSP17.4B",NA
+0,3.14294183684204,0.916,0.478,0,"11","AT5G59690",NA,NA
+0,3.12345221328241,0.254,0.055,0,"11","AT1G59860","HSP17.6A",NA
+0,3.10890320518963,0.301,0.088,0,"11","AT1G07400","HSP17.8",NA
+0,3.08978855922187,0.894,0.396,0,"11","AT5G59970",NA,NA
+0,3.07156399910778,0.886,0.429,0,"11","AT1G07820",NA,NA
+0,2.99483550361689,0.288,0.053,0,"11","AT1G47210","CYCA3;2",NA
+0,2.99230683887416,0.847,0.285,0,"11","AT1G54690","G-H2AX","Encodes HTA3, a histone H2A protein. H2AX is a meiosis-specific isoform of histone H2A.  Upon DSB formation, rapid accumulation of phosphorylated  H2AX (&#947;-H2AX) occurs around the break site. H2AX foci accumulate in early G2.  Immunolocalization studies in spread preparations of  wild-type meiocytes at G2/early leptotene revealed  the accumulation of numerous rather diffuse &#947;-H2AX  foci throughout the chromatin. However,  their accumulation is not contemporaneous with  that of AtSPO11-1. At 3 h post-S, no &#947;-H2AX  foci are detected. During the 3- to 5-h window when  AtSPO11-1 foci rapidly disappear, there is an  equally swift accumulation of &#947;-H2AX to a maximum  of >50 diffuse foci. The level of &#947;H2AX then remains  constant for a further 13 h before undergoing a  gradual decrease to 1020 foci in the 18- to 24-h post-S  period. By 30 h the foci have disappeared from the chromatin."
+0,2.96527059962668,0.77,0.261,0,"11","AT4G27230","HTA2","Encodes HTA2, a histone H2A protein."
+0,2.94503556809421,0.345,0.063,0,"11","AT5G23420","HMGB6","Encodes HMGB6, a protein belonging to the subgroup of HMGB (high mobility group B) proteins.  Localized in the nucleus. Binds to supercoiled DNA in vitro. HMGB6 is phosphorylated by protein kinase CK2alpha within its acidic C-terminal domain."
+0,6.58610687607304,0.379,0.022,0,"13","AT5G55110",NA,NA
+0,6.57398528299137,0.257,0.008,0,"13","AT1G33280","ANAC015","NAC domain protein. SMB, BRN1, and BRN2  act to regulate root cap maturation, in a partially redundant fashion.BRN1 and BRN2, control the cell wall maturation processes that are required to detach root cap layers from the root."
+0,6.16206119344316,0.257,0.018,0,"13","AT1G22880","ATCEL5",NA
+0,6.12556938429256,0.549,0.084,0,"13","AT5G60530",NA,NA
+0,5.86034054811159,0.378,0.038,0,"13","AT3G03500",NA,NA
+0,5.85026523178419,0.399,0.049,0,"13","AT1G52070",NA,NA
+0,5.814547508455,0.268,0.026,0,"13","AT1G52050",NA,NA
+0,5.76687901217406,0.257,0.025,0,"13","AT1G52060",NA,NA
+0,5.61089908904232,0.377,0.026,0,"13","AT1G10530",NA,NA
+0,5.4332860309855,0.46,0.1,0,"13","AT5G54370",NA,NA
+0,5.06289373539357,0.4,0.035,0,"13","AT5G60520",NA,NA
+0,4.7915102946965,0.408,0.04,0,"13","AT4G37160","sks15",NA
+0,4.2402495834732,0.595,0.106,0,"13","AT1G36060","ERF55","encodes a member of the DREB subfamily A-6 of ERF/AP2 transcription factor family. The protein contains one AP2 domain. There are 8 members in this subfamily including RAP2.4."
+0,4.14773085789315,0.267,0.041,0,"13","AT1G78520",NA,NA
+0,4.02034559131132,0.595,0.138,0,"13","AT5G10130",NA,NA
+0,3.7239853308462,0.359,0.084,0,"13","AT1G54010","GLL23",NA
+0,3.53599428730472,0.332,0.067,0,"13","AT4G23590",NA,NA
+0,3.16635004177027,0.433,0.117,0,"13","AT1G33750","TPS22",NA
+0,3.13349562532059,0.251,0.07,0,"13","AT1G56680",NA,NA
+0,3.06107683150704,0.297,0.087,0,"13","AT1G22400","ATUGT85A1",NA
+0,4.8365685741856,0.255,0.015,0,"14","AT3G25770","AOC2","Encodes allene oxide cyclase.  One of four genes in Arabidopsis that encode this enzyme, which catalyzes an essential step in jasmonic acid biosynthesis. Gene expression is induced during senescence, a process that involves jasmonic acid signalling pathway. Note: Nomenclature for Arabidopsis allene oxide cyclase 2 (AOC2, AT3G25770) gene is based on Stenzel et al. 2003 Plant Molecular Biology 51:895-911. AOC2 (AT3G25770) is also referred to as AOC3 in He et al. 2002 Plant Physiology, 128:876-884."
+0,4.47140546721819,0.382,0.026,0,"14","AT3G25760","AOC1","encodes allene oxide cyclase.  One of four genes in Arabidopsis that encode this enzyme, which catalyzes an essential step in jasmonic acid biosynthesis. Gene expression is induced during senescence, a process that involves jasmonic acid signalling pathway."
+0,4.16660762167836,0.257,0.018,0,"14","AT5G11210","ATGLR2.5","member of Putative ligand-gated ion channel subunit family"
+0,3.88694500999963,0.341,0.027,0,"14","AT1G28600","GGL2",NA
+0,3.7804458137061,0.562,0.079,0,"14","AT2G23680",NA,NA
+0,3.6094597476835,0.552,0.058,0,"14","AT1G44350","ILL6","encodes a protein similar to IAA amino acid conjugate hydrolase."
+0,3.4197860465762,0.736,0.145,0,"14","AT5G20230","ATBCB","Al-stress-induced gene"
+0,3.2871335567617,0.389,0.05,0,"14","AT1G02310","MAN1",NA
+0,3.21975588682587,0.469,0.072,0,"14","AT3G19830","NTMC2T5.2",NA
+0,3.13950392017909,0.521,0.084,0,"14","AT3G51450",NA,NA
+0,3.11445475957891,0.268,0.03,0,"14","3:3047176-3048062",NA,NA
+0,3.09019967397539,0.653,0.161,0,"14","AT5G63770","ATDGK2","a member of the diacylglycerol kinase gene family. Encodes a functional diacylglycerol kinase. Involved in root elongation and plant development. Gene expression is induced by wounding or cold."
+0,3.06898261004686,0.252,0.03,0,"14","5:2933333-2934259",NA,NA
+0,3.04979831474456,0.254,0.031,0,"14","5:23584233-23585083",NA,NA
+0,3.04580012853421,0.265,0.03,0,"14","5:26570456-26571349",NA,NA
+0,3.04027742054663,0.27,0.029,0,"14","3:2006542-2007469",NA,NA
+0,3.01961056299852,0.888,0.199,0,"14","AT1G66760",NA,NA
+0,2.99632266007523,0.263,0.029,0,"14","5:2557230-2558105",NA,NA
+0,2.99104850416655,0.878,0.245,0,"14","AT4G31800","ATWRKY18","Pathogen-induced transcription factor. Binds W-box sequences  in vitro. Forms protein complexes with itself and with WRKY40 and WRKY60. Constitutive expression of WRKY18  enhanced resistance to P. syringae, but its coexpression with WRKY40 or WRKY60 made plants more susceptible to both  P. syringae and B. cinerea. WRKY18, WRKY40, and WRKY60 have partially redundant roles in response to the hemibiotrophic bacterial pathogen Pseudomonas syringae and the necrotrophic fungal pathogen Botrytis cinerea, with WRKY18 playing a more important role than the other two."
+0,2.97728502199148,0.257,0.032,0,"14","5:23699965-23700884",NA,NA
+0,7.82886299562676,0.565,0.01,0,"15","AT3G24460",NA,NA
+0,7.78281662000193,0.438,0.009,0,"15","AT1G03920","NDR2",NA
+0,7.42385132102245,0.557,0.015,0,"15","AT1G43020",NA,NA
+0,7.156656986083,0.64,0.016,0,"15","AT3G24463",NA,NA
+0,6.7219733337807,0.545,0.018,0,"15","AT4G21340","B70",NA
+0,6.51846526016391,0.265,0.005,0,"15","AT1G31720","MWL1",NA
+0,6.50952419889662,0.545,0.016,0,"15","AT2G22620","RGIL6",NA
+0,6.46564613055257,0.333,0.008,0,"15","AT2G44480","BGLU17",NA
+0,6.45822704775335,0.667,0.031,0,"15","AT5G65530","AtRLCK",NA
+0,6.25228832867194,0.524,0.021,0,"15","AT2G37950",NA,NA
+0,6.16270485764697,0.899,0.09,0,"15","AT3G11550","CASP2",NA
+0,6.07418766879998,0.473,0.031,0,"15","AT5G52790",NA,NA
+0,6.0617499427907,0.521,0.025,0,"15","AT4G26140","BGAL12","putative beta-galactosidase"
+0,6.04009362122239,0.866,0.105,0,"15","AT2G40113",NA,NA
+0,6.02613379118454,0.327,0.011,0,"15","AT5G10278",NA,NA
+0,5.95837839928987,0.908,0.119,0,"15","AT2G32300","UCC1","Encodes a uclacyanin, a protein precursor that is closely related to precursors of stellacyanins and a blue copper protein from pea pods."
+0,5.93606620937716,0.804,0.07,0,"15","AT2G27370","CASP3",NA
+0,5.85165125084909,0.964,0.138,0,"15","AT5G42180","PER64",NA
+0,5.81314763453161,0.354,0.013,0,"15","AT2G15300",NA,NA
+0,5.78932995690777,0.589,0.039,0,"15","AT1G44970","PER9",NA
+0,7.33722789677424,0.623,0.013,0,"16","AT4G20240","CYP71A27","putative cytochrome P450"
+0,7.26670793304339,0.321,0.005,0,"16","AT4G01600",NA,NA
+0,7.23634281122258,0.414,0.006,0,"16","AT5G27690","AtHMP49",NA
+0,7.05142867370401,0.401,0.007,0,"16","AT3G21600",NA,NA
+0,6.96343392217196,0.253,0.006,0,"16","AT4G02810","FAF1",NA
+0,6.91688784247426,0.562,0.016,0,"16","AT5G63850","AAP4","Amino acid transporter whose expression is downregulated by dehydration."
+0,6.91425991521243,0.296,0.006,0,"16","AT3G04300",NA,NA
+0,6.85634385748482,0.759,0.03,0,"16","AT5G64240","AtMC3",NA
+0,6.83813036896607,0.29,0.006,0,"16","AT2G35612",NA,NA
+0,6.74899644179703,0.778,0.044,0,"16","AT2G27550","ATC","encodes a protein similar to TFL1. overexpression leads to similar phenotype as TFL1 overexpression. expressed specifically in the hypocotyl and null mutation does not result in phenotypes exhibited by TFL1 null mutations."
+0,6.71268325082942,0.543,0.014,0,"16","AT2G16740","UBC29",NA
+0,6.67721493543578,0.407,0.011,0,"16","AT1G59730","ATH7",NA
+0,6.67567367786101,0.42,0.009,0,"16","AT5G57350","AHA3","member of Plasma membrane H+-ATPase family"
+0,6.49793083217635,0.759,0.029,0,"16","AT4G19840","AN5","encodes a phloem lectin, similar to phloem lectin in cucumber and celery. Gene is expressed in the phloem, predominantly in the companion cells."
+0,6.44927731814369,0.66,0.03,0,"16","AT1G11450","UMAMIT27",NA
+0,6.38288289081637,0.827,0.058,0,"16","AT5G04080","AthCYSTM12",NA
+0,6.37462601668422,0.679,0.03,0,"16","AT4G36410","UBC17","ubiquitin-conjugating enzyme"
+0,6.33282482319394,0.895,0.066,0,"16","AT5G09220","AAP2","member of AAAP family"
+0,6.21869564958653,0.346,0.009,0,"16","AT1G79430","APL","Encodes gene product that is required for several aspects of phloem development in the root: (1) the specific divisions organizing the phloem pole, (2) sieve element differentiation and (3) the expression of a companion-specific gene.  Mutant has a defect in the organization of phloem poles in the root. apl seedlings have a short, determinate root with only occasional lateral branches."
+0,6.1427364664104,0.5,0.017,0,"16","AT1G75820","ATCLV1","Putative receptor kinase with an extracellular leucine-rich domain. Controls shoot and floral meristem size, and contributes to establish and maintain floral meristem identity. Negatively regulated by KAPP (kinase-associated protein phosphatase). CLV3 peptide binds directly CLV1 ectodomain."
+0,7.42356173892254,0.424,0.006,0,"17","AT1G13635",NA,NA
+0,7.41822370807267,0.391,0.004,0,"17","AT1G24030","PBL28",NA
+0,7.38218047631199,0.609,0.009,0,"17","AT2G28315","UXT1",NA
+0,7.30418353941596,0.348,0.006,0,"17","AT1G68725","AGP19","AGP19 is a lysine-rich arabinogalactan-protein (AGP) and part of a multi-gene family of glycoproteins with approx. 50 members. It falls into one subclass with AGP17 and AGP18, other lysine-rich AGPs. It is expressed in young leaves, shoots, roots and flowers. Non-consensus splice site at the intron:exon boundary (AT:exon)"
+0,7.10364050929476,0.761,0.018,0,"17","AT4G18780","ATCESA8","Encodes a member of the cellulose synthase family involved in secondary cell wall biosynthesis. Mutants have abnormal xylem formation, reduced cellulose content, and enhanced drought and osmotic stress tolerance.  Mediates resistance towards bacterial pathogens via ABA. Confers resistance towards bacterial and fungal pathogens, independent of salicylic acid, ethylene and jasmonate signaling."
+0,7.09286766965274,0.272,0.005,0,"17","AT5G46115",NA,NA
+0,6.98092883055271,0.62,0.011,0,"17","AT2G37090","IRX9","The IRX9 gene encodes a putative family 43 glycosyl transferase.  It was coordinately expressed with the cellulose synthase subunits during secondary cell wall formation.  Cell wall analysis revealed a decrease in the abundance of xylan in the irx9 mutant, indicating that IRX9 is required for xylan synthesis. Mutants have irregular xylem phenotype suggesting a role in secondary cell wall biosynthesis."
+0,6.97263748956824,0.5,0.008,0,"17","AT5G54690","GAUT12","Encodes a protein with  putative galacturonosyltransferase activity. Mutants defective in this gene displayed a notable reduction in xylose (>50%) in the cell walls from stems and roots and a reduction in cellulose (~25%)."
+0,6.86079864683875,0.707,0.029,0,"17","AT5G44030","CESA4","Encodes a cellulose synthase involved in secondary cell wall biosynthesis. Confers resistance towards bacterial and fungal pathogens, independent of salicylic acid, ethylene and jasmonate signaling."
+0,6.85558020180136,0.717,0.017,0,"17","AT5G17420","ATCESA7","Encodes a xylem-specific cellulose synthase that is phosphorylated on one or more serine residues (on either S185 or one of S180 or S181)."
+0,6.82526741256688,0.457,0.013,0,"17","AT2G27740",NA,NA
+0,6.82284056342656,0.826,0.04,0,"17","AT3G27200",NA,NA
+0,6.81649378582143,0.293,0.004,0,"17","AT5G60720",NA,NA
+0,6.71785053715083,0.522,0.011,0,"17","AT5G15630","AtCOBL4","Encodes a member of the COBRA family, similar to phytochelatin synthetase. Involved in secondary cell wall biosynthesis. Mutants make smaller plants with reduced levels of cellulose and cell wall sugars."
+0,6.69741377941191,0.554,0.012,0,"17","AT5G45970","ARAC2","Encodes a Rac-like protein ARAC2.  A member of ROP GTPase gene family."
+0,6.60597637396572,0.283,0.003,0,"17","AT4G28500","ANAC073",NA
+0,6.59183743426166,0.87,0.037,0,"17","AT5G03170","ATFLA11",NA
+0,6.56939181545122,0.337,0.006,0,"17","AT2G46760","AtGulLO6",NA
+0,6.5277833449278,0.272,0.004,0,"17","AT4G26580",NA,NA
+0,6.51994306300877,0.641,0.026,0,"17","AT4G27435",NA,NA

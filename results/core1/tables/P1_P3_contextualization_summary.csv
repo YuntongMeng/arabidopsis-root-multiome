@@ -1,0 +1,14 @@
+"cell_population","P1_tested","P1_stress_DEG","up","down","percent_stress_DEG"
+"Pericycle",118,23,6,17,19.4915254237288
+"Atrichoblast",108,20,19,1,18.5185185185185
+"Trichoblast",119,19,9,10,15.9663865546218
+"Epidermal_like",107,16,11,5,14.9532710280374
+"Dividing_meristematic",100,14,14,0,14
+"Initial_like",112,15,14,1,13.3928571428571
+"LRC_like",121,13,6,7,10.7438016528926
+"Endodermis_like",111,10,2,8,9.00900900900901
+"Unresolved_transition",85,5,1,4,5.88235294117647
+"Cortex",106,6,4,2,5.66037735849057
+"Columella",94,5,2,3,5.31914893617021
+"Dividing_S_phase",98,5,5,0,5.10204081632653
+"Endodermis",87,4,0,4,4.59770114942529

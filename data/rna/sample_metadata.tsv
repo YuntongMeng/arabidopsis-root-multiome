@@ -1,0 +1,5 @@
+sample	gsm	condition	replicate	modality
+control_rep1	GSM7504014	control	1	RNA
+control_rep2	GSM7504015	control	2	RNA
+stress_rep1	GSM7504016	stress	1	RNA
+stress_rep2	GSM7504017	stress	2	RNA
