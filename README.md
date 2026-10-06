@@ -1,72 +1,140 @@
 # Arabidopsis root-tip multiome under osmotic stress
 
-Project 3 investigates cell-population-specific osmotic-stress responses in Arabidopsis root tips and places Project 1 BRL3 × drought interaction candidates into an independent WT cellular context.
+An independent reanalysis of publicly available *Arabidopsis thaliana* root-tip
+multiome data to investigate cell-population-specific responses to osmotic stress.
 
-**Current release: Core 1 (RNA) only.** The complete RNA workflow has been rerun from the original input matrices, and its key outputs reproduce the archived analysis.
+Project 3 extends the biological questions developed in
+[Project 1](https://github.com/YuntongMeng/arabidopsis-drought-rnaseq) and
+[Project 2](https://github.com/YuntongMeng/arabidopsis-root-singlecell).
+Project 1 identified BRL3 genotype × drought interaction genes in bulk roots;
+Project 2 placed those candidates into a normal wild-type root atlas. Project 3
+adds a wild-type root-tip osmotic-stress context using GSE235495.
 
-## Three-core project structure
+## Key biological findings
 
-| Core | Scope in this release | Status |
+The findings currently available come from **Core 1 — RNA analysis**:
+
+- QC retained **24,277 nuclei**, yielding **18 transcriptional clusters** and
+  **17 conservatively annotated populations**.
+- **13 populations** met the requirement of at least 25 nuclei in each biological
+  sample and entered formal stress-versus-control pseudobulk differential analysis.
+- Of the 137 Project 1 interaction candidates, **129 occurred in at least one
+  population's differential-expression result table**. Pericycle had the largest
+  significant-response fraction: **23/118 candidates (19.49%)**, with 6 up and
+  17 down under osmotic stress.
+- Pericycle contributed downregulated candidates to all seven selected Project 1
+  GO annotations; the cold-response annotation contained three such genes.
+
+These results provide cellular context for the Project 1 candidates. They do
+not validate BRL3-dependent drought effects: Project 3 uses wild-type plants,
+root tips, and sorbitol osmotic stress. The GO terms share genes and should not
+be treated as seven independent biological programs.
+
+## Project 3 analysis overview
+
+Project 3 is organized into three cores. **Only Core 1 has been conducted.**
+
+| Core | Analysis | Status |
 | --- | --- | --- |
-| Core 1 | RNA QC, robust clustering, conservative population annotation, biological-sample pseudobulk DE, and P1 candidate/GO contextualization | Complete; full rerun passed |
-| Core 2 | Planned subsequent project module | Not started |
-| Core 3 | Planned final project module | Not started |
+| [Core 1](cores/core1/README.md) | RNA preprocessing, clustering, population annotation, pseudobulk stress DE, and Project 1 contextualization | Complete; full rerun verified against key archived outputs |
+| [Core 2](cores/core2/README.md) | Reserved for the next planned core | Planned; not started |
+| [Core 3](cores/core3/README.md) | Reserved for the final planned core | Planned; not started |
 
-Core 2 and Core 3 are plans only; neither has been conducted. This release contains only Core 1 analysis code and results.
+### Core 1 — RNA analysis
 
-## Core 1 workflow and decisions
+Core 1 asks which root-tip populations respond transcriptionally to osmotic
+stress and where Project 1 interaction candidates occur within those responses.
+Its four stages preserve the reasoning behind QC, PC selection, conservative
+annotation, replicate eligibility, and differential-expression testing.
 
-Raw RNA matrices → input audit → distribution-based QC → LogNormalize/vst/PCA → compare PC10/15/20/25/30 by pairwise ARI → PC1:25 clustering → evidence-guided population annotation → population × biological-sample pseudobulk → stress/control DESeq2 → P1 contextualization.
+The [Core 1 analysis page](cores/core1/README.md) contains the script overview,
+complete population DE summary, biological interpretation, robustness checks,
+and reproduction instructions. The
+[decision trail](docs/core1_analysis_summary.md) records intermediate method
+adjustments and distinguishes formal results from diagnostics.
 
-The scripts preserve the decision trail, including the PC20-to-PC25 adjustment, cluster 6/14 sample enrichment checks, Seurat v5 JoinLayers repair, cluster 12 diagnostic-only relaxed markers, conservative annotation labels, pseudobulk name-matching repair, and the four-sample shared feature universe. Ambiguous R functions use explicit package namespaces.
+### Core 2 — Planned
 
-- **24,277 nuclei**, **18 transcriptional clusters**, **17 annotated populations**.
-- **13 eligible populations** with ≥25 nuclei in each of the four biological samples.
-- **32,833 common features** before per-population count prefiltering.
-- Formal DE: `padj < 0.05` and `abs(log2FoldChange) >= 1`; positive means stress-up.
-- P1 input: **137 BRL3 × drought interaction candidates**; 129 occur in at least one P3 population result table.
-- Pericycle has the largest P1 candidate response fraction: **23/118 = 19.49%**, with 6 up and 17 down.
-- Seven overlapping P1 GO annotations are contextualized; Pericycle appears in all seven, with three cold-response genes downregulated.
+This core has not been started. Its [reserved page](cores/core2/README.md) will
+hold the research question, workflow, and results when the analysis is conducted.
 
-P1/P3 differ in genotype and stress conditions. These results provide **contextualization**, not validation of BRL3 × drought interaction effects. Shared GO genes mean the seven terms are not seven independent programs. Some expanded annotation-signature markers still require provenance review; this limitation is documented and is not removed by a successful computational rerun.
+### Core 3 — Planned
 
-## Results and analysis notes
+This core has not been started. Its [reserved page](cores/core3/README.md) will
+hold the research question, workflow, and results when the analysis is conducted.
 
-- [Core 1 workflow README](README_core1.md)
-- [Decision trail and complete numerical summary](docs/core1_analysis_summary.md)
-- [Full rerun verification](docs/core1_rerun_verification.md)
-- [Annotation review checklist](docs/core1_manual_review.md)
-- [Formal DE summary](results/core1/tables/pseudobulk_DE_summary.csv)
-- [P1 candidate contextualization](results/core1/tables/P1_P3_contextualization_summary.csv)
-- [Complete GO × population matrix](results/core1/tables/P1_GO_population_matrix_complete.csv)
+## Inputs and provenance
 
-## Reproduction
+Core 1 uses four RNA count matrices from
+[GEO GSE235495](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235495):
+two control and two sorbitol-treated wild-type root-tip biological samples.
+The sample mapping and input filenames are documented in
+[data sources](docs/data_sources.md) and
+[sample metadata](data/rna/sample_metadata.tsv).
 
-Generated figures are distributed with the complete release artifact package.
+Project 1 supplies the fixed 137-gene interaction table and seven
+positive-interaction GO enrichment terms in [data/project1](data/project1).
+Annotation signatures, reviewed labels, and resolved symbol-to-TAIR mappings
+are retained in [data/core1_reference](data/core1_reference).
+Some expanded signature genes still require provenance review; the uncertainty
+remains visible in the [annotation review notes](docs/core1_manual_review.md).
 
-The scripts are under `scripts/`. Four main stage files and a shared helper define functions without starting an analysis when sourced. `scripts/run_core1.R` provides the full workflow entry point.
+## Reproducing the analysis
 
-1. Clone this repository and install the packages listed in the archived session information. Package versions from the successful rerun are preserved in `results/core1/diagnostics/`.
-2. Download `core1-complete-artifacts.zip` from the [Core 1 release](https://github.com/YuntongMeng/arabidopsis-root-multiome/releases/tag/core1-v1) and extract its contents into the repository root. This supplies the archived cell metadata, all-results tables, lightweight checkpoint and generated figures. Large artifacts are distributed with the release rather than repeated in the main source tree.
-3. Obtain the original RNA files from [GEO GSE235495](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235495), using the exact filenames and paths in [data sources](docs/data_sources.md). The original matrices are not uploaded here.
-4. From the project root, run:
+The complete Core 1 workflow can be run from the repository root after restoring
+the original matrices and the required archived inputs:
 
 ```r
 source("scripts/run_core1.R")
 run_core1_full()
 ```
 
-Or from a terminal with R installed:
+Detailed input preparation, package records, and output instructions are on the
+[Core 1 page](cores/core1/README.md#running-the-complete-workflow).
+The [Core 1 release](https://github.com/YuntongMeng/arabidopsis-root-multiome/releases/tag/core1-v1)
+contains complete gene-level results, generated figures, diagnostics, and a
+lightweight archived checkpoint. Raw matrices and full Seurat objects are
+excluded. Core 2 and Core 3 have no executable workflows or results yet.
 
-```sh
-Rscript scripts/run_core1.R
+## Outputs and repository structure
+
+```text
+arabidopsis-root-multiome/
+├── README.md                 # Project 3 overview
+├── cores/
+│   ├── core1/README.md       # Completed RNA analysis
+│   ├── core2/README.md       # Planned; not started
+│   └── core3/README.md       # Planned; not started
+├── scripts/                 # Core 1 executable stages and full runner
+├── data/                    # Sample metadata and fixed reference inputs
+├── docs/                    # Decision trail, provenance and verification
+└── results/
+    ├── core1/               # Successful rerun tables and diagnostics
+    └── core1_frozen/        # Archived original analysis
 ```
 
-Each full run creates a new timestamped results directory. Clustering, strict markers, signature scores and DE are recomputed; reviewed manual labels and the resolved GO mapping are reused. A historical-cluster correspondence check stops annotation if the new partition or cluster IDs differ. Full Seurat checkpoints are generated locally and excluded from Git.
+Scripts and inputs retain their project-root paths so the verified Core 1
+workflow can be run with the same file layout. Figures and large result files
+are distributed in the release package.
 
-## Cross-project context
+## Interpretation boundary
 
-- [Project 1: Arabidopsis drought RNA-seq](https://github.com/YuntongMeng/arabidopsis-drought-rnaseq)
-- [Project 2: Arabidopsis root single-cell context](https://github.com/YuntongMeng/arabidopsis-root-singlecell)
+Core 1 measures WT osmotic-stress responses at biological-sample resolution.
+Population labels are conservative summaries of signature and marker evidence;
+low-confidence populations retain descriptive labels. A successful rerun
+supports computational reproducibility of the checked outputs, while signature
+provenance and biological interpretation still require their own evidence.
 
-Project 1 candidate and enriched GO inputs are fixed in `data/project1/`; Core 1 annotation and symbol-to-TAIR inputs are fixed in `data/core1_reference/`.
+## Data and attribution statement
+
+This repository contains an independent computational reanalysis of public
+data. Experimental design, plant material, sample preparation, sequencing, and
+primary data generation belong to the original study's authors. The scripts,
+processing decisions, statistical analyses, and interpretations here describe
+this reanalysis.
+
+## References and related projects
+
+- [GEO GSE235495](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235495): public input dataset for Project 3.
+- [Project 1 — Arabidopsis drought RNA-seq reanalysis](https://github.com/YuntongMeng/arabidopsis-drought-rnaseq): BRL3 genotype × drought interaction candidates and GO inputs.
+- [Project 2 — Arabidopsis root single-cell contextualization](https://github.com/YuntongMeng/arabidopsis-root-singlecell): normal WT root cellular context.
