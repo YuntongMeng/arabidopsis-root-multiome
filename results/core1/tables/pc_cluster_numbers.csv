@@ -1,0 +1,15 @@
+"reduction","PCs","clusters"
+"pca",10,16
+"pca",15,17
+"pca",20,19
+"pca",25,18
+"pca",30,20
+"pca",40,21
+"pca",50,20
+"harmony",10,14
+"harmony",15,14
+"harmony",20,18
+"harmony",25,17
+"harmony",30,19
+"harmony",40,21
+"harmony",50,21

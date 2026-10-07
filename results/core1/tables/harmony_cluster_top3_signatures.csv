@@ -1,0 +1,52 @@
+"cluster","signature","mean_score"
+0,"Atrichoblast",0.160003394938782
+0,"Columella",0.0476784853780308
+0,"Metaphloem & Companion Cell",0.0469297507206617
+1,"Cortex",0.0866169582764411
+1,"Atrichoblast",0.0508068952448743
+1,"Metaphloem & Companion Cell",0.0273825178787389
+2,"Procambium",0.0906135347830699
+2,"Metaphloem & Companion Cell",0.0594730874767501
+2,"Xylem Pole Pericycle",0.0583451193373688
+3,"Xylem Pole Pericycle",0.155955619910765
+3,"Phloem Pole Pericycle",0.132943230398186
+3,"Metaphloem & Companion Cell",0.0759271657507991
+4,"Endodermis",0.0622514930991862
+4,"Metaphloem & Companion Cell",0.0469778541709794
+4,"Phloem Pole Pericycle",0.0362339258070911
+5,"Xylem Pole Pericycle",0.0895761947968165
+5,"Quiescent Center",0.0699817156907748
+5,"Metaphloem & Companion Cell",0.0423033175364398
+6,"Lateral Root Cap",0.0812732813157198
+6,"Xylem Pole Pericycle",0.056160845950743
+6,"Metaphloem & Companion Cell",0.0332668358658302
+7,"Xylem Pole Pericycle",0.0744727023923031
+7,"Quiescent Center",0.0342757145691485
+7,"Metaphloem & Companion Cell",0.0333106890518971
+8,"Trichoblast",0.8208509093329
+8,"Atrichoblast",0.101081232049921
+8,"Procambium",0.0490896654115196
+9,"Atrichoblast",0.300155872628322
+9,"Lateral Root Cap",0.138350648224901
+9,"Cortex",0.0632104994910512
+10,"Trichoblast",0.138711334189196
+10,"Procambium",0.0434180177427344
+10,"Lateral Root Cap",0.035179682069697
+11,"Cortex",0.324611151854595
+11,"Endodermis",0.103174083193869
+11,"Procambium",0.0990963296049883
+12,"Lateral Root Cap",0.213302064936278
+12,"Columella",0.0991438367998895
+12,"Metaphloem & Companion Cell",0.0449385658807141
+13,"Endodermis",0.354537301484658
+13,"Procambium",0.0625735840937934
+13,"Phloem Pole Pericycle",0.0536926073720138
+14,"Lateral Root Cap",0.0593566973953472
+14,"Metaphloem & Companion Cell",0.0488638793417525
+14,"Xylem Pole Pericycle",0.0467547217982117
+15,"Metaphloem & Companion Cell",0.516452397025898
+15,"Phloem Pole Pericycle",0.0887747881556599
+15,"Procambium",0.0687804111669695
+16,"Metaphloem & Companion Cell",0.0603916906639956
+16,"Procambium",0.0603170895966196
+16,"Lateral Root Cap",0.041912740456192

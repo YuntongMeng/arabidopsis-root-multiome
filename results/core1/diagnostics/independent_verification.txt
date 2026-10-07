@@ -1,0 +1,3 @@
+All 152 one-sided Fisher p values independently verified by summing hypergeometric probabilities in Python.
+BH values independently verified with sorted-rank calculation, within branch/universe/test families.
+27 frozen archive files match the pre-existing SHA256 manifest.

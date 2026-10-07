@@ -1,0 +1,13 @@
+"cell_population","min_cells","eligible25","eligible50","eligible100"
+"Atrichoblast_lineage",737,TRUE,TRUE,TRUE
+"Cortex_lineage",238,TRUE,TRUE,TRUE
+"Dividing_meristematic",191,TRUE,TRUE,TRUE
+"Endodermis_lineage",151,TRUE,TRUE,TRUE
+"Epidermal_initial_like",225,TRUE,TRUE,TRUE
+"Meristematic_unresolved",545,TRUE,TRUE,TRUE
+"Pericycle",226,TRUE,TRUE,TRUE
+"Phloem",8,FALSE,FALSE,FALSE
+"Root_cap",140,TRUE,TRUE,TRUE
+"Trichoblast_lineage",429,TRUE,TRUE,TRUE
+"Unresolved",11,FALSE,FALSE,FALSE
+"Unresolved_control_enriched",0,FALSE,FALSE,FALSE

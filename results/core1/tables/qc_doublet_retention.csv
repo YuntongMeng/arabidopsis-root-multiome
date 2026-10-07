@@ -1,0 +1,5 @@
+"sample","input","qc_removed","qc_pass","doublets","singlets","old_qc_pass"
+"control_rep1",3431,85,3346,236,3110,3388
+"control_rep2",6631,180,6451,666,5785,6562
+"stress_rep1",7827,94,7733,917,6816,7774
+"stress_rep2",6585,71,6514,675,5839,6553

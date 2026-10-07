@@ -1,0 +1,1 @@
+Old mixed-input QC selection matches archived barcodes exactly; used for comparison only.

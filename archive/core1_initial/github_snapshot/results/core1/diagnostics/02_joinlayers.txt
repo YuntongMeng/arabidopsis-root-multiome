@@ -1,0 +1,14 @@
+Before:
+counts.control_rep1
+counts.control_rep2
+counts.stress_rep1
+counts.stress_rep2
+data.control_rep1
+data.control_rep2
+data.stress_rep1
+data.stress_rep2
+scale.data
+After:
+data
+counts
+scale.data

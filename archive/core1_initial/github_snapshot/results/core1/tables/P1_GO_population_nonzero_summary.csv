@@ -1,0 +1,21 @@
+"ID","Description","cell_population","stress_DE_genes","up","down"
+"GO:0009631","cold acclimation","Pericycle",1,0,1
+"GO:0009694","jasmonic acid metabolic process","Endodermis",1,0,1
+"GO:0009694","jasmonic acid metabolic process","Endodermis_like",1,0,1
+"GO:0009694","jasmonic acid metabolic process","Pericycle",1,0,1
+"GO:0009694","jasmonic acid metabolic process","Trichoblast",1,0,1
+"GO:0009694","jasmonic acid metabolic process","Unresolved_transition",1,0,1
+"GO:0001676","long-chain fatty acid metabolic process","Endodermis",1,0,1
+"GO:0001676","long-chain fatty acid metabolic process","Endodermis_like",1,0,1
+"GO:0001676","long-chain fatty acid metabolic process","Pericycle",1,0,1
+"GO:0001676","long-chain fatty acid metabolic process","Trichoblast",1,0,1
+"GO:0001676","long-chain fatty acid metabolic process","Unresolved_transition",1,0,1
+"GO:0001101","response to acid chemical","Pericycle",1,0,1
+"GO:0009409","response to cold","Pericycle",3,0,3
+"GO:0009409","response to cold","Endodermis_like",2,0,2
+"GO:0009409","response to cold","Columella",1,0,1
+"GO:0009409","response to cold","Epidermal_like",1,0,1
+"GO:0009409","response to cold","LRC_like",1,0,1
+"GO:0009409","response to cold","Unresolved_transition",1,0,1
+"GO:0009415","response to water","Pericycle",1,0,1
+"GO:0009414","response to water deprivation","Pericycle",1,0,1

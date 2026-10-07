@@ -1,0 +1,701 @@
+p value,avg log fold change,pct.1,pct.2,adjusted p value,cell type group,gene,name,source,source_url
+0.0,5.92139,0.563,0.041,0.0,Atrichoblast,AT1G06120,AT1G06120,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4e-167,5.33998572,0.452,0.014,7e-163,Atrichoblast,AT3G19320,AT3G19320,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.318774909,0.628,0.064,0.0,Atrichoblast,AT4G12545,AIR1B,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.989325695,0.635,0.224,0.0,Atrichoblast,AT3G08030,AT3G08030,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.941007088,0.62,0.069,0.0,Atrichoblast,AT1G65310,ATXTH17,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.41e-136,4.895902807,0.41,0.037,2.48e-132,Atrichoblast,AT1G27950,LTPG1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.89e-281,4.851514429,0.487,0.044,8.56e-277,Atrichoblast,AT1G19900,AT1G19900,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.834199476,0.52,0.016,0.0,Atrichoblast,AT1G65481,AT1G65481,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.76e-78,4.82526461,0.406,0.032,4.84e-74,Atrichoblast,AT4G33790,FAR3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.768325291,0.63,0.077,0.0,Atrichoblast,AT1G25450,KCS5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.753240684,0.555,0.077,0.0,Atrichoblast,AT3G02240,RGF7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+7.96e-134,4.702185881,0.431,0.037,1.39e-129,Atrichoblast,AT4G15290,CSLB5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.657579775,0.752,0.076,0.0,Atrichoblast,AT5G44585,AT5G44585,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.37e-47,4.576050259,0.363,0.025,4.16e-43,Atrichoblast,AT4G01890,AT4G01890,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.528840121,0.395,0.054,0.0,Atrichoblast,AT1G53130,GRI,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.506088288,0.596,0.104,0.0,Atrichoblast,AT1G14960,AT1G14960,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.477001022,0.799,0.26,0.0,Atrichoblast,AT5G60950,COBL5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.089907464,0.532,0.063,0.0,Atrichoblast,AT1G05650,AT1G05650,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+8.74e-96,4.053480236,0.385,0.021,1.53e-91,Atrichoblast,AT3G20360,AT3G20360,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.977800677,0.764,0.121,0.0,Atrichoblast,AT2G37130,PER21,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.13e-28,3.969091812,0.358,0.052,7.23e-24,Atrichoblast,AT4G33220,PME44,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.887028874,0.572,0.258,0.0,Atrichoblast,AT3G21070,NADK1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+7.2e-15,3.855757363,0.401,0.025,1.26e-10,Atrichoblast,AT4G12550,AIR1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.847897621,0.585,0.129,0.0,Atrichoblast,AT2G39530,AT2G39530,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.83e-149,3.832412984,0.478,0.052,3.2e-145,Atrichoblast,AT1G51790,AT1G51790,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.84e-270,3.811960347,0.53,0.092,6.72e-266,Atrichoblast,AT3G51330,AT3G51330,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.806522122,0.475,0.106,0.0,Atrichoblast,AT1G54890,AT1G54890,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.74892247,0.676,0.17,0.0,Atrichoblast,AT5G24090,CHIB1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.730941809,0.526,0.145,0.0,Atrichoblast,AT2G39040,PER24,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.719374498,0.516,0.09,0.0,Atrichoblast,AT1G05660,AT1G05660,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.55e-12,3.714429563,0.381,0.038,4.47e-08,Atrichoblast,AT4G17470,AT4G17470,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.703946906,0.546,0.057,0.0,Atrichoblast,AT5G40590,AT5G40590,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.01e-177,3.641564508,0.383,0.13,8.77e-173,Atrichoblast,AT5G51500,PME60,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.628212643,0.518,0.067,0.0,Atrichoblast,AT2G23620,MES1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.87e-212,3.623106542,0.51,0.079,5.03e-208,Atrichoblast,AT1G51800,IOS1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.622403122,0.658,0.11,0.0,Atrichoblast,AT2G41810,AT2G41810,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.616426282,0.634,0.067,0.0,Atrichoblast,AT1G79840,GL2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.23e-30,3.611828047,0.354,0.042,9.15e-26,Atrichoblast,AT3G16370,APG,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.47e-98,3.576518307,0.502,0.291,2.58e-94,Atrichoblast,AT4G20260,PCAP1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+6.69e-191,3.57209814,0.459,0.085,1.17e-186,Atrichoblast,AT2G44370,AT2G44370,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.553985975,0.594,0.334,0.0,Atrichoblast,AT3G46010,ADF1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.79e-114,3.518149376,0.396,0.067,3.13e-110,Atrichoblast,AT2G42060,AT2G42060,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.485958341,0.828,0.28,0.0,Atrichoblast,AT3G09260,BGLU23,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.471661492,0.658,0.324,0.0,Atrichoblast,AT5G45510,AT5G45510,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.462826181,0.475,0.122,0.0,Atrichoblast,AT4G22230,AT4G22230,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.4618928,0.732,0.15,0.0,Atrichoblast,AT3G23510,AT3G23510,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.446111524,0.571,0.216,0.0,Atrichoblast,AT5G07460,MRSA2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.439588606,0.591,0.096,0.0,Atrichoblast,AT2G39410,AT2G39410,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.429471876,0.561,0.122,0.0,Atrichoblast,AT3G29780,RALFL27,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.428398996,0.614,0.147,0.0,Atrichoblast,AT5G40330,MYB23,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.482827695,0.974,0.233,0.0,Columella,AT5G53460,GLT1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.24798828,0.755,0.289,0.0,Columella,AT3G57550,AGK2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.226201639,0.829,0.083,0.0,Columella,AT1G22880,CEL5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.213824612,0.779,0.084,0.0,Columella,AT1G05010,ACO4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.153070149,0.849,0.313,0.0,Columella,AT2G45790,PMM,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.97e-10,4.090782335,0.257,0.325,3.45e-06,Columella,AT5G09960,AT5G09960,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.089806045,0.882,0.084,0.0,Columella,AT4G15530,PPDK,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.912843025,0.6,0.044,0.0,Columella,AT4G29740,CKX4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.696719376,0.807,0.313,0.0,Columella,AT2G25250,AT2G25250,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.677515497,0.689,0.07,0.0,Columella,AT2G43000,JUB1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.668048878,0.728,0.306,0.0,Columella,AT4G11360,RHA1B,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.650622047,0.679,0.072,0.0,Columella,AT3G14362,DVL19,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.628390826,0.22,0.041,0.0,Columella,AT1G13620,RGF2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.616193925,0.774,0.192,0.0,Columella,AT1G69830,AMY3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.608901273,0.718,0.309,0.0,Columella,AT1G77330,AT1G77330,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.571945055,0.922,0.225,0.0,Columella,AT3G18230,AT3G18230,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.497152629,0.806,0.145,0.0,Columella,AT3G46970,PHS2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.493386423,0.293,0.063,0.0,Columella,AT1G26680,AT1G26680,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.478159947,0.856,0.217,0.0,Columella,AT2G44080,ARL,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.47238629,0.676,0.199,0.0,Columella,AT4G00490,BAM2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.36e-226,3.471171877,0.416,0.237,9.38e-222,Columella,AT4G37940,AGL21,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.47020832,0.23,0.092,0.0,Columella,AT1G18265,AT1G18265,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.465603067,0.925,0.267,0.0,Columella,AT3G12490,CYS6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.461946252,0.499,0.042,0.0,Columella,AT1G23210,AtGH9B6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.448686836,0.689,0.102,0.0,Columella,AT1G53708,RTFL9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.38932077,0.739,0.092,0.0,Columella,AT5G45880,AT5G45880,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.372946512,0.176,0.037,0.0,Columella,AT3G60650,AT3G60650,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.36562609,0.44,0.038,0.0,Columella,AT1G02770,AT1G02770,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.341465572,0.162,0.025,0.0,Columella,AT1G17400,AT1G17400,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.3407585,0.588,0.056,0.0,Columella,AT3G60780,AT3G60780,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.300350686,0.45,0.205,0.0,Columella,AT3G01690,AT3G01690,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.296531974,0.645,0.139,0.0,Columella,AT1G21350,AT1G21350,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.282299005,0.795,0.251,0.0,Columella,AT4G23010,UTR2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.246272438,0.709,0.259,0.0,Columella,AT4G11850,PLDGAMMA1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.23097875,0.534,0.07,0.0,Columella,AT1G21130,IGMT4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.228995236,0.657,0.165,0.0,Columella,AT4G20780,CML42,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.214068589,0.779,0.298,0.0,Columella,AT5G23830,AT5G23830,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.204758617,0.768,0.068,0.0,Columella,AT3G10320,AT3G10320,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.179029519,0.618,0.309,0.0,Columella,AT1G53400,AT1G53400,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.177348558,0.585,0.066,0.0,Columella,AT1G02920,GSTF7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.174430322,0.901,0.277,0.0,Columella,AT3G08690,UBC11,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.152614053,0.68,0.17,0.0,Columella,AT2G42280,AT2G42280,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.143732932,0.299,0.069,0.0,Columella,AT5G07550,GRP19,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.082340463,0.583,0.09,0.0,Columella,AT2G45740,PEX11D,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.069385497,0.724,0.28,0.0,Columella,AT5G03380,HIPP06,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.062238787,0.849,0.199,0.0,Columella,AT1G70420,AT1G70420,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.056068496,0.653,0.125,0.0,Columella,AT3G29810,COBL3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.039441433,0.63,0.13,0.0,Columella,AT2G28570,AT2G28570,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.020849759,0.783,0.264,0.0,Columella,AT1G77610,UDP-GALT1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.01840745,0.776,0.187,0.0,Columella,AT5G48300,APS1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.778476195,0.887,0.116,0.0,Cortex,AT5G65380,DTX27,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.431213656,0.608,0.055,0.0,Cortex,AT1G12845,AT1G12845,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.422223194,0.737,0.038,0.0,Cortex,AT1G62510,AT1G62510,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.381640298,0.719,0.084,0.0,Cortex,AT5G64620,C/VIF2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.357864204,0.775,0.2,0.0,Cortex,AT2G06850,XTH4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.188406185,0.927,0.065,0.0,Cortex,AT1G02850,BGLU11,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.090947373,0.656,0.094,0.0,Cortex,AT3G05150,AT3G05150,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.038595736,0.796,0.099,0.0,Cortex,AT2G45180,AT2G45180,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.00300372,0.738,0.112,0.0,Cortex,AT5G49360,BXL1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.919775457,0.747,0.051,0.0,Cortex,AT5G07990,CYP75B1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.911100346,0.803,0.109,0.0,Cortex,AT5G42250,AT5G42250,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.867741487,0.659,0.039,0.0,Cortex,AT3G26300,CYP71B34,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.841435035,0.764,0.213,0.0,Cortex,AT1G12240,BFRUCT4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.741937383,0.812,0.177,0.0,Cortex,AT2G02780,AT2G02780,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.644712872,0.806,0.277,0.0,Cortex,AT4G32410,CESA1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.622461348,0.684,0.198,0.0,Cortex,AT1G20010,TUBB5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.593760641,0.743,0.145,0.0,Cortex,AT1G29025,AT1G29025,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.567690682,0.601,0.054,0.0,Cortex,AT5G18840,AT5G18840,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.505545422,0.502,0.105,0.0,Cortex,AT1G09750,AED3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.505532812,0.834,0.192,0.0,Cortex,AT5G42590,CYP71A16,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.486926458,0.594,0.035,0.0,Cortex,AT3G21670,NPF6.4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.432646687,0.694,0.326,0.0,Cortex,AT1G78570,RHM1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.424444595,0.622,0.082,0.0,Cortex,AT5G11420,AT5G11420,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.415478488,0.684,0.087,0.0,Cortex,AT5G53370,ATPMEPCRF,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.413082484,0.775,0.112,0.0,Cortex,AT3G26590,DTX29,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.410458129,0.596,0.036,0.0,Cortex,AT1G63330,AT1G63330,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.401491215,0.733,0.119,0.0,Cortex,AT2G38170,CAX1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.390406474,0.663,0.278,0.0,Cortex,AT5G02270,ATNAP9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.30055977,0.767,0.319,0.0,Cortex,AT1G22440,AT1G22440,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.191889135,0.663,0.311,0.0,Cortex,AT1G76670,URGT1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.082396128,0.8,0.261,0.0,Cortex,AT3G17020,AT3G17020,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.063843346,0.735,0.158,0.0,Cortex,AT3G18830,PLT5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.058949577,0.858,0.105,0.0,Cortex,AT3G12700,NANA,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.055863142,0.652,0.132,0.0,Cortex,AT2G48020,AT2G48020,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.045842022,0.541,0.313,0.0,Cortex,AT3G48890,MSBP2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.980603798,0.717,0.263,0.0,Cortex,AT1G76160,sks5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.931400765,0.598,0.069,0.0,Cortex,AT4G30420,AT4G30420,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.925875114,0.479,0.124,0.0,Cortex,AT1G64920,UGT79B11,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.923154323,0.644,0.084,0.0,Cortex,AT1G44575,PSBS,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.915892019,0.778,0.128,0.0,Cortex,AT1G58360,AAP1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.36e-240,3.901867154,0.45,0.084,5.89e-236,Cortex,AT5G55250,IAMT1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.901153213,0.677,0.265,0.0,Cortex,AT2G34660,ABCC2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.896660493,0.773,0.293,0.0,Cortex,AT5G05170,CESA3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.882406085,0.759,0.19,0.0,Cortex,AT1G19450,AT1G19450,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.866504863,0.801,0.293,0.0,Cortex,AT4G19410,AT4G19410,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.861583999,0.803,0.212,0.0,Cortex,AT3G57020,SSL9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.829956446,0.841,0.269,0.0,Cortex,AT5G19250,AT5G19250,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.823690679,0.796,0.156,0.0,Cortex,AT5G25460,AT5G25460,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.82346553,0.571,0.192,0.0,Cortex,AT4G32460,AT4G32460,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.820527468,0.605,0.059,0.0,Cortex,AT2G38300,AT2G38300,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.68807963,0.812,0.011,0.0,Endodermis,AT2G22000,PEP6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.467946515,0.866,0.017,0.0,Endodermis,AT5G57620,MYB36,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.405314264,0.727,0.033,0.0,Endodermis,AT4G22110,AT4G22110,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.258819265,0.66,0.154,0.0,Endodermis,AT1G19840,AT1G19840,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.226512335,0.636,0.175,0.0,Endodermis,AT1G22640,MYB3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.966698488,0.713,0.021,0.0,Endodermis,AT5G65790,ATMYB68,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.929339216,0.908,0.023,0.0,Endodermis,AT2G14900,GASA7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.90937741,0.639,0.007,0.0,Endodermis,AT5G45210,AT5G45210,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.893744656,0.539,0.019,0.0,Endodermis,AT4G16270,PER40,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.892523179,0.774,0.016,0.0,Endodermis,AT4G16447,AT4G16447,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.661456415,0.501,0.007,0.0,Endodermis,AT1G16390,2021-10-03 00:00:00,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.609374982,0.782,0.168,0.0,Endodermis,AT2G48030,AT2G48030,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.586279976,0.797,0.022,0.0,Endodermis,AT1G61590,PBL15,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.516364362,0.643,0.293,0.0,Endodermis,AT2G34590,E1-BETA-2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.434605317,0.73,0.327,0.0,Endodermis,AT2G40060,CLC2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.260405657,0.849,0.032,0.0,Endodermis,AT4G11290,PER39,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.221537318,0.478,0.017,0.0,Endodermis,AT5G45200,AT5G45200,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.167700298,0.751,0.046,0.0,Endodermis,AT4G05100,AtMYB74,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.165531253,0.743,0.322,0.0,Endodermis,AT3G17820,GLN1-3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.136491772,0.608,0.007,0.0,Endodermis,AT1G68570,NPF3.1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.097215424,0.785,0.207,0.0,Endodermis,AT1G49660,CXE5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.065916134,0.87,0.031,0.0,Endodermis,AT2G32300,UCC1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.057075367,0.457,0.005,0.0,Endodermis,AT3G59620,JAL39,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.2e-164,5.052885579,0.478,0.293,2.11e-160,Endodermis,AT4G25680,AT4G25680,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.042117274,0.707,0.04,0.0,Endodermis,AT1G14580,AT1G14580,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.016038413,0.903,0.032,0.0,Endodermis,AT1G05260,PER3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.982955992,0.645,0.244,0.0,Endodermis,AT5G18680,TULP11,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.98182072,0.745,0.174,0.0,Endodermis,AT2G36890,RAX2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+9.39e-110,4.964846756,0.398,0.02,1.65e-105,Endodermis,AT2G28671,AT2G28671,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.43e-290,4.938787439,0.508,0.03,2.5e-286,Endodermis,AT5G42655,AT5G42655,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.919107423,0.698,0.318,0.0,Endodermis,AT5G55850,NOI,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.877155306,0.587,0.027,0.0,Endodermis,AT5G26310,UGT72E3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.855334227,0.614,0.185,0.0,Endodermis,AT2G34310,AT2G34310,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.839149674,0.695,0.024,0.0,Endodermis,AT5G15290,CASP5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.838365507,0.634,0.166,0.0,Endodermis,AT1G49580,CRK8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.76e-12,4.810165316,0.376,0.333,3.09e-08,Endodermis,AT5G19590,AT5G19590,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.737281776,0.683,0.055,0.0,Endodermis,AT2G36307,ZPR4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.673111454,0.625,0.245,0.0,Endodermis,AT1G01360,PYL9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.578458578,0.692,0.107,0.0,Endodermis,AT4G32710,PERK14,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.550438603,0.374,0.028,0.0,Endodermis,AT1G44970,PER9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.521802043,0.611,0.027,0.0,Endodermis,AT1G08847,AT1G08847,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.516275465,0.605,0.065,0.0,Endodermis,AT3G54220,SCR,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.498855092,0.673,0.02,0.0,Endodermis,AT5G46600,ALMT13,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.487675632,0.762,0.143,0.0,Endodermis,AT1G17970,AT1G17970,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.56e-115,4.475137607,0.345,0.049,2.73e-111,Endodermis,AT4G13580,DIR18,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.49e-33,4.454172246,0.271,0.064,7.86e-29,Endodermis,AT2G15300,AT2G15300,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.436980833,0.713,0.142,0.0,Endodermis,AT5G49800,AT5G49800,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.17e-22,4.435529686,0.283,0.085,2.04e-18,Endodermis,AT4G02090,AT4G02090,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.432064236,0.602,0.124,0.0,Endodermis,AT1G80640,AT1G80640,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.414596497,0.654,0.118,0.0,Endodermis,AT1G72940,AT1G72940,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.269837199,0.779,0.049,0.0,Lateral Root Cap,AT4G37160,sks15,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.896697022,0.773,0.052,0.0,Lateral Root Cap,AT1G54010,GLL23,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.288071999,0.688,0.23,0.0,Lateral Root Cap,AT4G30850,HHP2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.235811089,0.658,0.034,0.0,Lateral Root Cap,AT5G44440,AT5G44440,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.210789345,0.621,0.046,0.0,Lateral Root Cap,AT2G35770,SCPL28,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.199862979,0.815,0.182,0.0,Lateral Root Cap,AT1G54030,MVP1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.164289247,0.482,0.213,0.0,Lateral Root Cap,AT5G23210,SCPL34,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.160426461,0.671,0.065,0.0,Lateral Root Cap,AT5G60520,AT5G60520,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.79e-168,3.997574677,0.499,0.316,1.01e-163,Lateral Root Cap,AT4G30470,AT4G30470,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.872372717,0.537,0.057,0.0,Lateral Root Cap,AT4G00360,CYP86A2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.847347743,0.795,0.282,0.0,Lateral Root Cap,AT3G53990,AT3G53990,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.83632699,0.159,0.009,0.0,Lateral Root Cap,AT2G32620,CSLB2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.763055607,0.495,0.202,0.0,Lateral Root Cap,AT2G23790,AT2G23790,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.762695318,0.611,0.072,0.0,Lateral Root Cap,AT3G14550,GGPS3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.720110685,0.432,0.073,0.0,Lateral Root Cap,AT5G23530,CXE18,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.571611572,0.675,0.132,0.0,Lateral Root Cap,AT1G44760,AT1G44760,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.570674171,0.286,0.023,0.0,Lateral Root Cap,AT3G25950,AT3G25950,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.556884665,0.424,0.029,0.0,Lateral Root Cap,AT1G66360,CAR2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.542158794,0.659,0.135,0.0,Lateral Root Cap,AT5G63650,SRK2H,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.498075319,0.667,0.034,0.0,Lateral Root Cap,AT1G52680,AT1G52680,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.378792852,0.753,0.243,0.0,Lateral Root Cap,AT5G10980,HTR8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.331361271,0.774,0.191,0.0,Lateral Root Cap,AT3G07320,AT3G07320,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.273329925,0.857,0.157,0.0,Lateral Root Cap,AT3G16410,NSP4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.257600378,0.72,0.169,0.0,Lateral Root Cap,AT2G25980,JAL20,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.25279684,0.782,0.219,0.0,Lateral Root Cap,AT5G66690,UGT72E2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.238233803,0.631,0.129,0.0,Lateral Root Cap,AT4G30080,ARF16,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.230882148,0.878,0.213,0.0,Lateral Root Cap,AT2G04160,AIR3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.192813582,0.586,0.074,0.0,Lateral Root Cap,AT5G07040,ATL69,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.189178665,0.47,0.04,0.0,Lateral Root Cap,AT3G02590,HDF7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.176687304,0.864,0.157,0.0,Lateral Root Cap,AT3G20940,CYP705A30,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.160612007,0.398,0.046,0.0,Lateral Root Cap,AT2G23010,SCPL9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.146446723,0.527,0.063,0.0,Lateral Root Cap,AT5G66460,MAN7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.142039042,0.178,0.024,0.0,Lateral Root Cap,AT2G25215,AT2G25215,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.53e-43,3.136926603,0.198,0.113,4.43e-39,Lateral Root Cap,AT1G51260,LPAT3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.132690359,0.517,0.099,0.0,Lateral Root Cap,AT3G14510,AT3G14510,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.13101502,0.427,0.116,0.0,Lateral Root Cap,AT2G42890,ML2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.119881892,0.568,0.06,0.0,Lateral Root Cap,AT1G33540,SCPL18,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.113778413,0.69,0.096,0.0,Lateral Root Cap,AT3G14530,GGPPS9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.113192381,0.221,0.012,0.0,Lateral Root Cap,AT1G51500,ABCG12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.101599232,0.473,0.047,0.0,Lateral Root Cap,AT4G00400,GPAT8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.038094606,0.755,0.171,0.0,Lateral Root Cap,AT4G00080,UNE11,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.026390099,0.672,0.098,0.0,Lateral Root Cap,AT1G33750,TPS22,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.023812518,0.532,0.121,0.0,Lateral Root Cap,AT5G26230,MAKR1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.022182914,0.67,0.095,0.0,Lateral Root Cap,AT5G62340,AT5G62340,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.021084869,0.809,0.135,0.0,Lateral Root Cap,AT4G11610,AT4G11610,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.012067965,0.579,0.087,0.0,Lateral Root Cap,AT5G48940,RCH1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.011567931,0.366,0.075,0.0,Lateral Root Cap,AT4G11780,AT4G11780,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.23e-143,2.999727195,0.421,0.252,7.4e-139,Lateral Root Cap,AT4G17830,AT4G17830,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.968868081,0.864,0.259,0.0,Lateral Root Cap,AT5G36880,ACS,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.968408357,0.848,0.257,0.0,Lateral Root Cap,AT4G17790,AT4G17790,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.809407097,0.958,0.362,0.0,Metaphloem & Companion Cell,AT1G31812,ACBP6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.422458196,0.925,0.019,0.0,Metaphloem & Companion Cell,AT5G27690,HIPP36,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.020467321,0.945,0.017,0.0,Metaphloem & Companion Cell,AT3G12730,PHL12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.949223813,0.933,0.294,0.0,Metaphloem & Companion Cell,AT4G26840,SUMO1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.922227887,0.962,0.026,0.0,Metaphloem & Companion Cell,AT5G42146,AT5G42146,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.785106072,0.844,0.064,0.0,Metaphloem & Companion Cell,AT3G21600,AT3G21600,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.65523371,0.939,0.138,0.0,Metaphloem & Companion Cell,AT5G48960,AT5G48960,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.611744383,0.956,0.134,0.0,Metaphloem & Companion Cell,AT5G58690,PLC5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.524479389,0.796,0.215,0.0,Metaphloem & Companion Cell,AT4G37180,HHO5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.461060592,0.975,0.049,0.0,Metaphloem & Companion Cell,AT2G08610,AT2G08610,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.458407956,0.991,0.04,0.0,Metaphloem & Companion Cell,AT5G57350,AHA3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.425101777,0.867,0.087,0.0,Metaphloem & Companion Cell,AT1G75820,CLV1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.419931425,0.799,0.029,0.0,Metaphloem & Companion Cell,AT4G36410,UBC17,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.3827537,0.921,0.036,0.0,Metaphloem & Companion Cell,AT3G04300,AT3G04300,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.338790325,0.951,0.065,0.0,Metaphloem & Companion Cell,AT5G02600,NAKR1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.265936863,0.908,0.357,0.0,Metaphloem & Companion Cell,AT1G27530,AT1G27530,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.250051817,0.986,0.091,0.0,Metaphloem & Companion Cell,AT1G54575,AT1G54575,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.242410232,0.984,0.09,0.0,Metaphloem & Companion Cell,AT1G78580,TPS1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.241911668,0.978,0.026,0.0,Metaphloem & Companion Cell,AT2G15310,ATARFB1A,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.230083492,0.975,0.052,0.0,Metaphloem & Companion Cell,AT5G06850,FTIP1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.1e-223,5.223735668,0.641,0.034,1.93e-219,Metaphloem & Companion Cell,AT2G02000,GAD3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.182432925,0.79,0.027,0.0,Metaphloem & Companion Cell,AT1G12010,AT1G12010,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.122610867,0.919,0.164,0.0,Metaphloem & Companion Cell,AT5G66440,AT5G66440,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.07699398,0.898,0.029,0.0,Metaphloem & Companion Cell,AT3G06962,AT3G06962,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.045205801,0.76,0.02,0.0,Metaphloem & Companion Cell,AT1G23530,AT1G23530,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.82e-222,5.010252502,0.6,0.018,6.68e-218,Metaphloem & Companion Cell,AT5G26620,AT5G26620,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.86e-238,4.963403158,0.645,0.029,3.25e-234,Metaphloem & Companion Cell,AT1G02705,AT1G02705,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.954584722,0.941,0.363,0.0,Metaphloem & Companion Cell,AT1G13440,GAPC2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.931146517,0.796,0.08,0.0,Metaphloem & Companion Cell,AT5G41380,AT5G41380,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.881532622,0.936,0.044,0.0,Metaphloem & Companion Cell,AT3G03495,AT3G03495,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.833303419,0.957,0.066,0.0,Metaphloem & Companion Cell,AT1G10380,AT1G10380,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.807205172,0.784,0.184,0.0,Metaphloem & Companion Cell,AT1G12140,FMOGS-OX5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.744628087,0.766,0.054,0.0,Metaphloem & Companion Cell,AT1G59730,TRX7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.744046136,0.989,0.132,0.0,Metaphloem & Companion Cell,AT5G65280,GCL1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.740700245,0.985,0.233,0.0,Metaphloem & Companion Cell,AT5G53120,SPDS3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.686895026,0.938,0.256,0.0,Metaphloem & Companion Cell,AT5G53850,AT5G53850,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.631493704,0.906,0.381,0.0,Metaphloem & Companion Cell,AT5G42980,TRX3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.60891731,0.829,0.057,0.0,Metaphloem & Companion Cell,AT4G10120,SPS4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.564549522,0.894,0.277,0.0,Metaphloem & Companion Cell,AT5G64240,AMC3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.56427645,0.937,0.285,0.0,Metaphloem & Companion Cell,AT5G63990,SAL3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.544384827,0.99,0.233,0.0,Metaphloem & Companion Cell,AT3G03270,AT3G03270,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.499422972,0.825,0.215,0.0,Metaphloem & Companion Cell,AT4G22340,CDS2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.484186898,0.886,0.202,0.0,Metaphloem & Companion Cell,AT2G36330,AT2G36330,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.466968647,0.883,0.02,0.0,Metaphloem & Companion Cell,AT2G46630,AT2G46630,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.373301988,1.0,0.048,0.0,Metaphloem & Companion Cell,AT5G04080,AT5G04080,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.370815516,0.984,0.03,0.0,Metaphloem & Companion Cell,AT1G79430,APL,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.323918152,0.79,0.055,0.0,Metaphloem & Companion Cell,AT2G39830,DAR2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.313065897,0.719,0.032,0.0,Metaphloem & Companion Cell,AT2G03500,EFM,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.309846963,0.867,0.147,0.0,Metaphloem & Companion Cell,AT2G19580,TET2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.268735006,0.976,0.094,0.0,Metaphloem & Companion Cell,AT2G36650,AT2G36650,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.189514611,0.779,0.031,0.0,Metaxylem,AT1G23350,AT1G23350,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.09e-123,4.935811706,0.6,0.015,3.66e-119,Metaxylem,AT1G12663,AT1G12663,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.89e-192,4.901095444,0.626,0.028,6.81e-188,Metaxylem,AT2G28490,AT2G28490,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.90013255,0.677,0.032,0.0,Metaxylem,AT1G70270,AT1G70270,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.02e-42,4.725845771,0.565,0.104,7.04e-38,Metaxylem,AT2G46572,AT2G46572,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+9.76e-11,4.557878015,0.488,0.024,1.71e-06,Metaxylem,AT1G28450,AGL58,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.513000135,0.878,0.092,0.0,Metaxylem,AT3G54260,TBL36,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.486867475,0.954,0.037,0.0,Metaxylem,AT5G53830,VQ33,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.480703192,0.991,0.153,0.0,Metaxylem,AT4G08685,SAH7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.472736894,0.965,0.078,0.0,Metaxylem,AT3G17600,IAA31,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.465501093,0.855,0.107,0.0,Metaxylem,AT3G47290,ATPLC8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.402560902,0.937,0.065,0.0,Metaxylem,AT5G06710,HAT14,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.335302007,0.942,0.342,0.0,Metaxylem,AT4G15802,HSBP,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.18e-209,4.317948038,0.625,0.015,7.32e-205,Metaxylem,AT1G16400,CYP79F2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.285734972,0.876,0.054,0.0,Metaxylem,AT2G28410,AT2G28410,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.246589711,0.946,0.057,0.0,Metaxylem,AT1G03010,AT1G03010,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.221789151,0.931,0.084,0.0,Metaxylem,AT3G54340,AP3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.212735693,0.965,0.029,0.0,Metaxylem,AT3G10080,AT3G10080,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.21242757,0.765,0.032,0.0,Metaxylem,AT5G64667,IDL2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.196537154,0.944,0.067,0.0,Metaxylem,AT2G40530,CEP15,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.123268866,0.959,0.071,0.0,Metaxylem,AT3G54820,PIP2-5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.113598225,0.92,0.031,0.0,Metaxylem,AT5G60490,FLA12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.107849759,0.904,0.08,0.0,Metaxylem,AT1G26570,UGD1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.097241226,0.721,0.021,0.0,Metaxylem,AT5G37950,AT5G37950,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.0902703,0.962,0.196,0.0,Metaxylem,AT2G21540,SFH3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.037660532,0.976,0.073,0.0,Metaxylem,AT2G35760,AT2G35760,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.12e-193,4.019568301,0.693,0.077,8.97e-189,Metaxylem,AT3G23630,IPT7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.66e-115,3.989980471,0.627,0.073,9.91e-111,Metaxylem,AT2G31070,TCP10,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.985471958,0.99,0.159,0.0,Metaxylem,AT3G51670,PATL6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.963078618,0.98,0.114,0.0,Metaxylem,AT4G32880,ATHB-8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.949847422,0.722,0.093,0.0,Metaxylem,AT3G57210,AT3G57210,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+8.79e-201,3.945538159,0.687,0.059,1.54e-196,Metaxylem,AT1G14700,PAP3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.935159248,0.974,0.073,0.0,Metaxylem,AT1G27380,RIC2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.931362615,0.991,0.039,0.0,Metaxylem,AT1G68810,BHLH30,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.927801857,0.867,0.218,0.0,Metaxylem,AT5G01890,PXC2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.927286575,0.867,0.042,0.0,Metaxylem,AT1G14190,AT1G14190,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.923186291,0.776,0.298,0.0,Metaxylem,AT5G47640,NFYB2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.921779932,0.986,0.054,0.0,Metaxylem,AT1G08283,AT1G08283,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+8.91e-34,3.858579823,0.547,0.072,1.56e-29,Metaxylem,AT3G17640,AT3G17640,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.853838522,0.933,0.182,0.0,Metaxylem,AT1G01380,ETC1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.813264581,0.923,0.068,0.0,Metaxylem,AT5G53710,AT5G53710,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.811648452,0.94,0.098,0.0,Metaxylem,AT1G52150,ATHB-15,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.91e-28,3.809581101,0.553,0.099,3.34e-24,Metaxylem,AT5G52655,AT5G52655,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.798968918,0.764,0.08,0.0,Metaxylem,AT2G34060,PER19,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.759526396,0.95,0.08,0.0,Metaxylem,AT5G06670,AT5G06670,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.757900785,0.943,0.041,0.0,Metaxylem,AT5G66300,NAC105,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.737433352,0.987,0.109,0.0,Metaxylem,AT5G08370,AGAL2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.731856217,0.918,0.081,0.0,Metaxylem,AT4G06195,AT4G06195,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.70892982,0.762,0.027,0.0,Metaxylem,AT2G18060,NAC037,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.99e-127,3.70082493,0.631,0.113,8.74e-123,Metaxylem,AT1G23340,AT1G23340,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.000212658,0.652,0.024,0.0,Phloem Pole Pericycle,AT4G10310,HKT1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.70119466,0.488,0.036,0.0,Phloem Pole Pericycle,AT5G50610,AT5G50610,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.663275726,0.984,0.066,0.0,Phloem Pole Pericycle,AT1G26450,AT1G26450,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.631081849,0.768,0.075,0.0,Phloem Pole Pericycle,AT3G14570,CALS8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.517841557,0.915,0.121,0.0,Phloem Pole Pericycle,AT5G37660,CRRSP60,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.498080313,0.814,0.038,0.0,Phloem Pole Pericycle,AT4G23410,TET5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.495194582,0.779,0.138,0.0,Phloem Pole Pericycle,AT5G67160,EPS1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.473713153,0.665,0.039,0.0,Phloem Pole Pericycle,AT1G26790,AT1G26790,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.420089232,0.799,0.056,0.0,Phloem Pole Pericycle,AT3G15680,AT3G15680,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.339692122,0.881,0.16,0.0,Phloem Pole Pericycle,AT3G27030,AT3G27030,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.287090774,0.79,0.087,0.0,Phloem Pole Pericycle,AT4G18340,AT4G18340,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.11192812,0.906,0.074,0.0,Phloem Pole Pericycle,AT2G31083,CLE5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.022894321,0.901,0.121,0.0,Phloem Pole Pericycle,AT1G71692,AGL12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.984356376,0.909,0.072,0.0,Phloem Pole Pericycle,AT1G47960,C/VIF1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.955085712,0.822,0.082,0.0,Phloem Pole Pericycle,AT3G47540,AT3G47540,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.904326939,0.73,0.062,0.0,Phloem Pole Pericycle,AT5G23810,AAP7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.892593635,0.888,0.079,0.0,Phloem Pole Pericycle,AT3G11280,AT3G11280,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.875349526,0.516,0.056,0.0,Phloem Pole Pericycle,AT5G64700,AT5G64700,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.851609984,0.872,0.11,0.0,Phloem Pole Pericycle,AT3G59100,CALS6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.839203009,0.908,0.149,0.0,Phloem Pole Pericycle,AT3G61820,AT3G61820,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.775698725,0.949,0.215,0.0,Phloem Pole Pericycle,AT5G23760,AT5G23760,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+9.52e-10,3.739007144,0.279,0.047,1.67e-05,Phloem Pole Pericycle,AT4G27590,AT4G27590,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.73855878,0.872,0.103,0.0,Phloem Pole Pericycle,AT1G73850,AT1G73850,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.721499088,0.834,0.09,0.0,Phloem Pole Pericycle,AT5G62820,AT5G62820,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.677246553,0.951,0.194,0.0,Phloem Pole Pericycle,AT4G26130,AT4G26130,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.668446405,0.733,0.173,0.0,Phloem Pole Pericycle,AT5G65030,AT5G65030,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.658145779,0.756,0.031,0.0,Phloem Pole Pericycle,AT3G06020,FAF4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.630822352,0.963,0.293,0.0,Phloem Pole Pericycle,AT1G48600,NMT2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.593596827,0.776,0.092,0.0,Phloem Pole Pericycle,AT2G16385,CIF1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.582867165,0.603,0.043,0.0,Phloem Pole Pericycle,AT1G68110,AT1G68110,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.579824764,0.689,0.071,0.0,Phloem Pole Pericycle,AT1G59530,BZIP4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.56809131,0.687,0.074,0.0,Phloem Pole Pericycle,AT5G23370,AT5G23370,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.69e-158,3.538652175,0.509,0.091,2.95e-154,Phloem Pole Pericycle,AT3G62690,ATL5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.492757603,0.695,0.049,0.0,Phloem Pole Pericycle,AT5G47920,AT5G47920,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.48127455,0.764,0.109,0.0,Phloem Pole Pericycle,AT2G18550,ATHB-21,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.440878374,0.952,0.273,0.0,Phloem Pole Pericycle,AT1G27130,GSTU13,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.43907904,0.923,0.252,0.0,Phloem Pole Pericycle,AT5G65020,ANN2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.426895124,0.743,0.345,0.0,Phloem Pole Pericycle,AT1G07770,RPS15AF,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.42e-173,3.42576726,0.579,0.113,2.49e-169,Phloem Pole Pericycle,AT1G35910,TPPD,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.419027868,0.95,0.194,0.0,Phloem Pole Pericycle,AT4G29100,BHLH68,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.411674165,0.66,0.304,0.0,Phloem Pole Pericycle,AT5G52882,AT5G52882,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.405751876,0.811,0.094,0.0,Phloem Pole Pericycle,AT1G52140,AT1G52140,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.377290376,0.751,0.225,0.0,Phloem Pole Pericycle,AT5G23050,AAE17,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.28e-190,3.369414305,0.385,0.112,9.25e-186,Phloem Pole Pericycle,AT4G28250,EXPB3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.360954264,0.98,0.072,0.0,Phloem Pole Pericycle,AT5G59090,SBT4.12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.337498428,0.738,0.287,0.0,Phloem Pole Pericycle,AT1G18270,AT1G18270,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.335273023,0.855,0.095,0.0,Phloem Pole Pericycle,AT3G14780,AT3G14780,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.331773051,0.686,0.148,0.0,Phloem Pole Pericycle,AT5G44160,NUC,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.323384144,0.775,0.058,0.0,Phloem Pole Pericycle,AT4G39190,AT4G39190,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.313981745,0.905,0.137,0.0,Phloem Pole Pericycle,AT5G05790,AT5G05790,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.316721606,0.826,0.294,0.0,Procambium,AT4G34870,CYP18-4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.054540298,0.881,0.074,0.0,Procambium,AT2G40480,AT2G40480,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.04163009,0.862,0.043,0.0,Procambium,AT4G14650,AT4G14650,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.762295216,0.649,0.064,0.0,Procambium,AT1G52190,NPF1.2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.70493627,0.683,0.123,0.0,Procambium,AT2G46890,AT2G46890,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.689852977,0.877,0.076,0.0,Procambium,AT1G25530,AT1G25530,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.629266851,0.692,0.036,0.0,Procambium,AT3G48970,HIPP31,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.469782375,0.91,0.055,0.0,Procambium,AT3G48185,AT3G48185,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.431908847,0.644,0.046,0.0,Procambium,AT5G57770,AT5G57770,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.33700083,0.868,0.291,0.0,Procambium,AT5G17920,MS1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.303211588,0.686,0.161,0.0,Procambium,AT4G17770,TPS5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.259819439,0.76,0.053,0.0,Procambium,AT3G13730,CYP90D1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.169174329,0.62,0.102,0.0,Procambium,AT4G39640,GGT1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.118950798,0.843,0.078,0.0,Procambium,AT5G08260,SCPL35,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.109493216,0.842,0.173,0.0,Procambium,AT5G21105,AT5G21105,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.013567575,0.677,0.105,0.0,Procambium,AT3G06370,NHX4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.992380113,0.509,0.05,0.0,Procambium,AT4G32780,AT4G32780,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.990318653,0.592,0.047,0.0,Procambium,AT1G19968,AT1G19968,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.955072551,0.482,0.048,0.0,Procambium,AT3G48550,AT3G48550,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.934515932,0.67,0.039,0.0,Procambium,AT1G66720,AT1G66720,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.934225946,0.615,0.069,0.0,Procambium,AT4G32860,AT4G32860,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.924651844,0.613,0.077,0.0,Procambium,AT1G25320,AT1G25320,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.914866041,0.848,0.141,0.0,Procambium,AT5G27000,KIN14G,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.877295119,0.712,0.07,0.0,Procambium,AT1G33700,AT1G33700,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.864225499,0.54,0.074,0.0,Procambium,AT1G61660,BHLH112,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.858354213,0.698,0.275,0.0,Procambium,AT3G28860,ABCB19,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.839062124,0.668,0.107,0.0,Procambium,AT2G28660,AT2G28660,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.791753334,0.919,0.265,0.0,Procambium,AT2G30520,RPT2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.790458768,0.888,0.182,0.0,Procambium,AT3G55420,AT3G55420,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.774496068,0.579,0.05,0.0,Procambium,AT1G70920,ATHB-X,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.753660124,0.781,0.248,0.0,Procambium,AT5G53250,AGP22,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.669549401,0.905,0.164,0.0,Procambium,AT5G05690,CYP90A1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.654239294,0.668,0.098,0.0,Procambium,AT1G04550,IAA12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.618738131,0.607,0.038,0.0,Procambium,AT4G28930,AT4G28930,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.603625448,0.686,0.135,0.0,Procambium,AT3G47620,TCP14,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.601921349,0.346,0.023,0.0,Procambium,AT3G61840,AT3G61840,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.599612435,0.76,0.041,0.0,Procambium,AT1G79760,DTA4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.552101812,0.797,0.11,0.0,Procambium,AT2G31900,XIF,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.551637214,0.618,0.086,0.0,Procambium,AT5G03960,IQD12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.54079027,0.627,0.157,0.0,Procambium,AT2G47860,AT2G47860,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.534071573,0.644,0.063,0.0,Procambium,AT3G16900,AT3G16900,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.491147975,0.614,0.048,0.0,Procambium,AT1G59740,NPF4.3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.480016123,0.771,0.228,0.0,Procambium,AT5G62070,IQD23,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.475100235,0.827,0.06,0.0,Procambium,AT1G77690,LAX3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.471015992,0.868,0.293,0.0,Procambium,AT1G12440,SAP1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.467840039,0.801,0.287,0.0,Procambium,AT2G30490,CYP73A5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.465641638,0.845,0.306,0.0,Procambium,AT5G25890,IAA28,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.426051642,0.778,0.081,0.0,Procambium,AT2G25790,AT2G25790,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.412622401,0.711,0.075,0.0,Procambium,AT2G15760,AT2G15760,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.407738278,0.702,0.163,0.0,Procambium,AT4G09160,PATL5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.37e-181,5.445242454,0.755,0.041,5.9e-177,Protophloem,AT1G11915,AT1G11915,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+8.55e-86,5.367234696,0.65,0.022,1.5e-81,Protophloem,AT2G18380,GATA20,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.34e-194,5.297083484,0.745,0.025,7.61e-190,Protophloem,AT4G13600,AT4G13600,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.243642559,0.922,0.049,0.0,Protophloem,AT1G54330,ANAC020,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.201155821,0.898,0.046,0.0,Protophloem,AT5G62940,DOF5.6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.003085312,0.966,0.097,0.0,Protophloem,AT1G60030,NAT7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.45e-295,4.970488871,0.871,0.358,4.29e-291,Protophloem,AT2G27030,CAM5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.98e-303,4.893953968,0.836,0.054,1.05e-298,Protophloem,AT5G48060,AT5G48060,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.57e-296,4.883938963,0.834,0.054,8.01e-292,Protophloem,AT2G16850,PIP2-8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.881356785,0.958,0.054,0.0,Protophloem,AT3G17730,anac057,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+7.26e-132,4.86764646,0.711,0.13,1.27e-127,Protophloem,AT5G67460,AT5G67460,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.857092797,0.92,0.058,0.0,Protophloem,AT1G08160,AT1G08160,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.76621126,0.843,0.056,0.0,Protophloem,AT5G25490,AT5G25490,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+7.39e-294,4.749302725,0.832,0.194,1.29e-289,Protophloem,AT2G44830,AT2G44830,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.728788991,0.886,0.08,0.0,Protophloem,AT2G37925,COPT4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.72e-174,4.646681446,0.744,0.167,1e-169,Protophloem,AT5G14890,AT5G14890,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.16e-267,4.625099178,0.791,0.146,3.78e-263,Protophloem,AT4G28330,AT4G28330,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.608400795,0.951,0.084,0.0,Protophloem,AT1G06490,CALS7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.8e-123,4.606511726,0.627,0.071,4.9e-119,Protophloem,AT2G45900,AT2G45900,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.55e-276,4.554674679,0.808,0.075,7.97e-272,Protophloem,AT5G02460,DOF5.1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.535422395,0.882,0.067,0.0,Protophloem,AT2G37590,DOF2.4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.9e-269,4.520507891,0.799,0.106,3.34e-265,Protophloem,AT3G28455,CLE25,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.56e-222,4.485152622,0.786,0.091,6.23e-218,Protophloem,AT3G01940,AT3G01940,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.91e-271,4.472891969,0.787,0.096,6.84e-267,Protophloem,AT2G37610,SMR12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.08e-37,4.43799079,0.488,0.043,1.89e-33,Protophloem,AT3G05327,AT3G05327,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.5e-301,4.431561107,0.843,0.08,6.12e-297,Protophloem,AT4G29920,AT4G29920,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.342168562,0.898,0.339,0.0,Protophloem,AT1G19835,FPP4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.340299723,0.921,0.253,0.0,Protophloem,AT5G24300,SS1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.337763079,0.865,0.092,0.0,Protophloem,AT2G41300,SSL1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.336195761,0.958,0.067,0.0,Protophloem,AT3G45610,DOF3.2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.32012914,0.987,0.09,0.0,Protophloem,AT5G11100,SYTD,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.87e-231,4.30030409,0.75,0.073,3.28e-227,Protophloem,AT1G33475,PHYL1.2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.26e-176,4.296571518,0.729,0.257,3.95e-172,Protophloem,AT1G05780,AT1G05780,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.46e-215,4.258311024,0.698,0.061,6.06e-211,Protophloem,AT3G17010,AT3G17010,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.251418427,0.983,0.329,0.0,Protophloem,AT5G57110,ACA8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.232014317,0.905,0.146,0.0,Protophloem,AT4G14740,AT4G14740,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.73e-81,4.230670829,0.654,0.301,4.78e-77,Protophloem,AT3G63000,NPL41,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.39e-213,4.196782074,0.782,0.15,4.18e-209,Protophloem,AT1G69580,AT1G69580,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.192503693,0.938,0.355,0.0,Protophloem,AT2G16600,CYP19-1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.16e-169,4.18156081,0.724,0.159,7.28e-165,Protophloem,AT2G41330,AT2G41330,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.136724651,0.892,0.243,0.0,Protophloem,AT5G65040,IRM1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+6.94e-293,4.120113344,0.843,0.122,1.22e-288,Protophloem,AT3G49360,PGL2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.07e-132,4.108727975,0.662,0.349,1.88e-128,Protophloem,AT3G12710,AT3G12710,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.06609148,0.886,0.152,0.0,Protophloem,AT2G44940,ERF034,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.1e-116,4.060397803,0.589,0.086,3.67e-112,Protophloem,AT4G11910,SGR2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.050365728,0.908,0.097,0.0,Protophloem,AT5G57130,SMXL5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.53e-216,4.04826009,0.808,0.311,7.93e-212,Protophloem,AT2G21060,CSP4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+6.07e-96,4.041487327,0.633,0.298,1.06e-91,Protophloem,AT1G76900,TULP1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.041172802,0.681,0.048,0.0,Protophloem,AT5G17260,NAC086,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.2e-239,4.03229315,0.747,0.164,5.6e-235,Protophloem,AT1G31880,NLM9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,8.25154714,0.992,0.265,0.0,Protoxylem,AT5G49460,ACLB-2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.843293537,0.97,0.005,0.0,Protoxylem,AT5G42710,AT5G42710,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.600753617,0.982,0.008,0.0,Protoxylem,AT4G18780,CESA8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.485648477,0.836,0.26,0.0,Protoxylem,AT2G46225,ABIL1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.437723939,0.937,0.01,0.0,Protoxylem,AT5G60720,AT5G60720,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.423074545,0.974,0.014,0.0,Protoxylem,AT2G46760,GULLO6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.406931514,0.943,0.205,0.0,Protoxylem,AT2G29050,RBL1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.309623479,0.946,0.075,0.0,Protoxylem,AT3G53350,RIP4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.292967031,0.668,0.005,0.0,Protoxylem,AT2G17940,AT2G17940,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.289196625,0.781,0.011,0.0,Protoxylem,AT2G02540,ZHD3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.280420038,0.973,0.025,0.0,Protoxylem,AT5G67230,IRX14H,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.276145954,0.984,0.014,0.0,Protoxylem,AT5G12870,MYB46,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.271158486,0.89,0.156,0.0,Protoxylem,AT2G34410,RWA3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.25040849,0.871,0.013,0.0,Protoxylem,AT3G62160,AT3G62160,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.19914864,0.896,0.004,0.0,Protoxylem,AT1G66690,AT1G66690,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.198290791,0.577,0.003,0.0,Protoxylem,AT1G17950,MYB52,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.192024757,0.925,0.048,0.0,Protoxylem,AT2G38320,TBL34,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.134329951,0.879,0.017,0.0,Protoxylem,AT1G70500,AT1G70500,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.11738924,0.964,0.013,0.0,Protoxylem,AT5G17420,CESA7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.096304138,0.911,0.019,0.0,Protoxylem,AT2G37090,IRX9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.070279812,0.891,0.019,0.0,Protoxylem,AT5G15630,COBL4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.054898271,0.824,0.009,0.0,Protoxylem,AT3G21550,DMP2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.966984955,0.704,0.006,0.0,Protoxylem,AT5G25310,AT5G25310,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.948455559,0.663,0.029,0.0,Protoxylem,AT3G51325,AT3G51325,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.905668547,0.854,0.018,0.0,Protoxylem,AT2G36355,AT2G36355,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.895736521,0.678,0.018,0.0,Protoxylem,AT5G54690,GAUT12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.879770555,0.754,0.008,0.0,Protoxylem,AT1G68725,AGP19,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.858016342,0.987,0.039,0.0,Protoxylem,AT5G44030,CESA4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.85583187,0.688,0.003,0.0,Protoxylem,AT3G45280,SYP72,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.795098301,0.998,0.218,0.0,Protoxylem,AT5G59290,UXS3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.789924443,0.955,0.358,0.0,Protoxylem,AT1G10670,ACLA-1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.787874231,0.827,0.009,0.0,Protoxylem,AT3G22415,AT3G22415,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.778774883,0.992,0.266,0.0,Protoxylem,AT5G06370,AT5G06370,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.75881844,0.632,0.245,0.0,Protoxylem,AT2G26800,HMGCL,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.681447084,0.781,0.196,0.0,Protoxylem,AT3G42950,AT3G42950,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.670279935,0.937,0.04,0.0,Protoxylem,AT1G02640,BXL2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.635537317,0.66,0.023,0.0,Protoxylem,AT1G58370,RXF12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.616789846,0.611,0.012,0.0,Protoxylem,AT5G60020,LAC17,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.587509027,0.587,0.007,0.0,Protoxylem,AT3G51220,AT3G51220,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+8.48e-283,6.581116925,0.476,0.005,1.49e-278,Protoxylem,AT1G14440,ZHD4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.57500107,0.979,0.154,0.0,Protoxylem,AT2G40070,AT2G40070,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.569075319,0.658,0.02,0.0,Protoxylem,AT2G38080,IRX12,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.552835989,0.977,0.012,0.0,Protoxylem,AT5G45970,ARAC2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.549305475,0.784,0.011,0.0,Protoxylem,AT2G45420,LBD18,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.546976654,0.638,0.114,0.0,Protoxylem,AT1G27440,IRX10,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.545830708,0.739,0.01,0.0,Protoxylem,AT3G46890,AT3G46890,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.538496328,0.87,0.011,0.0,Protoxylem,AT3G08500,MYB83,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.538064097,0.751,0.004,0.0,Protoxylem,AT1G10800,AT1G10800,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.525856412,0.96,0.013,0.0,Protoxylem,AT1G12260,NAC007,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.50191446,0.962,0.013,0.0,Protoxylem,AT1G71930,NAC030,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.32e-49,5.008885379,0.816,0.175,2.31e-45,Quiescent Center,AT3G26120,TEL1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.8e-64,4.741670015,0.873,0.223,1.02e-59,Quiescent Center,AT1G47270,TULP6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.71e-76,4.736584421,0.899,0.044,6.5e-72,Quiescent Center,AT3G55550,LECRKS4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.77e-17,4.724948076,0.639,0.249,6.61e-13,Quiescent Center,AT1G70480,AT1G70480,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.84e-38,4.675745146,0.759,0.047,4.98e-34,Quiescent Center,AT3G60650,AT3G60650,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+7.4e-28,4.652544668,0.715,0.05,1.3e-23,Quiescent Center,AT3G57670,WIP2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.81e-53,4.60999873,0.867,0.28,1.02e-48,Quiescent Center,AT1G09570,PHYA,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.46e-90,4.55935696,0.956,0.102,6.05e-86,Quiescent Center,AT1G18250,ATLP-1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.01e-89,4.497134395,0.968,0.125,1.76e-85,Quiescent Center,AT2G25130,AT2G25130,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.72e-61,4.49022544,0.892,0.22,3.01e-57,Quiescent Center,AT5G26910,AT5G26910,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.59e-22,4.478804593,0.658,0.035,2.78e-18,Quiescent Center,AT1G17400,AT1G17400,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.84e-79,4.471812296,0.943,0.119,3.22e-75,Quiescent Center,AT1G75580,AT1G75580,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.71e-95,4.442132324,0.994,0.247,6.49e-91,Quiescent Center,AT3G51750,AT3G51750,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.84e-53,4.42021563,0.854,0.077,4.97e-49,Quiescent Center,AT2G21050,LAX2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.5e-34,4.406381396,0.766,0.071,6.13e-30,Quiescent Center,AT3G25130,AT3G25130,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.36e-39,4.358465432,0.772,0.111,5.89e-35,Quiescent Center,AT3G19500,BHLH113,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.91e-10,4.288330845,0.589,0.226,5.1e-06,Quiescent Center,AT5G08565,AT5G08565,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+6.32e-11,4.264923083,0.532,0.242,1.11e-06,Quiescent Center,AT3G01310,AT3G01310,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.59e-38,4.200616169,0.734,0.237,2.78e-34,Quiescent Center,AT2G33510,AT2G33510,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.64e-36,4.198243837,0.785,0.245,2.87e-32,Quiescent Center,AT1G16020,CCZ1A,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.55e-62,4.186372334,0.854,0.084,2.72e-58,Quiescent Center,AT5G57420,IAA33,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.24e-47,4.183645254,0.81,0.319,5.68e-43,Quiescent Center,AT5G09960,AT5G09960,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.96e-67,4.175774618,0.892,0.07,8.68e-63,Quiescent Center,AT2G03830,RGF8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+8.22e-28,4.171037991,0.741,0.088,1.44e-23,Quiescent Center,AT5G67200,AT5G67200,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1e-94,4.158435135,0.981,0.085,1.75e-90,Quiescent Center,AT3G20840,PLT1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.69e-29,4.150265606,0.747,0.169,4.71e-25,Quiescent Center,AT1G49390,AT1G49390,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.84e-19,4.145887162,0.627,0.023,4.98e-15,Quiescent Center,AT3G48770,AT3G48770,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.59e-48,4.144220595,0.797,0.154,2.79e-44,Quiescent Center,AT1G29980,AT1G29980,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.93e-83,4.137727001,0.956,0.269,3.37e-79,Quiescent Center,AT5G65700,BAM1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.75e-22,4.133460392,0.715,0.335,4.82e-18,Quiescent Center,AT3G07760,AT3G07760,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+6.92e-66,4.129926288,0.867,0.154,1.21e-61,Quiescent Center,AT3G23570,AT3G23570,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.51e-42,4.129280398,0.797,0.068,2.65e-38,Quiescent Center,AT3G30350,RGF4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.18e-49,4.096711636,0.797,0.102,3.82e-45,Quiescent Center,AT1G18265,AT1G18265,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.33e-48,4.093860591,0.804,0.117,9.33e-44,Quiescent Center,AT2G46990,IAA20,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.04e-66,4.093049613,0.88,0.125,1.82e-62,Quiescent Center,AT3G02210,COBL1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.17e-52,4.092873604,0.842,0.142,3.8e-48,Quiescent Center,AT1G54385,SINE1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.73e-62,4.07348638,0.899,0.26,4.78e-58,Quiescent Center,AT5G09300,AT5G09300,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.18e-12,4.070293992,0.639,0.127,3.82e-08,Quiescent Center,AT2G45660,SOC1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.96e-40,4.066984135,0.759,0.15,3.43e-36,Quiescent Center,AT1G49475,AT1G49475,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.07e-82,4.06660892,0.956,0.201,5.37e-78,Quiescent Center,AT3G48670,IDN2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+7.72e-80,4.03819818,0.918,0.114,1.35e-75,Quiescent Center,AT2G28790,AT2G28790,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.47e-33,4.028801765,0.759,0.089,4.33e-29,Quiescent Center,AT2G45340,AT2G45340,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.22e-47,4.025584464,0.829,0.148,2.13e-43,Quiescent Center,AT5G51550,EXL3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.94e-74,4.014461203,0.911,0.085,1.04e-69,Quiescent Center,AT1G35230,AGP5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.48e-64,4.012603374,0.886,0.078,4.35e-60,Quiescent Center,AT3G10780,AT3G10780,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.13e-44,4.012537954,0.848,0.306,1.99e-40,Quiescent Center,AT4G14270,CID2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.16e-45,4.010842616,0.791,0.054,2.03e-41,Quiescent Center,AT1G13620,RGF2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.27e-96,3.99963698,0.975,0.095,3.98e-92,Quiescent Center,AT4G35720,AT4G35720,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.3e-24,3.982462837,0.665,0.241,5.78e-20,Quiescent Center,AT3G63240,IP5P4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.88e-81,3.981456776,0.956,0.152,3.28e-77,Quiescent Center,AT5G59790,AT5G59790,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.972203395,0.806,0.115,0.0,Trichoblast,AT2G01540,CAR10,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.780694435,0.942,0.073,0.0,Trichoblast,AT1G23750,AT1G23750,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.605955914,0.776,0.158,0.0,Trichoblast,AT1G05810,ARA,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.275690809,0.613,0.021,0.0,Trichoblast,AT5G40860,AT5G40860,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,7.265429006,0.87,0.189,0.0,Trichoblast,AT3G07880,GDI1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.924601339,0.939,0.133,0.0,Trichoblast,AT5G40510,AT5G40510,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.918641232,0.499,0.024,0.0,Trichoblast,AT1G73580,CAR3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.818930492,0.808,0.12,0.0,Trichoblast,AT4G24026,AT4G24026,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.767625339,0.66,0.029,0.0,Trichoblast,AT5G58010,BHLH82,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.729639159,0.617,0.016,0.0,Trichoblast,AT1G70460,PERK13,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.545698204,0.533,0.016,0.0,Trichoblast,AT3G60330,AHA7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.458972634,0.469,0.016,0.0,Trichoblast,AT1G48930,AtGH9C1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.449723437,0.872,0.167,0.0,Trichoblast,AT4G01480,PPA5,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.430315479,0.52,0.011,0.0,Trichoblast,AT2G47530,AT2G47530,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.394240878,0.515,0.032,0.0,Trichoblast,AT4G34580,SFH1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.353812545,0.49,0.031,0.0,Trichoblast,AT1G12560,EXPA7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.07e-150,6.346390787,0.381,0.017,7.13e-146,Trichoblast,AT1G06923,AT1G06923,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.326711166,0.691,0.04,0.0,Trichoblast,AT3G09925,AT3G09925,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.263197622,0.542,0.03,0.0,Trichoblast,AT3G54590,EXT2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.232048578,0.575,0.035,0.0,Trichoblast,AT1G30870,PER7,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.198803596,0.567,0.04,0.0,Trichoblast,AT5G05500,AT5G05500,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.125850914,0.693,0.041,0.0,Trichoblast,AT3G54580,AT3G54580,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.116141061,0.669,0.04,0.0,Trichoblast,AT2G47540,AT2G47540,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.057140521,0.581,0.043,0.0,Trichoblast,AT4G00680,ADF8,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.049217856,0.52,0.02,0.0,Trichoblast,AT1G30990,AT1G30990,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.028151897,0.937,0.163,0.0,Trichoblast,AT1G13950,ELF5A-1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,6.011195026,0.617,0.063,0.0,Trichoblast,AT1G53680,GSTU28,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.989963243,0.437,0.029,0.0,Trichoblast,AT5G67400,PER73,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.972530094,0.713,0.051,0.0,Trichoblast,AT3G23190,AT3G23190,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.889903402,0.615,0.031,0.0,Trichoblast,AT2G41970,AT2G41970,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.883751807,0.628,0.056,0.0,Trichoblast,AT4G40090,AGP3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.861624482,0.476,0.02,0.0,Trichoblast,AT3G49960,PER35,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.839429139,0.686,0.048,0.0,Trichoblast,AT3G21180,ACA9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.835830667,0.768,0.043,0.0,Trichoblast,AT1G01750,ADF11,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.832703494,0.458,0.053,0.0,Trichoblast,AT4G25820,XTH14,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.817106024,0.499,0.028,0.0,Trichoblast,AT5G42510,DIR1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.815271964,0.53,0.02,0.0,Trichoblast,AT4G29180,RHS16,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.751991095,0.595,0.066,0.0,Trichoblast,AT1G27140,GSTU14,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.744586541,0.443,0.012,0.0,Trichoblast,AT4G33880,BHLH85,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.74e-68,5.734402748,0.33,0.023,3.05e-64,Trichoblast,AT5G04960,PME46,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.651963441,0.409,0.04,0.0,Trichoblast,AT1G62980,EXPA18,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.624647631,0.438,0.015,0.0,Trichoblast,AT1G12040,LRX1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+7.97e-254,5.614397349,0.396,0.039,1.4e-249,Trichoblast,AT5G57625,AT5G57625,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.24e-196,5.609403076,0.361,0.012,3.93e-192,Trichoblast,AT2G22290,RABH1D,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.594601486,0.54,0.031,0.0,Trichoblast,AT5G49270,COBL9,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.587239894,0.418,0.018,0.0,Trichoblast,AT3G12540,AT3G12540,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.3e-99,5.5860658,0.321,0.014,5.77e-95,Trichoblast,AT5G06640,AT5G06640,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.07e-214,5.554269696,0.346,0.01,7.12e-210,Trichoblast,AT4G08400,AT4G08400,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+9.91e-101,5.523079042,0.334,0.015,1.74e-96,Trichoblast,AT4G08410,AT4G08410,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,5.487386698,0.732,0.171,0.0,Trichoblast,AT5G01610,AT5G01610,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.819348783,0.65,0.024,0.0,Xylem Pole Pericycle,AT1G02460,AT1G02460,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.610425678,0.409,0.029,0.0,Xylem Pole Pericycle,AT1G30760,AT1G30760,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.540415235,0.741,0.04,0.0,Xylem Pole Pericycle,AT3G26610,AT3G26610,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.330753985,0.742,0.027,0.0,Xylem Pole Pericycle,AT4G28410,AT4G28410,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.186105723,0.854,0.063,0.0,Xylem Pole Pericycle,AT2G18800,XTH21,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,4.046550085,0.643,0.042,0.0,Xylem Pole Pericycle,AT4G20210,TPS08,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+5.23e-225,4.013608238,0.536,0.08,9.16e-221,Xylem Pole Pericycle,AT3G61490,AT3G61490,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.77e-19,3.989679501,0.276,0.071,4.84e-15,Xylem Pole Pericycle,AT1G31670,AT1G31670,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.953958408,0.65,0.054,0.0,Xylem Pole Pericycle,AT2G26040,PYL2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+8.67e-292,3.783113308,0.429,0.059,1.52e-287,Xylem Pole Pericycle,AT5G19730,PME53,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.695363549,0.943,0.254,0.0,Xylem Pole Pericycle,AT3G11630,BAS1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+9.45e-286,3.67700698,0.409,0.074,1.66e-281,Xylem Pole Pericycle,AT4G17030,EXLB1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+4.53e-28,3.602944833,0.273,0.043,7.94e-24,Xylem Pole Pericycle,AT5G26930,GATA23,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.560263399,0.542,0.206,0.0,Xylem Pole Pericycle,AT5G09760,AT5G09760,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.96e-197,3.359593953,0.468,0.053,3.43e-193,Xylem Pole Pericycle,AT3G11150,AT3G11150,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.212714945,0.674,0.073,0.0,Xylem Pole Pericycle,AT5G16570,GLN1-4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.179884245,0.504,0.076,0.0,Xylem Pole Pericycle,AT4G33550,AT4G33550,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.175022012,0.839,0.097,0.0,Xylem Pole Pericycle,AT5G07030,AT5G07030,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.136839548,0.51,0.083,0.0,Xylem Pole Pericycle,AT4G30460,AT4G30460,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.095083106,0.549,0.056,0.0,Xylem Pole Pericycle,AT5G43180,AT5G43180,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.059521706,0.75,0.093,0.0,Xylem Pole Pericycle,AT5G46730,AT5G46730,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.030517698,0.733,0.09,0.0,Xylem Pole Pericycle,AT5G44530,AT5G44530,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,3.02507081,0.909,0.208,0.0,Xylem Pole Pericycle,AT2G40970,MYBC1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+1.49e-149,3.00541135,0.432,0.065,2.61e-145,Xylem Pole Pericycle,AT3G13810,AtIDD11,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+3.41e-259,2.997741321,0.427,0.041,5.97e-255,Xylem Pole Pericycle,AT4G20230,AT4G20230,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.981212091,0.846,0.191,0.0,Xylem Pole Pericycle,AT5G17870,PSRP6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.978903893,0.571,0.076,0.0,Xylem Pole Pericycle,AT2G07680,ATMRP11,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.939822851,0.792,0.064,0.0,Xylem Pole Pericycle,AT4G23500,AT4G23500,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.938422063,0.852,0.165,0.0,Xylem Pole Pericycle,AT4G24770,CP31A,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.922594284,0.396,0.052,0.0,Xylem Pole Pericycle,AT2G26700,PID2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+9.77e-19,2.917053479,0.387,0.041,1.71e-14,Xylem Pole Pericycle,AT3G29680,AT3G29680,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.889929927,0.949,0.218,0.0,Xylem Pole Pericycle,AT4G34620,RPS16-1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.884771767,0.837,0.224,0.0,Xylem Pole Pericycle,AT5G56500,CPN60B3,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.860338821,0.399,0.033,0.0,Xylem Pole Pericycle,AT2G23030,SRK2J,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.818887987,0.695,0.136,0.0,Xylem Pole Pericycle,AT5G16040,AT5G16040,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.789140728,0.57,0.047,0.0,Xylem Pole Pericycle,AT1G16310,MTP10,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.781702444,0.709,0.074,0.0,Xylem Pole Pericycle,AT3G45700,NPF2.4,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.766045217,0.747,0.115,0.0,Xylem Pole Pericycle,AT1G23760,PGL1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.729070361,0.593,0.085,0.0,Xylem Pole Pericycle,AT3G61510,ACS1,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.65117479,0.824,0.165,0.0,Xylem Pole Pericycle,AT1G16350,AT1G16350,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.91e-77,2.648120319,0.208,0.046,5.1e-73,Xylem Pole Pericycle,AT1G08440,ALMT2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.632447474,0.914,0.238,0.0,Xylem Pole Pericycle,AT5G20720,CPN20,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.57690497,0.394,0.025,0.0,Xylem Pole Pericycle,AT5G47500,PME68,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+2.82e-69,2.573915484,0.21,0.044,4.93e-65,Xylem Pole Pericycle,AT4G37295,AT4G37295,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.570456459,0.564,0.083,0.0,Xylem Pole Pericycle,AT5G62630,HIPL2,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.560051618,0.923,0.291,0.0,Xylem Pole Pericycle,AT1G52300,RPL37B,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.547664619,0.531,0.05,0.0,Xylem Pole Pericycle,AT2G23530,AT2G23530,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.538727234,0.735,0.155,0.0,Xylem Pole Pericycle,AT3G53460,CP29,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+0.0,2.510324736,0.4,0.049,0.0,Xylem Pole Pericycle,AT1G11330,AT1G11330,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008
+7e-75,2.50261598,0.359,0.054,1.23e-70,Xylem Pole Pericycle,AT5G66816,CEP6,"Shahan et al. 2022 Dev Cell, Data S2K",https://doi.org/10.1016/j.devcel.2022.01.008

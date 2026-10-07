@@ -1,0 +1,96 @@
+Locus,Gene,Celltype,Source,source_sheet,source_url
+AT3G54220,SCR,Endodermis,Birnbaum et al. 1993 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G14750,WER,LRC + Atrichoblast,"Lee and Schiefelbein, 1999 Cell; Birnbaum et al. 2003 Science",F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G79430,APL,Phloem,Bonke et al 2003 Nature,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G62510,AT1G62510,Cortex,Efroni et al. 2015 Genome Biology; Denyer et al. 2019 Dev Cell,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G26120,TEL1,Quiescent Center,Denyer et al. 2019 Dev Cell,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G13390,EXT12,Trichoblast,Denyer et al. 2019 Dev Cell,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G18380,GATA20,Phloem Sieve Element,Lee et al. 2006 PNAS (marker S32),F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G62500,CO2,Cortex,Heidstra et al. 2004 Genes and Development,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G49270,COBL9,Trichoblast,"Brady et al 2007b, Plant Phys; Huang et al.2017 Plant Phys",F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G33280,BRN1,Columella (1st Outer Layer) + LRC (1st +2nd Outer Layer),Kamiya et al. 2016 Development,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G10350,BRN2,Columella (1st Outer Layer) + LRC (1st Outer Layer),Kamiya et al. 2016 Development,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G79580,SMB,Columella + LRC,Kamiya et al. 2016 Development,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G57620,MYB36,Endodermis,Kamiya et al. 2015 PNAS; Liberman et al 2015 PNAS,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G79840,GL2,Atrichoblast,Lee and Schiefelbein 2002 Plant Cell; Lee et al. 2006 PNAS,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G20880,AT3G20880,Quiescent Center,Lee et al. 2006 PNAS,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G58010,LRL3,Trichoblast,Lee et al. 2006 PNAS,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G22850,bZIP6,Phloem; Phloem Pole Pericycle,Lee et al. 2006 PNAS,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G25710,TMO5,Protoxylem,Lee et al. 2006 PNAS; De Rybel et al 2013 Dev Cell,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G60810,RGF1,Quiescent Center,Matsusaki et al. 2010 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G66470,RHD6,Trichoblast,Menand et al. 2007 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G37800,RSL1,Trichoblast,Menand et al. 2007 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G62940,PEAR1/DOF2.4,Phloem Sieve Element,Miyashima et al. 2019 Nature,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G61930,AT3G61930,Distal Columella,SEMITONES,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G04025,RGF3,Proximal Columella,Matsusaki et al. 2010 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G28540,AT3G28540,Columella (1-3th Outer Layer),Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G48130,AT5G48130,Columella (1-4th Outer Layer) + LRC (3 Vertical Layers from Columella),Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G17400,DRO3/LZY2,Columella (1-5th Outer Layer),Taniguchi et al 2017 Plant Cell;Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G40260,AT2G40260,Cortex,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G29330,TRI,Cortex + Endodermis,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G56220,AT3G56220,Cortex + Endodermis,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G16390,AT1G16390,Endodermis,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G30750,AT1G30750,Endodermis,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G16270,PER40,Endodermis,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G46600,ALMT13,Endodermis,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G19530,ACL5,Metaxylem,Clay and Nelson 2005 Plant Phys; Muniz et al 2008 Development;Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G31310,LBD14,Pericycle Initials,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G36410,UBC17,Phloem,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G04080,AT5G04080,Phloem,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G04240,SHY2,Procambium + Xylem,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G71050,HIPP20,Procambium + Xylem,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G71930,VND7,Protoxylem,Kubo et al. 2005 Genes and Dev; Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G18780,CESA8,Protoxylem,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G55550,LECRKS4,Quiescent Center + Columella,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G60650,AT3G60650,Quiescent Center + Columella,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G36120,DOT1,Xylem Pole Pericycle,Wendrich et al. 2020 Science,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G30450,XPP,Xylem Pole Pericycle,Schürholz et al. 2018 Plant Phys,F) Markers for SEMITONES,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G20840,PLT1,Stem Cell Niche,Aida et al. 2004 Cell,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G54220,SCR,Endodermis,Birnbaum et al. 2003 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G14750,WER,LRC + Atrichoblast,Lee and Schiefelbein 2003 Cell; Birnbaum et al. 2003 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G37940,AGL21,Procambium + Columella,Cartwright et al. 2009 Bioinformatics,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G62500,CO2,Cortex,Heidstra et al. 2004 Genes and Development,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G62510,AT1G62510,Cortex,Efroni et al. 2015 Genome Biology; Denyer et al. 2019 Dev Cell,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G26120,TEL1,Quiescent Center,Denyer et al. 2019 Dev Cell,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G13390,EXT12,Trichoblast,Denyer et al. 2019 Dev Cell,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G49270,COBL9,Trichoblast,"Brady et al 2007b, Plant Phys; Huang et al.2017 Plant Phys",G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G33280,BRN1,Columella (1st Outer Layer) + LRC (1st +2nd Outer Layer),Kamiya et al. 2016 Development,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G10350,BRN2,Columella (1st Outer Layer) + LRC (1st Outer Layer),Kamiya et al. 2016 Development,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G79580,SMB,Columella + LRC,Kamiya et al. 2016 Development,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G57620,MYB36,Endodermis,Kamiya et al. 2015 PNAS; Liberman et al 2015 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G79840,GL2,Atrichoblast,Lee and Schiefelbein 2002 Plant Cell; Lee et al. 2006 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G43040,AT5G43040,Columella (1st Outer Layer) + LRC (1st Outer Layer)  + Epidermis,Lee et al. 2006 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G07640,OBP2,Phloem,Lee et al. 2006 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G28810,AT2G28810,Phloem,Lee et al. 2006 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G20880,AT3G20880,Quiescent Center,Lee et al. 2006 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G17800,MTB56,Quiescent Center,Lee et al. 2006 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G58010,LRL3,Trichoblast,Lee et al. 2006 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G71930,VND7,Xylem,Kubo et al. 2005 Genes and Dev; Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G36160,VND2,Xylem,Lee et al. 2006 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G12870,MYB46,Xylem,Lee et al. 2006 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G22850,bZIP6,Phloem;Phloem Pole Pericycle,Lee et al. 2006 PNAS,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G60810,RGF1,Quiescent Center,Matsusaki et al. 2010 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G66470,RHD6,Trichoblast,Menand et al. 2007 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G37800,RSL1,Trichoblast,Menand et al. 2007 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G52490,SMXL3,Procambium + Phloem,Wallner et al. 2017 Curr Biol,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G57130,SMXL5,Procambium + Phloem,Wallner et al. 2017 Curr Biol,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G28540,AT3G28540,Columella (1-3th Outer Layer),Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G48130,AT5G48130,Columella (1-4th Outer Layer) + LRC (3 Vertical Layers from Columella),Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G17400,DRO3/LZY2,Columella (1-5th Outer Layer),Taniguchi et al 2017 Plant Cell; Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G40260,AT2G40260,Cortex,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G29330,AT2G29330,Cortex + Endodermis,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G56220,AT3G56220,Cortex + Endodermis,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G16390,AT1G16390,Endodermis,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G30750,AT1G30750,Endodermis,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G16270,PER40,Endodermis,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G46600,ALMT13,Endodermis,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G31310,LBD14,Pericycle,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G09760,AT5G09760,Pericycle,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT4G36410,UBC17,Phloem,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G04080,AT5G04080,Phloem,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G04240,SHY2,Procambium + Xylem,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT1G71050,HIPP20,Procambium + Xylem,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G55550,LECRKS4,Quiescent Center + Columella,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT3G60650,AT3G60650,Quiescent Center + Columella,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT2G46570,LAC6,Xylem,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/
+AT5G53730,NHL26,Xylem,Wendrich et al. 2020 Science,G) Markers for novoSpaRc,https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/

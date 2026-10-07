@@ -1,0 +1,5 @@
+"sample","min_features","min_counts","max_counts","max_mt","retained_mt4MAD","retained_gene_floor800","retained_primary"
+"control_rep1",500,500,103877,10.4074817776057,3389,3236,3346
+"control_rep2",500,500,82525,4.75809804803195,6507,6158,6451
+"stress_rep1",583,552,45781,4.52813544884683,7783,7676,7733
+"stress_rep2",602,576,42623,4.56880279174744,6560,6475,6514

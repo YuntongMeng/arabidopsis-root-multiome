@@ -1,0 +1,8 @@
+"ID","Description","Atrichoblast_lineage","Cortex_lineage","Dividing_meristematic","Endodermis_lineage","Epidermal_initial_like","Meristematic_unresolved","Pericycle","Procambium_like","Root_cap","Trichoblast_lineage"
+"GO:0009694","jasmonic acid metabolic process",1,0,0,1,0,0,1,0,0,0
+"GO:0001676","long-chain fatty acid metabolic process",1,0,0,1,0,0,1,0,0,0
+"GO:0009409","response to cold",0,2,0,2,0,0,2,1,1,0
+"GO:0009631","cold acclimation",0,0,0,0,0,0,0,0,0,0
+"GO:0009414","response to water deprivation",0,0,0,0,0,0,0,0,0,0
+"GO:0009415","response to water",0,0,0,0,0,0,0,0,0,0
+"GO:0001101","response to acid chemical",0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,36 @@
+branch,cluster,cell_population,confidence,evidence
+pca,0,Atrichoblast_lineage,moderate,"Atlas Atrichoblast top signature; GL2 and lipid/cell-wall markers strong in differentiated subcluster. Other subclusters have weaker canonical support and condition-skewed expression; broad lineage is provisional, not a mature-cell claim."
+pca,6,Atrichoblast_lineage,moderate,"Atlas Atrichoblast top signature; GL2 and lipid/cell-wall markers strong in differentiated subcluster. Other subclusters have weaker canonical support and condition-skewed expression; broad lineage is provisional, not a mature-cell claim."
+pca,8,Atrichoblast_lineage,moderate,"Atlas Atrichoblast top signature; GL2 and lipid/cell-wall markers strong in differentiated subcluster. Other subclusters have weaker canonical support and condition-skewed expression; broad lineage is provisional, not a mature-cell claim."
+pca,3,Cortex_lineage,moderate,Atlas Cortex leading; CO2/AT1G62510 and AT2G40260 plus dataset-specific expansion/cell-wall genes. Lower-scoring state retained as broad cortex lineage.
+pca,11,Cortex_lineage,moderate,Atlas Cortex leading; CO2/AT1G62510 and AT2G40260 plus dataset-specific expansion/cell-wall genes. Lower-scoring state retained as broad cortex lineage.
+pca,2,Endodermis_lineage,moderate,"Atlas Endodermis and MYB36/SCR; differentiated state has CASP2 and AT1G30750, weaker state has CASPL1A1/DAISY/GLIP2. Broad lineage combines differentiation states."
+pca,15,Endodermis_lineage,moderate,"Atlas Endodermis and MYB36/SCR; differentiated state has CASP2 and AT1G30750, weaker state has CASPL1A1/DAISY/GLIP2. Broad lineage combines differentiation states."
+pca,4,Trichoblast_lineage,moderate,"Atlas Trichoblast; COBL9/EXT12/LRL3 strong in mature state, RHD6 and cell-wall genes support developing state."
+pca,13,Trichoblast_lineage,moderate,"Atlas Trichoblast; COBL9/EXT12/LRL3 strong in mature state, RHD6 and cell-wall genes support developing state."
+pca,7,Pericycle,strong_broad_identity,"Both XPP and PPP atlas signatures; DOT1/XPP/bZIP6 canonical enrichment with MYB48/UMAMIT transporters. Do not claim a pole subtype. In pca, merge control-enriched and stress-enriched states before DE."
+pca,10,Pericycle,strong_broad_identity,"Both XPP and PPP atlas signatures; DOT1/XPP/bZIP6 canonical enrichment with MYB48/UMAMIT transporters. Do not claim a pole subtype. In pca, merge control-enriched and stress-enriched states before DE."
+pca,12,Root_cap,strong_broad_identity,"Atlas LRC leading, Columella second; SMB/BRN1/BRN2/CEL5 support root cap. Shared markers cannot reliably separate LRC from columella; use broad label."
+pca,1,Meristematic_unresolved,low,Weak competing atlas identity signatures; AN3/GLV3 and meristem-associated profile. Cannot claim a specific initial or QC identity.
+pca,5,Epidermal_initial_like,low,"WER/RHD6 and dataset-specific EGL3/MYC1; small competing LRC/pericycle scores. Conservative developing epidermal-like state, low confidence."
+pca,9,Dividing_meristematic,strong_broad_identity,"Published S2J cell-cycle module high; SCL28/CCS52B/CDC20 strict markers. Cell-cycle state, not a single lineage."
+pca,14,Unresolved_control_enriched,low,"Only control, strongly control_rep2-enriched; weak atlas scores and jasmonate-associated AOC genes. No confident cell identity; excluded by replicate eligibility."
+pca,16,Phloem,strong_broad_identity,Strong Metaphloem/Companion atlas score; APL/UBC17/AT5G04080/AHA3/AAP4 support broad phloem. Too few control_rep1 cells for formal DE.
+pca,17,Unresolved,low,Small cluster with QRT1/PDLP4/WRKY24; no convincing lineage-specific canonical pattern. Do not force xylem annotation.
+harmony,0,Atrichoblast_lineage,moderate,"Atlas Atrichoblast top signature; GL2 and lipid/cell-wall markers strong in differentiated subcluster. Other subclusters have weaker canonical support and condition-skewed expression; broad lineage is provisional, not a mature-cell claim."
+harmony,9,Atrichoblast_lineage,moderate,"Atlas Atrichoblast top signature; GL2 and lipid/cell-wall markers strong in differentiated subcluster. Other subclusters have weaker canonical support and condition-skewed expression; broad lineage is provisional, not a mature-cell claim."
+harmony,1,Cortex_lineage,moderate,Atlas Cortex leading; CO2/AT1G62510 and AT2G40260 plus dataset-specific expansion/cell-wall genes. Lower-scoring state retained as broad cortex lineage.
+harmony,11,Cortex_lineage,moderate,Atlas Cortex leading; CO2/AT1G62510 and AT2G40260 plus dataset-specific expansion/cell-wall genes. Lower-scoring state retained as broad cortex lineage.
+harmony,4,Endodermis_lineage,moderate,"Atlas Endodermis and MYB36/SCR; differentiated state has CASP2 and AT1G30750, weaker state has CASPL1A1/DAISY/GLIP2. Broad lineage combines differentiation states."
+harmony,13,Endodermis_lineage,moderate,"Atlas Endodermis and MYB36/SCR; differentiated state has CASP2 and AT1G30750, weaker state has CASPL1A1/DAISY/GLIP2. Broad lineage combines differentiation states."
+harmony,8,Trichoblast_lineage,moderate,"Atlas Trichoblast; COBL9/EXT12/LRL3 strong in mature state, RHD6 and cell-wall genes support developing state."
+harmony,10,Trichoblast_lineage,moderate,"Atlas Trichoblast; COBL9/EXT12/LRL3 strong in mature state, RHD6 and cell-wall genes support developing state."
+harmony,3,Pericycle,strong_broad_identity,"Both XPP and PPP atlas signatures; DOT1/XPP/bZIP6 canonical enrichment with MYB48/UMAMIT transporters. Do not claim a pole subtype. In pca, merge control-enriched and stress-enriched states before DE."
+harmony,12,Root_cap,strong_broad_identity,"Atlas LRC leading, Columella second; SMB/BRN1/BRN2/CEL5 support root cap. Shared markers cannot reliably separate LRC from columella; use broad label."
+harmony,5,Meristematic_unresolved,low,Weak competing atlas identity signatures; AN3/GLV3 and meristem-associated profile. Cannot claim a specific initial or QC identity.
+harmony,6,Epidermal_initial_like,low,"WER/RHD6 and dataset-specific EGL3/MYC1; small competing LRC/pericycle scores. Conservative developing epidermal-like state, low confidence."
+harmony,7,Dividing_meristematic,strong_broad_identity,"Published S2J cell-cycle module high; SCL28/CCS52B/CDC20 strict markers. Cell-cycle state, not a single lineage."
+harmony,14,Heat_shock_enriched,low,"HSP17/HSP70 genes dominate; almost exclusively control_rep1. Stress/preparation state, no confident identity; excluded by replicate eligibility."
+harmony,15,Phloem,strong_broad_identity,Strong Metaphloem/Companion atlas score; APL/UBC17/AT5G04080/AHA3/AAP4 support broad phloem. Too few control_rep1 cells for formal DE.
+harmony,16,Unresolved,low,Small cluster with QRT1/PDLP4/WRKY24; no convincing lineage-specific canonical pattern. Do not force xylem annotation.
+harmony,2,Procambium_like,moderate,Atlas Procambium first; HCT/CYP98A3/TED4 and DIR6 vascular/lignification markers. Broad vascular/procambium-like call is provisional; no confident xylem subtype.

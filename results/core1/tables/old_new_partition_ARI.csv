@@ -1,0 +1,4 @@
+"comparison","n_cells","ARI"
+"old_vs_corrected_pca",21488,0.638903155353906
+"old_vs_corrected_harmony",21488,0.580541830179442
+"corrected_pca_vs_harmony",21550,0.622247082583158

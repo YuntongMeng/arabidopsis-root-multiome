@@ -1,5 +1,5 @@
-"sample","features","nuclei"
-"control_rep1",52691,3431
-"control_rep2",57150,6631
-"stress_rep1",57323,7827
-"stress_rep2",57834,6585
+"sample","total_features","gene_features","excluded_features","peak_features","nuclei","coordinate_ids_after","gene_UMI","excluded_counts"
+"control_rep1",52691,32833,19858,19858,3431,0,20744003,12694250
+"control_rep2",57150,32833,24317,24317,6631,0,34319070,30451868
+"stress_rep1",57323,32833,24490,24490,7827,0,39788566,36861846
+"stress_rep2",57834,32833,25001,25001,6585,0,32849064,32021199

@@ -1,0 +1,134 @@
+"branch","cell_population","ID","Description","DE_genes","up","down"
+"pca","Atrichoblast_lineage","GO:0009694","jasmonic acid metabolic process",1,1,0
+"pca","Cortex_lineage","GO:0009694","jasmonic acid metabolic process",0,0,0
+"pca","Dividing_meristematic","GO:0009694","jasmonic acid metabolic process",0,0,0
+"pca","Endodermis_lineage","GO:0009694","jasmonic acid metabolic process",1,0,1
+"pca","Epidermal_initial_like","GO:0009694","jasmonic acid metabolic process",0,0,0
+"pca","Meristematic_unresolved","GO:0009694","jasmonic acid metabolic process",0,0,0
+"pca","Pericycle","GO:0009694","jasmonic acid metabolic process",1,0,1
+"pca","Root_cap","GO:0009694","jasmonic acid metabolic process",0,0,0
+"pca","Trichoblast_lineage","GO:0009694","jasmonic acid metabolic process",0,0,0
+"pca","Atrichoblast_lineage","GO:0001676","long-chain fatty acid metabolic process",1,1,0
+"pca","Cortex_lineage","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"pca","Dividing_meristematic","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"pca","Endodermis_lineage","GO:0001676","long-chain fatty acid metabolic process",1,0,1
+"pca","Epidermal_initial_like","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"pca","Meristematic_unresolved","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"pca","Pericycle","GO:0001676","long-chain fatty acid metabolic process",1,0,1
+"pca","Root_cap","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"pca","Trichoblast_lineage","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"pca","Atrichoblast_lineage","GO:0009409","response to cold",0,0,0
+"pca","Cortex_lineage","GO:0009409","response to cold",0,0,0
+"pca","Dividing_meristematic","GO:0009409","response to cold",0,0,0
+"pca","Endodermis_lineage","GO:0009409","response to cold",2,0,2
+"pca","Epidermal_initial_like","GO:0009409","response to cold",0,0,0
+"pca","Meristematic_unresolved","GO:0009409","response to cold",0,0,0
+"pca","Pericycle","GO:0009409","response to cold",1,0,1
+"pca","Root_cap","GO:0009409","response to cold",1,0,1
+"pca","Trichoblast_lineage","GO:0009409","response to cold",0,0,0
+"pca","Atrichoblast_lineage","GO:0009631","cold acclimation",0,0,0
+"pca","Cortex_lineage","GO:0009631","cold acclimation",0,0,0
+"pca","Dividing_meristematic","GO:0009631","cold acclimation",0,0,0
+"pca","Endodermis_lineage","GO:0009631","cold acclimation",0,0,0
+"pca","Epidermal_initial_like","GO:0009631","cold acclimation",0,0,0
+"pca","Meristematic_unresolved","GO:0009631","cold acclimation",0,0,0
+"pca","Pericycle","GO:0009631","cold acclimation",0,0,0
+"pca","Root_cap","GO:0009631","cold acclimation",0,0,0
+"pca","Trichoblast_lineage","GO:0009631","cold acclimation",0,0,0
+"pca","Atrichoblast_lineage","GO:0009414","response to water deprivation",0,0,0
+"pca","Cortex_lineage","GO:0009414","response to water deprivation",0,0,0
+"pca","Dividing_meristematic","GO:0009414","response to water deprivation",0,0,0
+"pca","Endodermis_lineage","GO:0009414","response to water deprivation",0,0,0
+"pca","Epidermal_initial_like","GO:0009414","response to water deprivation",0,0,0
+"pca","Meristematic_unresolved","GO:0009414","response to water deprivation",0,0,0
+"pca","Pericycle","GO:0009414","response to water deprivation",0,0,0
+"pca","Root_cap","GO:0009414","response to water deprivation",0,0,0
+"pca","Trichoblast_lineage","GO:0009414","response to water deprivation",0,0,0
+"pca","Atrichoblast_lineage","GO:0009415","response to water",0,0,0
+"pca","Cortex_lineage","GO:0009415","response to water",0,0,0
+"pca","Dividing_meristematic","GO:0009415","response to water",0,0,0
+"pca","Endodermis_lineage","GO:0009415","response to water",0,0,0
+"pca","Epidermal_initial_like","GO:0009415","response to water",0,0,0
+"pca","Meristematic_unresolved","GO:0009415","response to water",0,0,0
+"pca","Pericycle","GO:0009415","response to water",0,0,0
+"pca","Root_cap","GO:0009415","response to water",0,0,0
+"pca","Trichoblast_lineage","GO:0009415","response to water",0,0,0
+"pca","Atrichoblast_lineage","GO:0001101","response to acid chemical",0,0,0
+"pca","Cortex_lineage","GO:0001101","response to acid chemical",0,0,0
+"pca","Dividing_meristematic","GO:0001101","response to acid chemical",0,0,0
+"pca","Endodermis_lineage","GO:0001101","response to acid chemical",0,0,0
+"pca","Epidermal_initial_like","GO:0001101","response to acid chemical",0,0,0
+"pca","Meristematic_unresolved","GO:0001101","response to acid chemical",0,0,0
+"pca","Pericycle","GO:0001101","response to acid chemical",0,0,0
+"pca","Root_cap","GO:0001101","response to acid chemical",0,0,0
+"pca","Trichoblast_lineage","GO:0001101","response to acid chemical",0,0,0
+"harmony","Atrichoblast_lineage","GO:0009694","jasmonic acid metabolic process",1,1,0
+"harmony","Cortex_lineage","GO:0009694","jasmonic acid metabolic process",0,0,0
+"harmony","Dividing_meristematic","GO:0009694","jasmonic acid metabolic process",0,0,0
+"harmony","Endodermis_lineage","GO:0009694","jasmonic acid metabolic process",1,0,1
+"harmony","Epidermal_initial_like","GO:0009694","jasmonic acid metabolic process",0,0,0
+"harmony","Meristematic_unresolved","GO:0009694","jasmonic acid metabolic process",0,0,0
+"harmony","Pericycle","GO:0009694","jasmonic acid metabolic process",1,0,1
+"harmony","Procambium_like","GO:0009694","jasmonic acid metabolic process",0,0,0
+"harmony","Root_cap","GO:0009694","jasmonic acid metabolic process",0,0,0
+"harmony","Trichoblast_lineage","GO:0009694","jasmonic acid metabolic process",0,0,0
+"harmony","Atrichoblast_lineage","GO:0001676","long-chain fatty acid metabolic process",1,1,0
+"harmony","Cortex_lineage","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"harmony","Dividing_meristematic","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"harmony","Endodermis_lineage","GO:0001676","long-chain fatty acid metabolic process",1,0,1
+"harmony","Epidermal_initial_like","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"harmony","Meristematic_unresolved","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"harmony","Pericycle","GO:0001676","long-chain fatty acid metabolic process",1,0,1
+"harmony","Procambium_like","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"harmony","Root_cap","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"harmony","Trichoblast_lineage","GO:0001676","long-chain fatty acid metabolic process",0,0,0
+"harmony","Atrichoblast_lineage","GO:0009409","response to cold",0,0,0
+"harmony","Cortex_lineage","GO:0009409","response to cold",2,0,2
+"harmony","Dividing_meristematic","GO:0009409","response to cold",0,0,0
+"harmony","Endodermis_lineage","GO:0009409","response to cold",2,0,2
+"harmony","Epidermal_initial_like","GO:0009409","response to cold",0,0,0
+"harmony","Meristematic_unresolved","GO:0009409","response to cold",0,0,0
+"harmony","Pericycle","GO:0009409","response to cold",2,0,2
+"harmony","Procambium_like","GO:0009409","response to cold",1,0,1
+"harmony","Root_cap","GO:0009409","response to cold",1,0,1
+"harmony","Trichoblast_lineage","GO:0009409","response to cold",0,0,0
+"harmony","Atrichoblast_lineage","GO:0009631","cold acclimation",0,0,0
+"harmony","Cortex_lineage","GO:0009631","cold acclimation",0,0,0
+"harmony","Dividing_meristematic","GO:0009631","cold acclimation",0,0,0
+"harmony","Endodermis_lineage","GO:0009631","cold acclimation",0,0,0
+"harmony","Epidermal_initial_like","GO:0009631","cold acclimation",0,0,0
+"harmony","Meristematic_unresolved","GO:0009631","cold acclimation",0,0,0
+"harmony","Pericycle","GO:0009631","cold acclimation",0,0,0
+"harmony","Procambium_like","GO:0009631","cold acclimation",0,0,0
+"harmony","Root_cap","GO:0009631","cold acclimation",0,0,0
+"harmony","Trichoblast_lineage","GO:0009631","cold acclimation",0,0,0
+"harmony","Atrichoblast_lineage","GO:0009414","response to water deprivation",0,0,0
+"harmony","Cortex_lineage","GO:0009414","response to water deprivation",0,0,0
+"harmony","Dividing_meristematic","GO:0009414","response to water deprivation",0,0,0
+"harmony","Endodermis_lineage","GO:0009414","response to water deprivation",0,0,0
+"harmony","Epidermal_initial_like","GO:0009414","response to water deprivation",0,0,0
+"harmony","Meristematic_unresolved","GO:0009414","response to water deprivation",0,0,0
+"harmony","Pericycle","GO:0009414","response to water deprivation",0,0,0
+"harmony","Procambium_like","GO:0009414","response to water deprivation",0,0,0
+"harmony","Root_cap","GO:0009414","response to water deprivation",0,0,0
+"harmony","Trichoblast_lineage","GO:0009414","response to water deprivation",0,0,0
+"harmony","Atrichoblast_lineage","GO:0009415","response to water",0,0,0
+"harmony","Cortex_lineage","GO:0009415","response to water",0,0,0
+"harmony","Dividing_meristematic","GO:0009415","response to water",0,0,0
+"harmony","Endodermis_lineage","GO:0009415","response to water",0,0,0
+"harmony","Epidermal_initial_like","GO:0009415","response to water",0,0,0
+"harmony","Meristematic_unresolved","GO:0009415","response to water",0,0,0
+"harmony","Pericycle","GO:0009415","response to water",0,0,0
+"harmony","Procambium_like","GO:0009415","response to water",0,0,0
+"harmony","Root_cap","GO:0009415","response to water",0,0,0
+"harmony","Trichoblast_lineage","GO:0009415","response to water",0,0,0
+"harmony","Atrichoblast_lineage","GO:0001101","response to acid chemical",0,0,0
+"harmony","Cortex_lineage","GO:0001101","response to acid chemical",0,0,0
+"harmony","Dividing_meristematic","GO:0001101","response to acid chemical",0,0,0
+"harmony","Endodermis_lineage","GO:0001101","response to acid chemical",0,0,0
+"harmony","Epidermal_initial_like","GO:0001101","response to acid chemical",0,0,0
+"harmony","Meristematic_unresolved","GO:0001101","response to acid chemical",0,0,0
+"harmony","Pericycle","GO:0001101","response to acid chemical",0,0,0
+"harmony","Procambium_like","GO:0001101","response to acid chemical",0,0,0
+"harmony","Root_cap","GO:0001101","response to acid chemical",0,0,0
+"harmony","Trichoblast_lineage","GO:0001101","response to acid chemical",0,0,0
