@@ -1,0 +1,128 @@
+# RStudio entry for a FRESH downstream validation run.
+# Clicking Source defines this function only; it does not start analysis.
+# Run: core2_validate_in_rstudio()
+# Starts from the four existing unfiltered ATAC QC objects. Does not redo FASTQ,
+# alignment, peak recounting or fragment-level QC measurements.
+
+core2_validate_in_rstudio <- function(
+    project_dir = Sys.getenv("P3_ROOT", getwd()),
+    task_dir = Sys.getenv("P3_CORE2_WORK", ""),
+    validation_name = "core2_validation_rstudio",
+    include_marker_plots = FALSE,
+    allow_existing = FALSE,
+    dry_run = FALSE) {
+
+  if (!nzchar(task_dir)) stop("Set P3_CORE2_WORK or supply task_dir; see docs/core2/running.md.")
+  project_dir <- normalizePath(project_dir, mustWork = TRUE)
+  task_dir <- normalizePath(task_dir, mustWork = TRUE)
+  stopifnot(length(validation_name) == 1L,
+            grepl("^core2_validation_[A-Za-z0-9_-]+$", validation_name))
+  destination <- file.path(task_dir, "outputs", validation_name)
+  code <- file.path(project_dir, "scripts", "core2")
+  sources <- c(
+    "00_common.R", "01_pair_and_merge.R", "02_embeddings.R",
+    "03_annotation_and_activity.R", "04_pseudobulk.R",
+    "05_sample_diagnostics.R", "06_export_differential_accessibility.R",
+    "07_P1_contextualization.R", "08_redraw_PCA.R"
+  )
+  stopifnot(all(file.exists(file.path(code, sources))))
+  samples <- c("control_rep1", "control_rep2", "stress_rep1", "stress_rep2")
+  inputs <- file.path(task_dir, "outputs", "core2_qc", samples, "atac_qc_unfiltered.rds")
+  stopifnot(all(file.exists(inputs)))
+  stages <- c("select", "embeddings", "annotation", "pseudobulk", "diagnostics", "da", "p1", "pca")
+  if (include_marker_plots) stages <- append(stages, "markers", after = 3L)
+  if (dry_run) {
+    message("Preview only. No directories created, data loaded or analysis run.")
+    print(data.frame(stage = stages), row.names = FALSE)
+    message("Result directory: ", destination)
+    return(invisible(list(destination = destination, sources = file.path(code, sources), stages = stages)))
+  }
+  if (dir.exists(destination) && !allow_existing) {
+    stop("Validation directory already exists. Choose another validation_name, e.g. ",
+         "'core2_validation_rstudio_02'. Nothing has been overwritten.")
+  }
+
+  # Keep changes to environment/options local to this invocation.
+  variables <- c("P3_ROOT", "P3_CORE2_WORK", "P3_R_LIB", "P3_CORE2_ANALYSIS")
+  previous_env <- Sys.getenv(variables, unset = NA_character_)
+  previous_options <- options(future.globals.maxSize = 8 * 1024^3)
+  on.exit({
+    absent <- is.na(previous_env)
+    if (any(absent)) Sys.unsetenv(names(previous_env)[absent])
+    if (any(!absent)) do.call(Sys.setenv, as.list(previous_env[!absent]))
+    options(previous_options)
+  }, add = TRUE)
+  Sys.setenv(P3_ROOT = project_dir, P3_CORE2_WORK = task_dir,
+    P3_R_LIB = file.path(task_dir, "work", "R_library"), P3_CORE2_ANALYSIS = destination)
+  .libPaths(c(file.path(task_dir, "work", "R_library"), .libPaths()))
+  # Source functions into this call's environment; do not use old global objects.
+  for (file in sources) sys.source(file.path(code, file), envir = environment())
+  core2_require(c("Signac", "Seurat", "DESeq2", "rtracklayer", "ggplot2", "ggrepel", "patchwork", "future"))
+  old_plan <- future::plan(future::sequential)
+  on.exit(future::plan(old_plan), add = TRUE)
+  config <- core2_config()
+  timing <- list()
+  for (stage in stages) {
+    message("\n=== Core 2 validation: ", stage, " ===")
+    start <- Sys.time()
+    switch(stage,
+      select = core2_pair_and_merge(config),
+      embeddings = core2_embeddings(config),
+      annotation = core2_annotation_and_activity(config),
+      markers = core2_marker_and_coverage_plots(config),
+      pseudobulk = core2_pseudobulk(config),
+      diagnostics = core2_sample_diagnostics(config$analysis, show_plots = FALSE),
+      da = core2_export_differential_accessibility(config$analysis),
+      p1 = core2_P1_contextualization(config$work, config$root, config$analysis),
+      pca = core2_redraw_PCA(config$analysis, show_plot = FALSE))
+    timing[[stage]] <- data.frame(stage = stage,
+      elapsed_minutes = as.numeric(difftime(Sys.time(), start, units = "mins")))
+    utils::write.csv(do.call(rbind, timing), file.path(destination, "validation_stage_times.csv"), row.names = FALSE)
+    invisible(gc())
+  }
+
+  # Compare the fresh outputs with the recorded run. Differences are reported,
+  # never resolved by changing thresholds or forcing a target discovery count.
+  original <- file.path(task_dir, "outputs", "core2_analysis")
+  comparisons <- list()
+  record <- function(item, match, detail = "") {
+    comparisons[[length(comparisons) + 1L]] <<- data.frame(item = item, matches_recorded_run = isTRUE(match), detail = detail)
+  }
+  old_pb <- readRDS(file.path(original, "atac_pseudobulk_unfiltered.rds"))
+  new_pb <- readRDS(file.path(destination, "atac_pseudobulk_unfiltered.rds"))
+  same_rows <- identical(core2_ids(rownames(old_pb$counts)), core2_ids(rownames(new_pb$counts)))
+  same_cols <- setequal(core2_ids(colnames(old_pb$counts)), core2_ids(colnames(new_pb$counts)))
+  record("Common peak rows", same_rows)
+  record("Observed sample/population combinations", same_cols)
+  exact_counts <- same_rows && same_cols && Matrix::nnzero(
+    old_pb$counts - new_pb$counts[, core2_ids(colnames(old_pb$counts)), drop = FALSE]) == 0
+  record("All pseudobulk raw counts", exact_counts)
+  review_status <- readLines(file.path(destination, "annotation_review_status.txt"))
+  record("Reviewed ATAC cluster assignments", any(grepl("TRUE", review_status, fixed = TRUE)), paste(review_status, collapse = " "))
+  numeric_fields <- c("log2FoldChange", "lfcSE", "pvalue", "padj")
+  for (population in config$populations) {
+    old <- core2_read_csv(file.path(original, "differential_accessibility", population, "all_peak_results.csv"))
+    fresh <- core2_read_csv(file.path(destination, "differential_accessibility", population, "all_peak_results.csv"))
+    same <- setequal(old$peak, fresh$peak)
+    if (same) {
+      fresh <- fresh[match(old$peak, fresh$peak), , drop = FALSE]
+      same <- all(vapply(numeric_fields, function(field)
+        isTRUE(all.equal(old[[field]], fresh[[field]], tolerance = 1e-7, check.attributes = FALSE)), logical(1)))
+    }
+    record(paste(population, "differential statistics"), same, "Numeric comparison tolerance: 1e-7")
+  }
+  old_p1 <- core2_read_csv(file.path(original, "P1_contextualization", "P1_summary.csv"))
+  new_p1 <- core2_read_csv(file.path(destination, "P1_contextualization", "P1_summary.csv"))
+  record("P1 summary", identical(old_p1, new_p1))
+  comparison <- do.call(rbind, comparisons)
+  utils::write.csv(comparison, file.path(destination, "validation_comparison.csv"), row.names = FALSE)
+  print(comparison, row.names = FALSE)
+  message("\nValidation stages completed. Results: ", destination)
+  if (any(!comparison$matches_recorded_run)) {
+    message("Some comparisons differ. Review them before replacing any recorded result; do not tune parameters to force a match.")
+  }
+  invisible(list(output_dir = destination, comparison = comparison))
+}
+
+message("Loaded. Preview: core2_validate_in_rstudio(dry_run = TRUE)")
+message("Start a fresh downstream validation: validation <- core2_validate_in_rstudio()")

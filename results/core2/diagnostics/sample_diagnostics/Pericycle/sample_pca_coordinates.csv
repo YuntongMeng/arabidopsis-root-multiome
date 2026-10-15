@@ -1,0 +1,5 @@
+"PC1","PC2","group","name","sample","condition","rna_population","n_nuclei","total_peak_counts","median_nuclear_fragments","median_organelle_percent","pseudobulk_id","sizeFactor"
+-2.50334205471482,0.388662312157654,"control:control_rep1","control_rep1","control_rep1","control","Pericycle",150,355111,3053.5,3.57318396240552,"control_rep1__Pericycle",0.682056425966478
+0.140814350682908,-0.231262835150446,"control:control_rep2","control_rep2","control_rep2","control","Pericycle",742,1008944,2093.5,2.9237819937701,"control_rep2__Pericycle",1.95659883699295
+1.59968700665713,1.34503857087886,"stress:stress_rep1","stress_rep1","stress_rep1","stress","Pericycle",356,410310,1644,6.20055557315927,"stress_rep1__Pericycle",0.797122622712121
+0.762840697374791,-1.50243804788606,"stress:stress_rep2","stress_rep2","stress_rep2","stress","Pericycle",363,480686,1778,7.33053654228307,"stress_rep2__Pericycle",0.940053929626842

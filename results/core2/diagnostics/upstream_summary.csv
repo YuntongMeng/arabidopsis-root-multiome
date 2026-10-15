@@ -1,0 +1,5 @@
+sample,run,spots,common_peaks,nuclei_before_QC,unique_fragments_all_whitelist_barcodes_including_organelles,nonzero_matrix_entries,independent_peak_rows_checked,fragments,matrix,checksums_verified,nucleus_QC_applied
+control_rep1,SRR24921616,130436487,27677,3431,49108250,3884627,49,${P3_CORE2_WORK}/outputs/control1_upstream/control1.fragments.tsv.gz,${P3_CORE2_WORK}/outputs/control1_upstream/control1_common_peak_counts.rds,True,False
+control_rep2,SRR24921615,129424454,27677,6631,52986980,8890089,49,${P3_CORE2_WORK}/outputs/control2_upstream/control2.fragments.tsv.gz,${P3_CORE2_WORK}/outputs/control2_upstream/control2_common_peak_counts.rds,True,False
+stress_rep1,SRR24921614,133450323,27677,7827,55366473,10700759,49,${P3_CORE2_WORK}/outputs/stress1_upstream/stress1.fragments.tsv.gz,${P3_CORE2_WORK}/outputs/stress1_upstream/stress1_common_peak_counts.rds,True,False
+stress_rep2,SRR24921613,129510415,27677,6585,53234206,9271346,49,${P3_CORE2_WORK}/outputs/stress2_upstream/stress2.fragments.tsv.gz,${P3_CORE2_WORK}/outputs/stress2_upstream/stress2_common_peak_counts.rds,True,False

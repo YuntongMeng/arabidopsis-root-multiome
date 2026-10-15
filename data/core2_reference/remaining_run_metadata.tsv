@@ -1,0 +1,13 @@
+run_accession	experiment_title	read_count
+SRR24921615	Illumina NovaSeq 6000 sequencing: Col-0,control,rep2,scATAC-seq	129424454
+SRR24921616	Illumina NovaSeq 6000 sequencing: Col-0,control,rep1,scATAC-seq	130436487
+SRR24921617	MGISEQ-2000RS sequencing: Col-0,case,rep2,Cut&Tag,histone H3K4 methylation	93016873
+SRR24921611	Illumina NovaSeq 6000 sequencing: Col-0,control,rep2,scRNA-seq	331975698
+SRR24921612	Illumina NovaSeq 6000 sequencing: Col-0,control,rep1,scRNA-seq	327956156
+SRR24921618	MGISEQ-2000RS sequencing: Col-0,case,rep1,Cut&Tag,histone H3K4 methylation	91496815
+SRR24921619	Illumina NovaSeq 6000 sequencing: Col-0,case,rep2,scRNA-seq	326384987
+SRR24921620	Illumina NovaSeq 6000 sequencing: Col-0,case,rep1,scRNA-seq	342068319
+SRR24921614	Illumina NovaSeq 6000 sequencing: Col-0,case,rep1,scATAC-seq	133450323
+SRR24921613	Illumina NovaSeq 6000 sequencing: Col-0,case,rep2,scATAC-seq	129510415
+SRR24921621	MGISEQ-2000RS sequencing: Col-0,control,rep2,Cut&Tag,histone H3K4 methylation	109080160
+SRR24921622	MGISEQ-2000RS sequencing: Col-0,control,rep1,Cut&Tag,histone H3K4 methylation	104680120

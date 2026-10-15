@@ -1,0 +1,9 @@
+metric,nuclei_compared,nuclei_disagree,max_absolute_difference,tolerance
+total_fragments,3431,0,0.0,0
+nuclear_fragments,3431,0,0.0,0
+fragments_in_common_peaks,3431,0,0.0,0
+nCount_ATAC,3431,0,0.0,0
+nFeature_ATAC,3431,0,0.0,0
+FRiP_nuclear,3431,0,5.551115123125783e-16,1e-08
+percent_organelle,3431,0,5.684341886080802e-14,1e-08
+nucleosome_signal,3431,0,4.884981308350689e-15,1e-08

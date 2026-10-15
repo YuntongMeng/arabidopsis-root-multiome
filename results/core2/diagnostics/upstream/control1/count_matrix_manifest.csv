@@ -1,0 +1,2 @@
+"sample","run","peaks","matrix_nuclei_retained","nonzero_entries","zero_count_nuclei_retained","zero_count_peak_rows_retained","count_unit","nucleus_QC_applied","fixture_test_passed","independent_peak_rows_checked","Signac_version","Matrix_version"
+"control_rep1","SRR24921616",27677,3431,3884627,0,0,"unique deduplicated fragments overlapping each peak; PCR multiplicity ignored",FALSE,TRUE,49,"1.17.1","1.7.6"

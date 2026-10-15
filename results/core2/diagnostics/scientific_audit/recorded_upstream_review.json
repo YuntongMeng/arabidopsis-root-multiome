@@ -1,0 +1,86 @@
+[
+  {
+    "sample": "control_rep1",
+    "run": "SRR24921616",
+    "recorded_stream_checks_pass": true,
+    "method": {
+      "aligner": "Chromap; an ATAC-only reconstruction, not an identical Cell Ranger ARC rerun",
+      "reference": "TAIR10 nuclear chromosomes plus Mt and Pt",
+      "preset": "atac",
+      "MAPQ_min": 30,
+      "max_insert_size": 2000,
+      "barcode_hamming_max": 1,
+      "barcode_correction_probability_min": 0.9,
+      "barcode_format": "reverse complement of I2 bases 9-24 (1-based), then paired ATAC-to-GEX translation",
+      "duplicates": "cell-level deduplication; identical final BED coordinate+barcode rows additionally collapsed",
+      "Tn5_shift": "once, inside Chromap preset: +4 start / -5 end",
+      "count_unit": "one unique fragment per overlapping peak; duplicate_count not multiplied",
+      "common_peak_universe": "union/reduce of original four peak sets, 27677 intervals",
+      "count_matrix_barcodes": "all 3431 barcodes from the supplied Control 1 matrix, original order retained",
+      "nucleus_QC": "not performed; no TSS/FRiP/nucleosome thresholds, no doublet filtering, no clustering"
+    }
+  },
+  {
+    "sample": "control_rep2",
+    "run": "SRR24921615",
+    "recorded_stream_checks_pass": true,
+    "method": {
+      "aligner": "Chromap; an ATAC-only reconstruction, not an identical Cell Ranger ARC rerun",
+      "reference": "TAIR10 nuclear chromosomes plus Mt and Pt",
+      "preset": "atac",
+      "MAPQ_min": 30,
+      "max_insert_size": 2000,
+      "barcode_hamming_max": 1,
+      "barcode_correction_probability_min": 0.9,
+      "barcode_format": "reverse complement of I2 bases 9-24 (1-based), then paired ATAC-to-GEX translation",
+      "duplicates": "cell-level deduplication; identical final BED coordinate+barcode rows additionally collapsed",
+      "Tn5_shift": "once, inside Chromap preset: +4 start / -5 end",
+      "count_unit": "one unique fragment per overlapping peak; duplicate_count not multiplied",
+      "common_peak_universe": "union/reduce of original four peak sets, 27677 intervals",
+      "count_matrix_barcodes": "all 6631 barcodes from the supplied control_rep2 matrix, original order retained",
+      "nucleus_QC": "not performed; no TSS/FRiP/nucleosome thresholds, no doublet filtering, no clustering"
+    }
+  },
+  {
+    "sample": "stress_rep1",
+    "run": "SRR24921614",
+    "recorded_stream_checks_pass": true,
+    "method": {
+      "aligner": "Chromap; an ATAC-only reconstruction, not an identical Cell Ranger ARC rerun",
+      "reference": "TAIR10 nuclear chromosomes plus Mt and Pt",
+      "preset": "atac",
+      "MAPQ_min": 30,
+      "max_insert_size": 2000,
+      "barcode_hamming_max": 1,
+      "barcode_correction_probability_min": 0.9,
+      "barcode_format": "reverse complement of I2 bases 9-24 (1-based), then paired ATAC-to-GEX translation",
+      "duplicates": "cell-level deduplication; identical final BED coordinate+barcode rows additionally collapsed",
+      "Tn5_shift": "once, inside Chromap preset: +4 start / -5 end",
+      "count_unit": "one unique fragment per overlapping peak; duplicate_count not multiplied",
+      "common_peak_universe": "union/reduce of original four peak sets, 27677 intervals",
+      "count_matrix_barcodes": "all 7827 barcodes from the supplied stress_rep1 matrix, original order retained",
+      "nucleus_QC": "not performed; no TSS/FRiP/nucleosome thresholds, no doublet filtering, no clustering"
+    }
+  },
+  {
+    "sample": "stress_rep2",
+    "run": "SRR24921613",
+    "recorded_stream_checks_pass": true,
+    "method": {
+      "aligner": "Chromap; an ATAC-only reconstruction, not an identical Cell Ranger ARC rerun",
+      "reference": "TAIR10 nuclear chromosomes plus Mt and Pt",
+      "preset": "atac",
+      "MAPQ_min": 30,
+      "max_insert_size": 2000,
+      "barcode_hamming_max": 1,
+      "barcode_correction_probability_min": 0.9,
+      "barcode_format": "reverse complement of I2 bases 9-24 (1-based), then paired ATAC-to-GEX translation",
+      "duplicates": "cell-level deduplication; identical final BED coordinate+barcode rows additionally collapsed",
+      "Tn5_shift": "once, inside Chromap preset: +4 start / -5 end",
+      "count_unit": "one unique fragment per overlapping peak; duplicate_count not multiplied",
+      "common_peak_universe": "union/reduce of original four peak sets, 27677 intervals",
+      "count_matrix_barcodes": "all 6585 barcodes from the supplied stress_rep2 matrix, original order retained",
+      "nucleus_QC": "not performed; no TSS/FRiP/nucleosome thresholds, no doublet filtering, no clustering"
+    }
+  }
+]

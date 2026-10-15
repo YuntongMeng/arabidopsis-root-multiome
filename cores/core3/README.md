@@ -1,20 +1,12 @@
-# Project 3 — Core 3
+# Former Core 3 plan: cancelled
 
-[Project 3 overview](../../README.md) · [Core 1 — RNA analysis](../core1/README.md)
+[Project overview](../../README.md) · [Core 1](../core1/README.md) · [Core 2](../core2/README.md)
 
-**Status: planned; not started.**
+**Status: cancelled on 2026-10-15. Project 3 is complete at Core 2.**
 
-This page reserves a place for Core 3 within Project 3. No analysis, executable
-workflow, or results have been produced for this core.
+This page preserves the history of the former placeholder and older links;
+it does not describe a pending analysis. The same-nucleus RNA–ATAC comparison
+was completed within Core 2. No Core 3 workflow or results were produced.
 
-## Research question
-
-To be documented when this planned core is started.
-
-## Analysis overview
-
-To be documented when the workflow is developed.
-
-## Outputs
-
-No outputs yet.
+Read the [final scope decision](../../docs/project_scope.md) for the completed
+deliverables, rationale and retained interpretation limits.

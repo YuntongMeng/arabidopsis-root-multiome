@@ -1,0 +1,118 @@
+# Read-only scientific data-lineage/statistics audit; writes only new audit records.
+task <- getwd()
+project <- '/Users/tt/Documents/arabidopsis_root_multiome'
+.libPaths(c(file.path(task,'work','R_library'),.libPaths()))
+for(p in c('Signac','SeuratObject','GenomicRanges','IRanges','DESeq2','rtracklayer','Matrix')) stopifnot(requireNamespace(p,quietly=TRUE))
+out <- file.path(task,'outputs','core2_scientific_audit_2026-10-13')
+checks <- list()
+check <- function(name,ok,detail='') {
+  checks[[length(checks)+1L]] <<- data.frame(check=name,passed=isTRUE(ok),detail=detail)
+  utils::write.csv(do.call(rbind,checks),file.path(out,'checks.csv'),row.names=FALSE)
+  if(!isTRUE(ok)) stop('AUDIT FAILED: ',name)
+  message('PASS: ',name)
+}
+plain <- function(x){x<-as.character(x);attributes(x)<-NULL;x}
+readcsv <- function(path){if(!file.exists(path))path<-paste0(path,'.gz');utils::read.csv(path,stringsAsFactors=FALSE)}
+samples <- c('control_rep1','control_rep2','stress_rep1','stress_rep2')
+tags <- c('control1','control2','stress1','stress2')
+common <- readRDS('outputs/core2_common_peaks.rds')
+key <- paste(as.character(GenomicRanges::seqnames(common)),GenomicRanges::start(common),GenomicRanges::end(common),sep='-')
+bed <- utils::read.delim('outputs/core2_common_peaks.bed',header=FALSE)
+check('Common BED and GRanges coordinate conversion',all(bed[[2]]+1L==GenomicRanges::start(common))&&all(bed[[3]]==GenomicRanges::end(common))&&all(bed[[1]]==as.character(GenomicRanges::seqnames(common))))
+peak_sets <- list()
+for(s in samples){
+  f<-list.files(file.path(project,'data','rna',s),pattern='features[.]tsv[.]gz$',full.names=TRUE)
+  stopifnot(length(f)==1L)
+  d<-utils::read.delim(f,header=FALSE,quote='',comment.char='')
+  p<-d[d[[3]]=='Peaks',]
+  check(paste(s,'feature types separated'),sum(d[[3]]=='Gene Expression')==32833L&&nrow(p)>0&&all(p[[4]] %in% as.character(1:5)))
+  peak_sets[[s]]<-GenomicRanges::makeGRangesFromDataFrame(data.frame(chr=p[[4]],start=p[[5]],end=p[[6]]),starts.in.df.are.0based=TRUE)
+}
+reduced<-GenomicRanges::reduce(do.call(c,unname(peak_sets)))
+reduced<-reduced[IRanges::width(reduced)>20 & IRanges::width(reduced)<10000]
+check('Common intervals reproduce source Peaks-only union',identical(key,paste(as.character(GenomicRanges::seqnames(reduced)),GenomicRanges::start(reduced),GenomicRanges::end(reduced),sep='-'))&&length(common)==27677L&&GenomicRanges::isDisjoint(common))
+rm(peak_sets,reduced);invisible(gc())
+message('Loading reviewed ATAC object; no transformations will run.')
+object <- readRDS('outputs/core2_analysis/atac_annotated_checkpoint.rds')
+md<-object[[]]
+counts<-SeuratObject::LayerData(object,assay='ATAC',layer='counts')
+cells<-plain(colnames(counts))
+check('Final ATAC rows are nuclear peak intervals, not genes',identical(plain(rownames(counts)),key)&&ncol(counts)==14146L)
+check('Final count matrix is raw nonnegative integer data',all(is.finite(counts@x))&&all(counts@x>=0)&&all(counts@x==round(counts@x)))
+check('Final column metadata match exactly',identical(cells,plain(rownames(md)))&&!anyDuplicated(cells)&&all(cells==paste(md$sample,md$barcode,sep='_')))
+qc<-readcsv('outputs/core2_qc/all_nuclei_qc.csv')
+calls<-readcsv(file.path(project,'results','core1','tables','qc_doublet_calls_all.csv'))
+qc_cell<-paste(qc$sample,qc$barcode,sep='_');k<-match(qc_cell,calls$cell)
+check('Original QC nuclei match exact RNA capture/barcode',!anyNA(k)&&!anyDuplicated(qc_cell)&&all(qc$sample==calls$sample[k])&&all(qc$condition==calls$condition[k]))
+basic<-is.finite(qc$nuclear_fragments)&is.finite(qc$TSS.enrichment)&is.finite(qc$nucleosome_signal)&qc$nuclear_fragments>=1000 & qc$TSS.enrichment>1 & qc$nucleosome_signal<2
+selected<-basic & !is.na(calls$qc_pass[k]) & calls$qc_pass[k] & !is.na(calls$scDblFinder_class[k]) & calls$scDblFinder_class[k]=='singlet'
+check('Final nuclei exactly reproduce ATAC + RNA QC/singlet selection',setequal(cells,qc_cell[selected])&&sum(selected)==14146L)
+ki<-match(cells,qc_cell)
+fields<-c('nuclear_fragments','TSS.enrichment','nucleosome_signal','nCount_ATAC','nFeature_ATAC','FRiP_nuclear','percent_organelle')
+check('Final QC metadata preserve original values',all(vapply(fields,function(f)isTRUE(all.equal(as.numeric(md[[f]]),as.numeric(qc[[f]][ki]),tolerance=1e-12)),logical(1))))
+annotation<-readcsv(file.path(project,'results','core1','tables','annotated_cell_metadata.csv'))
+j<-match(cells,annotation$cell)
+check('RNA populations assigned to the exact same nuclei',!anyNA(j)&&all(md$sample==annotation$sample[j])&&all(md$condition==annotation$condition[j])&&all(md$rna_population==annotation$pca_population[j]))
+for(i in seq_along(samples)){
+  selected_cols<-which(md$sample==samples[i])
+  upstream<-readRDS(file.path('outputs',paste0(tags[i],'_upstream'),paste0(tags[i],'_common_peak_counts.rds')))
+  col_index<-match(md$barcode[selected_cols],plain(colnames(upstream)))
+  check(paste(samples[i],'final raw counts equal upstream peak counts'),!anyNA(col_index)&&identical(plain(rownames(upstream)),key)&&Matrix::nnzero(counts[,selected_cols,drop=FALSE]-upstream[,col_index,drop=FALSE])==0)
+  frags<-Signac::Fragments(object[['ATAC']])
+  match_path<-vapply(frags,function(f)grepl(paste0(tags[i],'.nuclear.fragments.tsv.gz'),Signac::GetFragmentData(f,slot='path'),fixed=TRUE),logical(1))
+  check(paste(samples[i],'nuclear fragment reference exists'),sum(match_path)==1L&&file.exists(Signac::GetFragmentData(frags[[which(match_path)]],slot='path')))
+  rm(upstream);invisible(gc())
+}
+pb<-readRDS('outputs/core2_analysis/atac_pseudobulk_unfiltered.rds')
+check('Pseudobulk uses common peak rows',identical(plain(rownames(pb$counts)),key))
+pbmd<-pb$metadata[match(plain(colnames(pb$counts)),plain(rownames(pb$metadata))),,drop=FALSE]
+groups<-paste(md$sample,md$rna_population,sep='__')
+check('Pseudobulk represents only actually observed groups',setequal(unique(groups),plain(colnames(pb$counts)))&&ncol(pb$counts)==46L)
+for(g in plain(colnames(pb$counts))){
+  take<-which(groups==g)
+  expected<-Matrix::rowSums(counts[,take,drop=FALSE])
+  check(paste('Independent raw-count aggregate',g),all(expected==as.numeric(pb$counts[,g]))&&length(take)==pbmd[g,'n_nuclei'])
+}
+# Release the large object before checking stored model coefficients.
+rm(object,counts);invisible(gc())
+pops<-c('Atrichoblast_lineage','Cortex_lineage','Endodermis_lineage','Pericycle','Root_cap')
+for(pop in pops){
+  d<-pbmd[pbmd$rna_population==pop,,drop=FALSE];d<-d[match(samples,d$sample),,drop=FALSE]
+  m<-as.matrix(pb$counts[,rownames(d),drop=FALSE]);colnames(m)<-samples
+  m<-m[rowSums(m>=10)>=2,,drop=FALSE]
+  model<-readRDS(file.path('outputs/core2_analysis/sample_diagnostics',pop,'deseq2_model.rds'))
+  check(paste(pop,'four biological samples and raw model input'),identical(plain(colnames(DESeq2::counts(model))),samples)&&identical(plain(rownames(DESeq2::counts(model))),plain(rownames(m)))&&all(DESeq2::counts(model)==m)&&all(d$n_nuclei>=50))
+  design<-stats::model.matrix(DESeq2::design(model),as.data.frame(SummarizedExperiment::colData(model)))
+  check(paste(pop,'valid two-group sample design'),identical(as.character(model$condition),c('control','control','stress','stress'))&&nrow(design)==4L&&qr(design)$rank==ncol(design)&&ncol(design)==2L)
+  result<-readcsv(file.path('outputs/core2_analysis/differential_accessibility',pop,'all_peak_results.csv'))
+  coefs<-as.data.frame(S4Vectors::mcols(model)); z<-match(result$peak,rownames(coefs))
+  equal<-function(a,b)isTRUE(all.equal(as.numeric(a),as.numeric(b),tolerance=1e-10,check.attributes=FALSE))
+  check(paste(pop,'exported stress-control coefficient and SE'),!anyNA(z)&&equal(result$log2FoldChange,coefs$condition_stress_vs_control[z])&&equal(result$lfcSE,coefs$SE_condition_stress_vs_control[z]))
+  available<-!is.na(result$pvalue)
+  check(paste(pop,'exported Wald p values equal stored fit'),equal(result$pvalue[available],coefs$WaldPvalue_condition_stress_vs_control[z][available]))
+  check(paste(pop,'Wald statistic matches coefficient/SE'),equal(result$stat,result$log2FoldChange/result$lfcSE))
+  adjusted<-!is.na(result$padj)
+  check(paste(pop,'BH values reproduce within-population correction'),equal(result$padj[adjusted],stats::p.adjust(result$pvalue[adjusted],method='BH')))
+  check(paste(pop,'FDR flag is separate from fold-change priority'),all(result$FDR_significant==(!is.na(result$padj)&result$padj<.05))&&all(result$priority_change==(result$FDR_significant&abs(result$log2FoldChange)>=1)))
+  sig<-which(result$FDR_significant)
+  check(paste(pop,'significant fits converged'),all(coefs$betaConv[z[sig]] %in% TRUE))
+}
+ref<-readcsv('outputs/core2_analysis/P1_contextualization/P1_reference_status.csv')
+mapping<-readcsv('outputs/core2_analysis/P1_contextualization/P1_gene_peak_matches.csv')
+independent<-list()
+chr<-as.character(GenomicRanges::seqnames(common));start<-GenomicRanges::start(common);end<-GenomicRanges::end(common)
+for(i in seq_len(nrow(ref))){
+  tss<-if(ref$strand[i]=='+')ref$gene_start[i] else ref$gene_end[i]
+  lo<-if(ref$strand[i]=='+')tss-2000L else tss-499L
+  hi<-if(ref$strand[i]=='+')tss+499L else tss+2000L
+  body<-chr==ref$chromosome[i]&start<=ref$gene_end[i]&end>=ref$gene_start[i]
+  promoter<-chr==ref$chromosome[i]&start<=hi&end>=max(1,lo)
+  ids<-which(body|promoter)
+  if(length(ids))independent[[length(independent)+1L]]<-data.frame(TAIR=ref$TAIR[i],peak=key[ids],body=body[ids],promoter=promoter[ids])
+}
+independent<-do.call(rbind,independent)
+a<-paste(independent$TAIR,independent$peak,sep='__');b<-paste(mapping$TAIR,mapping$peak,sep='__');i<-match(b,a)
+check('P1 interval mapping reproduces with independent strand arithmetic',setequal(a,b)&&all(independent$body[i]==mapping$overlaps_gene_body)&&all(independent$promoter[i]==mapping$overlaps_TSS_window))
+check('No P1 reference omissions hidden as negative evidence',nrow(ref)==137L&&all(ref$in_reference)&&all(ref$in_nuclear_analysis)&&length(unique(mapping$TAIR))==120L)
+utils::capture.output(utils::sessionInfo(),file=file.path(out,'sessionInfo.txt'))
+message('READ-ONLY SCIENTIFIC AUDIT COMPLETED: ',length(checks),' checks passed.')

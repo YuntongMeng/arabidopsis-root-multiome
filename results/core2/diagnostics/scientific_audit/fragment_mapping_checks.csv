@@ -1,0 +1,5 @@
+"sample","selected_nuclei","raw_barcode_mapping_matches","nuclear_path_matches"
+"control_rep1",1239,TRUE,TRUE
+"control_rep2",3817,TRUE,TRUE
+"stress_rep1",4841,TRUE,TRUE
+"stress_rep2",4249,TRUE,TRUE

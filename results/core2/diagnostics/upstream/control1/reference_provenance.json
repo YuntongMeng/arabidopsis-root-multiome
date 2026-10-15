@@ -1,0 +1,17 @@
+{
+  "url": "https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-62/fasta/arabidopsis_thaliana/dna/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz",
+  "assembly": "TAIR10",
+  "source_release": 62,
+  "download_sha256": "80a13166003333ba4982b57abdb3d2b62037bc831f4da29ea378c1b776fff8e2",
+  "fasta_sha256": "85c83b6dd6820769dae5df190adda7ca0762872d61e5634a91f1d14c8f4fd8ce",
+  "contig_lengths": {
+    "1": 30427671,
+    "2": 19698289,
+    "3": 23459830,
+    "4": 18585056,
+    "5": 26975502,
+    "Mt": 366924,
+    "Pt": 154478
+  },
+  "note": "Includes Mt and Pt for competitive alignment; common peaks are nuclear chromosomes 1\u20135."
+}

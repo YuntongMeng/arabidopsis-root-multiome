@@ -1,0 +1,3 @@
+"check","passed"
+"TAIR10.62 annotation within supplied FASTA contig lengths",TRUE
+"Stored shared TSS strand-aware positions match new GTF import",TRUE

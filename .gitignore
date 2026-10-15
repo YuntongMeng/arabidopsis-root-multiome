@@ -8,3 +8,9 @@
 /data/rna/control_rep*/
 /data/rna/stress_rep*/
 /results/core1/checkpoints/
+
+# Core 2 local sequencing inputs and generated checkpoints
+/data/atac/
+/results/core2/checkpoints/
+__pycache__/
+*.pyc

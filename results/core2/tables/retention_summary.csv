@@ -1,0 +1,5 @@
+sample,initial_nuclei,basic_ATAC_QC,RNA_singlet_retained,RNA_doublet_excluded,RNA_not_tested_excluded
+control_rep1,3431,1417,1239,148,30
+control_rep2,6631,4508,3817,613,78
+stress_rep1,7827,5772,4841,879,52
+stress_rep2,6585,4925,4249,640,36

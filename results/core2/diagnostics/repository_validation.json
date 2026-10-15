@@ -1,0 +1,86 @@
+{
+  "prepared_date": "2026-10-13",
+  "source": "Saved user-run Core 2 outputs; no biological refitting",
+  "R_scripts_parse": {
+    "passed": true,
+    "files": 20
+  },
+  "R_namespace_exports": {
+    "passed": true,
+    "references": 118
+  },
+  "Python_compile": {
+    "passed": true
+  },
+  "CXX_syntax_only": {
+    "passed": true
+  },
+  "synthetic_selection_alignment_pseudobulk": {
+    "passed": true
+  },
+  "saved_pseudobulk_and_five_model_inputs": {
+    "passed": true
+  },
+  "published_tables": {
+    "passed": true,
+    "retained_nuclei": 14146,
+    "common_peaks": 27677,
+    "observed_pseudobulks": 46,
+    "significant_peaks": 1,
+    "P1_candidates": 137,
+    "P1_with_FDR_peak": 0
+  },
+  "saved_coordinate_PCA_redraw": {
+    "passed": true,
+    "real_coordinates_used": true,
+    "PCA_recomputed": false,
+    "equal_xy_unit_scale": true,
+    "outputs": 12
+  },
+  "relative_document_links": {
+    "passed": true,
+    "checked": 117
+  },
+  "actual_repository_git_diff_check": true,
+  "raw_ATAC_directory_ignored": true,
+  "Core1_analysis_and_frozen_results_unchanged": true,
+  "upstream_portability_rerun": false,
+  "remaining_review": "No pending Core 3 work. Scientific interpretation limits remain; fresh FASTQ/upstream/QC reconstruction is not claimed.",
+  "assembled_downstream_real_data_rerun": {
+    "passed": true,
+    "performed_by": "User in RStudio",
+    "start": "Existing unfiltered ATAC QC objects",
+    "comparison_items": 10,
+    "all_match": true,
+    "statistic_tolerance": 1e-07
+  },
+  "from_FASTQ_to_final_results_rerun": false,
+  "local_commit_status": "Core 2 commit a008657 prepared; scope-closure commit follows. Consult git history for current commit.",
+  "independent_scientific_audit": {
+    "count_model_mapping_checks": 111,
+    "all_pass": true,
+    "fragment_mapping_and_annotation_checks": true,
+    "models_refitted": false
+  },
+  "portable_RStudio_entry": {
+    "path_only_adaptation": true,
+    "parse_and_dry_run": "PASS; no analysis or destination directory created",
+    "fresh_biological_rerun_of_adapted_entry": false
+  },
+  "prepared_payload_files": 178,
+  "published_text_format": "LF; session-log trailing blanks trimmed for publication; exact executed-source archives preserved",
+  "closure_date": "2026-10-15",
+  "project_scope": {
+    "completed_cores": [
+      1,
+      2
+    ],
+    "core3": "cancelled",
+    "status": "complete within agreed scope"
+  },
+  "publication": {
+    "authorized_by_user": true,
+    "authorization_date": "2026-10-15",
+    "outcome_record": "Verify actual remote commit; recorded after upload in local task workspace, not asserted by this pre-push validation snapshot."
+  }
+}

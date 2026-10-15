@@ -1,4 +1,4 @@
-# Core 1 inputs and provenance
+# Project 3 inputs and provenance
 
 The four processed Multiome matrices come from [GEO GSE235495](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235495). The GEO archive name `RAW.tar` does not mean it contains unfiltered empty droplets.
 
@@ -20,3 +20,35 @@ Original matrices and large RDS checkpoints are excluded from Git. After restori
 Current large CSV tables are published as lossless `.csv.gz` copies; smaller tables remain CSV. A rerun writes ordinary CSV locally. Read a compressed published table with `utils::read.csv(gzfile("path/to/table.csv.gz"))`. The two full frozen tables needed by script 07 are also distributed in gzip form, and its reader accepts either form. The frozen originals have not been edited.
 
 The [core1-v1 release](https://github.com/YuntongMeng/arabidopsis-root-multiome/releases/tag/core1-v1) is a historical mixed-input snapshot, **not the corrected analysis**. Do not restore its scripts/results over the current workflow. Its numerical conclusions have been superseded; it remains available for the decision trail.
+
+
+## Core 2 ATAC inputs and local workspace
+
+The same mixed-feature GEO matrices provide original `Peaks` intervals, distinct
+from the `Gene Expression` rows used for RNA. The ATAC SRA run mapping is:
+
+| Sample | SRA run | Initial matrix barcodes |
+| --- | --- | ---: |
+| control_rep1 | SRR24921616 | 3,431 |
+| control_rep2 | SRR24921615 | 6,631 |
+| stress_rep1 | SRR24921614 | 7,827 |
+| stress_rep2 | SRR24921613 | 6,585 |
+
+Technical read streams preserve the capture barcodes. ATAC-to-GEX translation uses
+paired ARC whitelist order; reads are aligned against TAIR10 including Mt/Pt before
+nuclear-only copies are generated. Fragments count deduplicated records, not column5
+PCR weights. These were reconstructed with Chromap, not by an identical ARC rerun.
+
+Reference: Ensembl Plants release62 TAIR10 toplevel FASTA and TAIR10.62 GTF.
+[Recorded upstream provenance](../results/core2/diagnostics/upstream/) includes
+reference/artifact hashes and software versions; [local recovery instructions](core2/running.md)
+explain the external workspace and runtime requirements. Raw SRA, FASTQ, BAM,
+fragments, local tools and RDS checkpoints are not included in Git. `data/atac/`
+is a local raw-data directory and is ignored.
+
+Common interval BED and reviewed cell/cluster assignments are in
+[data/core2_reference](../data/core2_reference/). Public diagnostic paths use
+`${P3_CORE2_WORK}` and `${P3_ROOT}` placeholders; original machine-specific records
+remain local. The [validation report](core2/validation.md) distinguishes recorded
+analysis checks from newly assembled-code tests. A clean-machine upstream or full
+new downstream run has not been claimed.

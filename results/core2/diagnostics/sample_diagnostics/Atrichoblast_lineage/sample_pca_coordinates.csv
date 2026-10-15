@@ -1,0 +1,5 @@
+"PC1","PC2","group","name","sample","condition","rna_population","n_nuclei","total_peak_counts","median_nuclear_fragments","median_organelle_percent","pseudobulk_id","sizeFactor"
+-2.00315672935793,0.538448000393156,"control:control_rep1","control_rep1","control_rep1","control","Atrichoblast_lineage",361,1449547,5872,1.07545533391154,"control_rep1__Atrichoblast_lineage",0.587701622537564
+0.0460083880198926,-1.72446933430809,"control:control_rep2","control_rep2","control_rep2","control","Atrichoblast_lineage",1020,2457878,3727.5,0.98827864324338,"control_rep2__Atrichoblast_lineage",0.990827792255382
+1.02901170381267,0.566502098766513,"stress:stress_rep1","stress_rep1","stress_rep1","stress","Atrichoblast_lineage",1745,3349286,3002,2.18811234487263,"stress_rep1__Atrichoblast_lineage",1.37806623625442
+0.928136637525364,0.619519235148419,"stress:stress_rep2","stress_rep2","stress_rep2","stress","Atrichoblast_lineage",1562,3031489,3052.5,2.15427728278894,"stress_rep2__Atrichoblast_lineage",1.24616295908845

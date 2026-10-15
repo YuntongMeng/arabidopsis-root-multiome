@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "original_fragment_sha256_matches_upstream_manifest": true,
+    "full_fragment_rows_match_upstream_manifest": true,
+    "contig_counts_match_upstream_manifest": true,
+    "nuclear_file_is_exact_original_nuclear_subset": true,
+    "complete_count_matrix_matches_independent_recount": true,
+    "all_eight_qc_metrics_match": true,
+    "original_inputs_unmodified": true
+  },
+  "fragment_rows_scanned": 49108250,
+  "matrix_dimensions": [
+    27677,
+    3431
+  ],
+  "matrix_positions": 94959787,
+  "matrix_nonzero_entries_compared": 3884627,
+  "matrix_mismatched_existing_entries": 0,
+  "matrix_unexpected_nonzero_entries": 0,
+  "mismatch_examples": [],
+  "contig_counts": {
+    "1": 9664277,
+    "2": 6274302,
+    "3": 7324209,
+    "4": 5553083,
+    "5": 8478158,
+    "Mt": 6229285,
+    "Pt": 5584936
+  },
+  "input_sha256": {
+    "${P3_CORE2_WORK}/outputs/core2_qc/control_rep1/nucleus_qc.csv": "e8d0ef54b7c5c2f7ce7dfade03a5d4d45fbe01c51f1ce50546a1b36adbdb0d07",
+    "${P3_CORE2_WORK}/outputs/control1_upstream/control1.fragments.tsv.gz": "fa51cf8aec7c48db73118216d37d7a28abbbaf7f772a7ffe51f1db5d385ba0d0",
+    "${P3_CORE2_WORK}/outputs/control1_upstream/control1.nuclear.fragments.tsv.gz": "26551a3e0cf52c6394062854d1ab5e352f47f57fd87266096ecb94b5212021f0"
+  },
+  "nucleosome_definition": "free length <147; mono 147<length<294; 147/294 excluded (Signac source)",
+  "no_filtering_applied": true,
+  "elapsed_seconds": 69.84
+}

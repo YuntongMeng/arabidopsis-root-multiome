@@ -1,0 +1,16 @@
+[
+  {
+    "kind": "gex",
+    "url": "https://teichlab.github.io/scg_lib_structs/data/10X-Genomics/gex_737K-arc-v1.txt.gz",
+    "sha256": "1279bb7ba28ddcd805e2f16ebd5d6933b7b1e7f128e18aabfe6ae8cd7b7bf710",
+    "rows": 736320,
+    "source": "Teichmann laboratory mirror of Cell Ranger ARC barcode lists; not downloaded directly from 10x"
+  },
+  {
+    "kind": "atac",
+    "url": "https://teichlab.github.io/scg_lib_structs/data/10X-Genomics/atac_737K-arc-v1.txt.gz",
+    "sha256": "9a4c8f29a05f59b9a4d7525a2f44d1778ccfa540a8832ad9f5f84047f374cc26",
+    "rows": 736320,
+    "source": "Teichmann laboratory mirror of Cell Ranger ARC barcode lists; not downloaded directly from 10x"
+  }
+]

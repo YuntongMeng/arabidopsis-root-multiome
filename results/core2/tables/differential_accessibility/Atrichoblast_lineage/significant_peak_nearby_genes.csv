@@ -1,0 +1,4 @@
+"peak","gene_id","gene_name","gene_biotype","chromosome","gene_start","gene_end","strand","TSS_position","TSS_distance_bp","overlaps_gene_body"
+"4-5457000-5457860","AT4G08570","AT4G08570","protein_coding","4",5454580,5456100,"-",5456100,900,FALSE
+"4-5457000-5457860","AT4G08580","AT4G08580","protein_coding","4",5461398,5463907,"+",5461398,3538,FALSE
+"4-5457000-5457860","AT4G08560","PUM15","protein_coding","4",5450434,5453183,"+",5450434,6566,FALSE

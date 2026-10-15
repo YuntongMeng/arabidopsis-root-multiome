@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-11T01:32:13.798855+00:00",
+  "input_mapping_rows": 53234206,
+  "unique_fragments": 53234206,
+  "read_pair_support": 98479647,
+  "additional_identical_rows_collapsed": 0,
+  "fragments_by_contig": {
+    "1": 11465269,
+    "2": 7023186,
+    "3": 8606017,
+    "4": 6554740,
+    "5": 10023863,
+    "Mt": 3920798,
+    "Pt": 5640333
+  },
+  "barcodes_with_fragments": 287418,
+  "existing_matrix_nuclei": 6585,
+  "matrix_nuclei_with_fragments": 6585,
+  "matrix_nuclei_without_fragments": [],
+  "fragments_sha256": "647ca6f886958e3b2235edae4e0dd149d884a730691cf1b1607d3dcc5cfd05e0",
+  "index_sha256": "6561fc7c53878bf7a544605e3eeff50b37755ce6eddac330b338d8897b26e234",
+  "bed_coordinates": "0-based half-open, Tn5 shifted once by Chromap ATAC preset",
+  "barcode_format": "paired GEX barcode plus -1; all valid-whitelist barcodes retained",
+  "scope": "Upstream technical validation only; no nucleus QC thresholds, no cell calling."
+}

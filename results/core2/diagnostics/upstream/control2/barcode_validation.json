@@ -1,0 +1,56 @@
+{
+  "sample": "control_rep2",
+  "records": 10000,
+  "streams_synchronized": true,
+  "read_lengths": [
+    8,
+    24,
+    50,
+    50
+  ],
+  "modes": [
+    {
+      "mode": "first16",
+      "exact_whitelist_matches": 0,
+      "records_matching_matrix": 0,
+      "distinct_matrix_nuclei": 0
+    },
+    {
+      "mode": "last16",
+      "exact_whitelist_matches": 0,
+      "records_matching_matrix": 0,
+      "distinct_matrix_nuclei": 0
+    },
+    {
+      "mode": "rc_first16",
+      "exact_whitelist_matches": 0,
+      "records_matching_matrix": 0,
+      "distinct_matrix_nuclei": 0
+    },
+    {
+      "mode": "rc_last16",
+      "exact_whitelist_matches": 9724,
+      "records_matching_matrix": 3218,
+      "distinct_matrix_nuclei": 1829
+    }
+  ],
+  "selected_format": "r1:0:-1,r2:0:-1,bc:8:23:-",
+  "matrix_nuclei": 6631,
+  "barcode_source": [
+    {
+      "kind": "gex",
+      "url": "https://teichlab.github.io/scg_lib_structs/data/10X-Genomics/gex_737K-arc-v1.txt.gz",
+      "sha256": "1279bb7ba28ddcd805e2f16ebd5d6933b7b1e7f128e18aabfe6ae8cd7b7bf710",
+      "rows": 736320,
+      "source": "Teichmann laboratory mirror of Cell Ranger ARC barcode lists; not downloaded directly from 10x"
+    },
+    {
+      "kind": "atac",
+      "url": "https://teichlab.github.io/scg_lib_structs/data/10X-Genomics/atac_737K-arc-v1.txt.gz",
+      "sha256": "9a4c8f29a05f59b9a4d7525a2f44d1778ccfa540a8832ad9f5f84047f374cc26",
+      "rows": 736320,
+      "source": "Teichmann laboratory mirror of Cell Ranger ARC barcode lists; not downloaded directly from 10x"
+    }
+  ],
+  "limits": "First 10,000 spots, not random. Exact match pilot, not a nucleus QC retention estimate."
+}

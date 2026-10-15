@@ -1,0 +1,97 @@
+{
+  "status": "upstream_complete_before_nucleus_QC",
+  "completed_utc": "2026-10-11T01:16:50.531436+00:00",
+  "sample": "stress_rep1",
+  "sra_accession": "SRR24921614",
+  "sra_path": "${P3_CORE2_WORK}/work/raw_sra/SRR24921614/SRR24921614.sra",
+  "sra_bytes": 5537979214,
+  "sra_sha256": "4d1b4e27553311b109140dc93be84e7f087c97405a7ba7341d8028bdd97f9394",
+  "sra_public_url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR24921614/SRR24921614",
+  "software": {
+    "chromap": "0.3.2-r518",
+    "fasterq_dump": "${P3_CORE2_WORK}/work/tools/sratoolkit.3.4.1-mac-arm64/bin/fasterq-dump : 3.4.1",
+    "samtools": "samtools 1.24\nUsing htslib 1.24\nCopyright (C) 2026 Genome Research Ltd.\n\nSamtools compilation details:\n    Features:       build=configure curses=yes \n    CC:             arm64-apple-darwin20.0.0-clang -std=gnu23\n    CPPFLAGS:       -D_FORTIFY_SOURCE=2 -isystem ${P3_CORE2_WORK}/work/atac_env/include -mmacosx-version-min=11.3 -mmacosx-version-min=11.0\n    CFLAGS:         -Wall -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem ${P3_CORE2_WORK}/work/atac_env/include -fdebug-prefix-map=/opt/mambaforge/envs/bioconda/conda-bld/samtools_1790988470462/work=/usr/local/src/conda/samtools-1.24 -fdebug-prefix-map=${P3_CORE2_WORK}/work/atac_env=/usr/local/src/conda-prefix\n    LDFLAGS:        -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,${P3_CORE2_WORK}/work/atac_env/lib -L${P3_CORE2_WORK}/work/atac_env/lib\n    HTSDIR:         \n    LIBS:           \n    CURSES_LIB:     -ltinfow -lncursesw\n\nHTSlib compilation details:\n    Features:       build=configure libcurl=yes S3=yes GCS=yes libdeflate=yes lzma=yes bzip2=yes plugins=yes plugin-path=${P3_CORE2_WORK}/work/atac_env/libexec/htslib htscodecs=1.6.7\n    CC:             arm64-apple-darwin20.0.0-clang -std=gnu23\n    CPPFLAGS:       -D_FORTIFY_SOURCE=2 -isystem ${P3_CORE2_WORK}/work/atac_env/include -mmacosx-version-min=11.3 -mmacosx-version-min=11.0\n    CFLAGS:         -Wall -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem ${P3_CORE2_WORK}/work/atac_env/include -fdebug-prefix-map=/opt/mambaforge/envs/bioconda/conda-bld/htslib_1783611483345/work=/usr/local/src/conda/htslib-1.24 -fdebug-prefix-map=${P3_CORE2_WORK}/work/atac_env=/usr/local/src/conda-prefix -fvisibility=hidden\n    LDFLAGS:        -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,${P3_CORE2_WORK}/work/atac_env/lib -L${P3_CORE2_WORK}/work/atac_env/lib -fvisibility=hidden -rdynamic\n\nHTSlib URL scheme handlers present:\n    built-in:\t file, preload, data\n    Google Cloud Storage:\t gs+http, gs+https, gs\n    libcurl:\t gophers, smtp, wss, rtsp, tftp, mqtts, pop3, imaps, pop3s, ws, ftps, ftp, gopher, imap, http, https, sftp, smtps, scp, dict, mqtt, telnet\n    Amazon S3:\t s3+https, s3, s3+http\n    crypt4gh-needed:\t crypt4gh\n    mem:\t mem",
+    "bgzip": "bgzip (htslib) 1.24\nCopyright (C) 2026 Genome Research Ltd.",
+    "tabix": "tabix (htslib) 1.24\nCopyright (C) 2026 Genome Research Ltd."
+  },
+  "method": {
+    "aligner": "Chromap; an ATAC-only reconstruction, not an identical Cell Ranger ARC rerun",
+    "reference": "TAIR10 nuclear chromosomes plus Mt and Pt",
+    "preset": "atac",
+    "MAPQ_min": 30,
+    "max_insert_size": 2000,
+    "barcode_hamming_max": 1,
+    "barcode_correction_probability_min": 0.9,
+    "barcode_format": "reverse complement of I2 bases 9-24 (1-based), then paired ATAC-to-GEX translation",
+    "duplicates": "cell-level deduplication; identical final BED coordinate+barcode rows additionally collapsed",
+    "Tn5_shift": "once, inside Chromap preset: +4 start / -5 end",
+    "count_unit": "one unique fragment per overlapping peak; duplicate_count not multiplied",
+    "common_peak_universe": "union/reduce of original four peak sets, 27677 intervals",
+    "count_matrix_barcodes": "all 7827 barcodes from the supplied stress_rep1 matrix, original order retained",
+    "nucleus_QC": "not performed; no TSS/FRiP/nucleosome thresholds, no doublet filtering, no clustering"
+  },
+  "artifacts": [
+    {
+      "path": "${P3_CORE2_WORK}/outputs/stress1_upstream/stress1.fragments.tsv.gz",
+      "bytes": 545435046,
+      "sha256": "8c8d3e290414bc6853a6d9037d2c2a29b1f6920106425307aad3293c4de20dff"
+    },
+    {
+      "path": "${P3_CORE2_WORK}/outputs/stress1_upstream/stress1.fragments.tsv.gz.tbi",
+      "bytes": 133941,
+      "sha256": "e06b1d16dde9ecc12d3eac2d397e6751f35dba02892993565b9c85b011c45ca9"
+    },
+    {
+      "path": "${P3_CORE2_WORK}/outputs/stress1_upstream/stress1_common_peak_counts.rds",
+      "bytes": 26756478,
+      "sha256": "5ffb224828118cf926b6e5d57ddec0a874cd4569e2b2c5d9dfd8efb7541387ff"
+    },
+    {
+      "path": "${P3_CORE2_WORK}/outputs/stress1_upstream/common_peaks.rds",
+      "bytes": 144755,
+      "sha256": "510538b3170e3417abb37348e04e5195de8dfea4d07611e6e7899279564e387b"
+    },
+    {
+      "path": "${P3_CORE2_WORK}/outputs/stress1_upstream/common_peaks.tsv",
+      "bytes": 1053208,
+      "sha256": "ea1282626c0101510bcb3156c913fe6d0fb315fc85ccaa196dc5db56ff9548dc"
+    },
+    {
+      "path": "${P3_CORE2_WORK}/outputs/stress1_upstream/matrix_barcodes.tsv",
+      "bytes": 148713,
+      "sha256": "8cba376d4a70c23c410ae1d673aedb113fa4b1a1eb78dba40fdb9b24817eaadc"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "${P3_CORE2_WORK}/outputs/core2_sample_upstream.py",
+      "sha256": "0cd2c9ebd37d3af490683c1c83a0ddd8e0298e3e6ac5a32173c34f289fbb24f8"
+    },
+    {
+      "path": "${P3_CORE2_WORK}/outputs/core2_count_common_peaks.R",
+      "sha256": "b789333a63ba36614f6cd7c70f0a10bdd046dae52d68a4d25182c5984e48972d"
+    },
+    {
+      "path": "${P3_CORE2_WORK}/outputs/core2_validate_fastq.cpp",
+      "sha256": "b135adca21fbb4d81e02a5846752d9b267a74c89da43a9aa6c82ae396090fd81"
+    },
+    {
+      "path": "${P3_CORE2_WORK}/outputs/core2_download_remaining.py",
+      "sha256": "be45817ee002ba3e636d43a903f6c1248a5b8acaa768a0656ef9a201453355d5"
+    }
+  ],
+  "sources": {
+    "chromap": "https://github.com/haowenz/chromap",
+    "chromap_paper": "https://doi.org/10.1038/s41467-021-26865-w",
+    "sra_export": "https://github.com/ncbi/sra-tools/wiki/HowTo:-fasterq-dump",
+    "signac_common_peaks": "https://stuartlab.org/signac/articles/merging",
+    "barcode_pairing": "https://scg-lib-structs.readthedocs.io/en/latest/multi/10x_multiome.html"
+  },
+  "limits": [
+    "Mapping and counting differ from the original Cell Ranger ARC pipeline; original cut-site counts are not numerically interchangeable with new fragment-overlap counts.",
+    "Paired barcode references are from the documented Teichmann laboratory mirror; hashes and provenance saved separately.",
+    "Existing matrix barcodes were supplied by the study; retaining them is not new cell calling and does not certify nucleus quality.",
+    "Reconstructed fragments preserve organellar alignments; the count matrix is restricted to the common nuclear peak universe.",
+    "Core 1 results and the completed Control 1 outputs were not modified."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "performed_by": "User in RStudio",
+  "recorded_date": "2026-10-13",
+  "scope": "Fresh downstream run from the four existing unfiltered ATAC QC objects",
+  "stages": [
+    "select",
+    "embeddings",
+    "annotation",
+    "pseudobulk",
+    "diagnostics",
+    "da",
+    "p1",
+    "pca"
+  ],
+  "comparison_items": 10,
+  "all_comparisons_match": true,
+  "statistic_tolerance": 1e-07,
+  "all_pseudobulk_raw_counts_match_exactly": true,
+  "cell_level_ATAC_cluster_assignments_match": true,
+  "excluded": [
+    "FASTQ reconstruction/alignment",
+    "common-peak recount from fragments",
+    "new fragment-level QC computation",
+    "optional marker and coverage plot stage"
+  ],
+  "output_directory": "${P3_CORE2_WORK}/outputs/core2_validation_rstudio",
+  "entry_point_sha256": "eee80f97cbde3509bf6af3ad2447c0674a9d2962ea1774da99e4adf3ccea86bb",
+  "stage_source_sha256": {
+    "scripts/core2/00_common.R": "3d53718b8bd8f11efc98fbbeed9dc7dc68c4cac4ca7028a36b6b1853f6841c19",
+    "scripts/core2/01_pair_and_merge.R": "3e8fd30dd4da5d5eb62f0ca593e1f8d083b58cb609619832c3231aa1ff75744e",
+    "scripts/core2/02_embeddings.R": "6d571c52e89d71081b5121d1e6be6cd16e4e21321ec002ffa8e2619bab7201d3",
+    "scripts/core2/03_annotation_and_activity.R": "d3a773099e9b8c56895221921fdf3a899a3a733dc5daee994ba7669f9d571f0a",
+    "scripts/core2/04_pseudobulk.R": "6fffe8a86d28a37935b641e344bc3f50350362b3aa03b2ba4e1625a775a42c7a",
+    "scripts/core2/05_sample_diagnostics.R": "27055e9a46663d2d851306f638a700c061df7f665450e03e7adadd73de7aafc0",
+    "scripts/core2/06_export_differential_accessibility.R": "0229b212231c43b822d9a4fe01e91dbacd17906ee1e8ddff9c055efc9588ff74",
+    "scripts/core2/07_P1_contextualization.R": "4f0db55ab434121ae13d7aa6aa86575f88e8d24d0913c25106153616c7b8b93c",
+    "scripts/core2/08_redraw_PCA.R": "59d93a1d9c59f40e7497711e039d0695488654c96d6276b1f2bb23ac74bac28c"
+  },
+  "executed_entry_point_archive": "executed_entry_point.R.txt",
+  "repository_entry_point": "scripts/core2/validate_in_rstudio.R",
+  "repository_entry_adaptation": "Only project/workspace defaults and a missing-workspace check were adapted; no additional real-data rerun is claimed."
+}

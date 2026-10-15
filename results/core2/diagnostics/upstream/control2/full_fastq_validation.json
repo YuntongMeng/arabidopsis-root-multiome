@@ -1,0 +1,27 @@
+{
+  "streams": [
+    {
+      "file": "SRR24921615_1.fastq",
+      "records": 129424454,
+      "sequence_length": 8
+    },
+    {
+      "file": "SRR24921615_2.fastq",
+      "records": 129424454,
+      "sequence_length": 24
+    },
+    {
+      "file": "SRR24921615_3.fastq",
+      "records": 129424454,
+      "sequence_length": 50
+    },
+    {
+      "file": "SRR24921615_4.fastq",
+      "records": 129424454,
+      "sequence_length": 50
+    }
+  ],
+  "every_spot_id_checked": true,
+  "synchronized": true,
+  "sequence_quality_lengths_checked": true
+}

@@ -1,0 +1,31 @@
+.libPaths(c(file.path(getwd(),'work','R_library'),.libPaths()))
+stopifnot(requireNamespace('Signac',quietly=TRUE),requireNamespace('rtracklayer',quietly=TRUE))
+out<-'outputs/core2_scientific_audit_2026-10-13'
+object<-readRDS('outputs/core2_analysis/atac_annotated_checkpoint.rds')
+md<-object[[]]; cells<-rownames(md)
+frags<-Signac::Fragments(object[['ATAC']])
+rows<-list(); mapped<-character()
+for(i in seq_along(frags)){
+  f<-frags[[i]]; path<-Signac::GetFragmentData(f,slot='path'); map<-Signac::GetFragmentData(f,slot='cells')
+  used<-intersect(names(map),cells); k<-match(used,cells)
+  stopifnot(length(used)>0L,all(unname(map[used])==md$barcode[k]),length(unique(md$sample[k]))==1L)
+  sample<-unique(md$sample[k]);tag<-c(control_rep1='control1',control_rep2='control2',stress_rep1='stress1',stress_rep2='stress2')[[sample]]
+  stopifnot(basename(path)==paste0(tag,'.nuclear.fragments.tsv.gz'))
+  mapped<-c(mapped,used)
+  rows[[i]]<-data.frame(sample=sample,selected_nuclei=length(used),raw_barcode_mapping_matches=TRUE,nuclear_path_matches=TRUE)
+}
+stopifnot(length(mapped)==length(cells),!anyDuplicated(mapped),setequal(mapped,cells))
+utils::write.csv(do.call(rbind,rows),file.path(out,'fragment_mapping_checks.csv'),row.names=FALSE)
+rm(object);invisible(gc())
+a<-rtracklayer::import('work/annotation/Arabidopsis_thaliana.TAIR10.62.gtf.gz')
+lengths<-c('1'=30427671,'2'=19698289,'3'=23459830,'4'=18585056,'5'=26975502,'Mt'=366924,'Pt'=154478)
+chr<-as.character(GenomicRanges::seqnames(a))
+stopifnot(all(chr %in% names(lengths)),all(GenomicRanges::start(a)>=1L),all(GenomicRanges::end(a)<=unname(lengths[chr])))
+# Verify the stored shared TSS set against a new import, without counting insertions.
+g<-a[which(a$type=='gene'&a$gene_biotype=='protein_coding'&chr %in% as.character(1:5))]
+expected<-unique(GenomicRanges::resize(g,width=1L,fix='start'))
+stored<-readRDS('outputs/core2_qc/shared_tss_positions.rds')
+key<-function(x)paste(as.character(GenomicRanges::seqnames(x)),GenomicRanges::start(x),as.character(GenomicRanges::strand(x)),sep=':')
+stopifnot(identical(key(expected),key(stored)))
+utils::write.csv(data.frame(check=c('TAIR10.62 annotation within supplied FASTA contig lengths','Stored shared TSS strand-aware positions match new GTF import'),passed=TRUE),file.path(out,'annotation_checks.csv'),row.names=FALSE)
+cat('Fragment-to-nucleus mappings, TAIR10 annotation coordinates and shared TSS position checks PASS.\n')

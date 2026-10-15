@@ -1,6 +1,6 @@
 # Project 3 — Core 1: corrected RNA analysis under osmotic stress
 
-[Project 3 overview](../../README.md) · [Core 2 — planned](../core2/README.md) · [Core 3 — planned](../core3/README.md)
+[Project 3 overview](../../README.md) · [Core 2 — ATAC and paired RNA](../core2/README.md) · [Final project scope](../../docs/project_scope.md)
 
 Core 1 studies wild-type root-tip transcription under sorbitol osmotic stress and contextualizes Project 1 BRL3 × drought candidates. The first version mistakenly included ATAC peaks in its RNA assay. Its scripts and results are preserved as historical evidence; the corrected analysis starts with gene-expression rows only.
 

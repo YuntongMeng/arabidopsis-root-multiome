@@ -1,0 +1,6 @@
+"population","peaks","samples","counts_match","condition_match","min_nuclei"
+"Atrichoblast_lineage",27634,4,TRUE,TRUE,361
+"Cortex_lineage",27384,4,TRUE,TRUE,117
+"Endodermis_lineage",25508,4,TRUE,TRUE,109
+"Pericycle",23757,4,TRUE,TRUE,150
+"Root_cap",2487,4,TRUE,TRUE,83

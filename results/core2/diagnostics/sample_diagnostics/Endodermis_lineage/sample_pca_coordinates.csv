@@ -1,0 +1,5 @@
+"PC1","PC2","group","name","sample","condition","rna_population","n_nuclei","total_peak_counts","median_nuclear_fragments","median_organelle_percent","sizeFactor"
+-3.172554394973,0.0536472968358688,"control:control_rep1","control_rep1","control_rep1","control","Endodermis_lineage",109,242982,3715,3.6,0.419423985543554
+0.887809737230111,-0.93715847751519,"control:control_rep2","control_rep2","control_rep2","control","Endodermis_lineage",473,728664,2295,2.42018537590113,1.28508132322999
+1.16441083870873,0.281097358723831,"stress:stress_rep1","stress_rep1","stress_rep1","stress","Endodermis_lineage",575,786840,2045,4.16666666666667,1.39189654203564
+1.12033381903416,0.602413821955495,"stress:stress_rep2","stress_rep2","stress_rep2","stress","Endodermis_lineage",528,752846,2057,3.9694196878361,1.33293560700599

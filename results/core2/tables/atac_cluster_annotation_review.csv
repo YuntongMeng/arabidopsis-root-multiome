@@ -1,0 +1,6 @@
+"atac_cluster","description","RNA_evidence","ATAC_evidence","interpretation_limit"
+"0","Atrichoblast-dominant mixed","Atrichoblast 54.2%; Cortex 19.5%; other populations present","GL2 signal relatively strong; not exclusive to this cluster","Mixed cluster; do not treat as a pure Atrichoblast population"
+"1","Endodermis-dominant","Endodermis 69.5%","SCR and MYB36 signals relatively strong; SCR coverage present across samples and other clusters","Predominant RNA identity with partial ATAC support"
+"2","Pericycle-dominant","Pericycle 66.8%","DOT1 signal relatively strong; LBD14 and XPP signals weak","Predominant RNA identity with partial ATAC support"
+"3","Meristematic-related mixed","Meristematic_unresolved 35.8%; Dividing_meristematic 26.3%; Epidermal_initial_like 20.3%","Current marker panel does not resolve a single lineage","State-related mixed cluster; precise identity unresolved"
+"4","Mixed: Root_cap/Cortex/Atrichoblast","Root_cap 27.3%; Cortex 20.7%; Atrichoblast 19.0%","SMB and BRN1 signals relatively strong; RNA identities mixed","Mixed cluster; do not assign a single cell type"

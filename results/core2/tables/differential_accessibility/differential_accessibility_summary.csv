@@ -1,0 +1,6 @@
+"population","peaks_in_model","peaks_with_adjusted_p","FDR_significant","higher_in_stress_2fold","lower_in_stress_2fold","priority_with_direction_support","analysis_status"
+"Atrichoblast_lineage",27634,27634,1,1,0,1,"Replicate_and_region_review_required"
+"Cortex_lineage",27384,27384,0,0,0,0,"Replicate_and_region_review_required"
+"Endodermis_lineage",25508,25508,0,0,0,0,"Replicate_and_region_review_required"
+"Pericycle",23757,23757,0,0,0,0,"Replicate_and_region_review_required"
+"Root_cap",2487,2487,0,0,0,0,"Exploratory_low_sample_reproducibility"

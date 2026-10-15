@@ -1,0 +1,5 @@
+"PC1","PC2","group","name","sample","condition","rna_population","n_nuclei","total_peak_counts","median_nuclear_fragments","median_organelle_percent","pseudobulk_id","sizeFactor"
+-2.59155159016425,-2.52653968836572,"control:control_rep1","control_rep1","control_rep1","control","Cortex_lineage",117,423780,5923,2.21432476763259,"control_rep1__Cortex_lineage",0.531866119298159
+5.26013832500331,-0.482266907124358,"control:control_rep2","control_rep2","control_rep2","control","Cortex_lineage",188,341025,2744,4.70117068631567,"control_rep2__Cortex_lineage",0.426544063375287
+-1.27124019650949,1.53424619227841,"stress:stress_rep1","stress_rep1","stress_rep1","stress","Cortex_lineage",893,1756408,3278,3.00590445517982,"stress_rep1__Cortex_lineage",2.2386435208707
+-1.39734653832956,1.47456040321167,"stress:stress_rep2","stress_rep2","stress_rep2","stress","Cortex_lineage",749,1543017,3367,3.04536979490367,"stress_rep2__Cortex_lineage",1.96901411622087
