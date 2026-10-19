@@ -125,3 +125,32 @@ Some helpers contain top-level execution and are command-line programs, not file
 ## Restore checkpoints
 
 The local reviewed checkpoint is `workspace/outputs/core2_analysis/atac_annotated_checkpoint.rds`. It preserves sample, condition, barcode, RNA population/confidence, ATAC cluster and reviewed descriptions. Pseudobulk is `atac_pseudobulk_unfiltered.rds`; fitted models are in sample_diagnostics/<population>/deseq2_model.rds. RDS and fragments remain local, so the Git repository is a code/results record, not a complete sequencing-data backup.
+
+## Explicit supplementary revision (not a primary rerun)
+
+Set the source analysis directory to the existing reviewed checkpoints, then run:
+
+```sh
+Rscript scripts/run_core2.R supplements
+python3 scripts/verify_core2_supplement.py
+```
+
+`P3_CORE2_ANALYSIS` supplies existing input models/pseudobulk. The supplement
+defaults to `P3_CORE2_WORK/outputs/core2_supplement_2026-10-15`; set
+`P3_CORE2_SUPPLEMENT` to a new path to rerun. Existing destinations are refused.
+It reads original primary models, renders ten independent diagnostic figures,
+fits only the separate counts>=5 ATAC sensitivity models, and reuses primary-branch
+Core 1 RNA statistics for 15 examples. It does not rerun RNA, QC, clustering,
+P1 mapping or upstream processing. Source-only usage:
+
+```r
+source("scripts/core2/09_supplemental_review.R")
+supplement <- core2_supplemental_review(
+  task_dir = Sys.getenv("P3_CORE2_WORK"), project_dir = getwd(),
+  analysis_dir = file.path(Sys.getenv("P3_CORE2_WORK"), "outputs", "core2_analysis"),
+  output_dir = file.path(Sys.getenv("P3_CORE2_WORK"), "outputs", "core2_supplement_new")
+)
+```
+
+Calling fits the five supplemental ATAC models. Sourcing alone does not run them.
+See [scope, fixed choices and results](supplemental_review.md).

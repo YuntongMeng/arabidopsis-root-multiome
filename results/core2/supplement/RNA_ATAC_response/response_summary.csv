@@ -1,0 +1,6 @@
+"population","selected_RNA_genes","genes_with_common_peak","genes_with_modelled_peak","genes_with_nearby_FDR_peak","modelled_gene_peak_pairs","same_estimated_direction_pairs","different_estimated_direction_pairs"
+"Atrichoblast_lineage",3,3,3,0,7,5,2
+"Cortex_lineage",3,3,3,0,6,3,3
+"Endodermis_lineage",3,3,3,0,5,1,4
+"Pericycle",3,3,3,0,5,2,3
+"Root_cap",3,3,1,0,1,0,1

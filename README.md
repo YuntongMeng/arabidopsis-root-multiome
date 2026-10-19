@@ -28,6 +28,8 @@ significant matched nearby ATAC support under the fixed mapping rule. Results ar
 limited and labels remain provisional. The project concludes at Core 2;
 there is no remaining Core 3 deliverable.
 
+A [supplementary revision](docs/core2/supplemental_review.md) adds model diagnostics, a fixed count-filter sensitivity analysis and exploratory RNA-response context. The primary results remain unchanged. Publication of the reviewed supplement was authorized on 2026-10-18.
+
 The current version is a documented working analysis, not a claim of a uniquely
 correct solution. Earlier assumptions, errors, alternatives and remaining uncertainty
 are recorded separately from the executable current workflow.

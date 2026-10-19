@@ -1,0 +1,73 @@
+Supplemental diagnostic figures: Atrichoblast_lineage
+Supplemental diagnostic figures: Cortex_lineage
+Supplemental diagnostic figures: Endodermis_lineage
+Supplemental diagnostic figures: Pericycle
+Supplemental diagnostic figures: Root_cap
+Broader count filter: Atrichoblast_lineage
+-- note: fitType='parametric', but the dispersion trend was not well captured by the
+   function: y = a/x + b, and a local regression fit was automatically substituted.
+   specify fitType='local' or 'mean' to avoid this message next time.
+Broader count filter: Cortex_lineage
+Broader count filter: Endodermis_lineage
+-- note: fitType='parametric', but the dispersion trend was not well captured by the
+   function: y = a/x + b, and a local regression fit was automatically substituted.
+   specify fitType='local' or 'mean' to avoid this message next time.
+Broader count filter: Pericycle
+-- note: fitType='parametric', but the dispersion trend was not well captured by the
+   function: y = a/x + b, and a local regression fit was automatically substituted.
+   specify fitType='local' or 'mean' to avoid this message next time.
+Broader count filter: Root_cap
+-- note: fitType='parametric', but the dispersion trend was not well captured by the
+   function: y = a/x + b, and a local regression fit was automatically substituted.
+   specify fitType='local' or 'mean' to avoid this message next time.
+           population            setting min_count min_samples peaks_in_model
+ Atrichoblast_lineage    primary_count10        10           2          27634
+ Atrichoblast_lineage exploratory_count5         5           2          27674
+       Cortex_lineage    primary_count10        10           2          27384
+       Cortex_lineage exploratory_count5         5           2          27631
+   Endodermis_lineage    primary_count10        10           2          25508
+   Endodermis_lineage exploratory_count5         5           2          27396
+            Pericycle    primary_count10        10           2          23757
+            Pericycle exploratory_count5         5           2          27297
+             Root_cap    primary_count10        10           2           2487
+             Root_cap exploratory_count5         5           2          14664
+ finite_pvalues adjusted_pvalues FDR_significant significant_higher_2fold
+          27634            27634               1                        1
+          27674            27674               1                        1
+          27384            27384               0                        0
+          27631            27631               0                        0
+          25508            25508               0                        0
+          27396            27396               0                        0
+          23757            23757               0                        0
+          27297            27297               1                        0
+           2487             2487               0                        0
+          14664            14664               0                        0
+ significant_lower_2fold
+                       0
+                       0
+                       0
+                       0
+                       0
+                       0
+                       0
+                       0
+                       0
+                       0
+           population selected_RNA_genes genes_with_common_peak
+ Atrichoblast_lineage                  3                      3
+       Cortex_lineage                  3                      3
+   Endodermis_lineage                  3                      3
+            Pericycle                  3                      3
+             Root_cap                  3                      3
+ genes_with_modelled_peak genes_with_nearby_FDR_peak modelled_gene_peak_pairs
+                        3                          0                        7
+                        3                          0                        6
+                        3                          0                        5
+                        3                          0                        5
+                        1                          0                        1
+ same_estimated_direction_pairs different_estimated_direction_pairs
+                              5                                   2
+                              3                                   3
+                              1                                   4
+                              2                                   3
+                              0                                   1

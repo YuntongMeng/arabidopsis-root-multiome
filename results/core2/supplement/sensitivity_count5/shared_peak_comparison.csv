@@ -1,0 +1,6 @@
+"population","primary_peaks","additional_peaks","original_significant_retained","primary_only_significant","newly_significant","median_abs_log2FC_change_shared","max_abs_log2FC_change_shared","shared_raw_counts_identical"
+"Atrichoblast_lineage",27634,40,1,0,0,3.28715688628772e-05,0.0519729344876757,TRUE
+"Cortex_lineage",27384,247,0,0,0,0.00100897114894756,0.00177524175550934,TRUE
+"Endodermis_lineage",25508,1888,0,0,0,0.00113006029679273,0.121643594493625,TRUE
+"Pericycle",23757,3540,0,0,1,0.010110367977697,0.10261104676971,TRUE
+"Root_cap",2487,12177,0,0,0,0.0717404101204882,0.0892272547443675,TRUE

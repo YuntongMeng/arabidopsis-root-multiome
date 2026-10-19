@@ -35,3 +35,7 @@ behavior. Old preparation notes/packages are grouped under local
 The repository is the current code/results record. The local review mirror and
 ZIP are snapshots of the Core 2 additions/updates, not full repository backups.
 The local sequencing workspace remains necessary for reconstruction.
+
+## Local supplementary revision
+
+`results/core2/supplement/` contains the ten full-size diagnostic figures and numeric summaries, separate count-filter sensitivity results, exploratory RNA/ATAC context, input-integrity checks and execution record. It is outside the main figure gallery. Large fitted RDS models remain in the external workspace `outputs/core2_supplement_2026-10-15/`. The private discussion PDF is temporary and is not included in the project, result snapshot, or Git. The user authorized publication of these revisions on 2026-10-18; the private review PDF remains excluded.

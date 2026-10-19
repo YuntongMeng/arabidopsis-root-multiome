@@ -58,3 +58,7 @@ For each population, retain peaks with raw count ≥10 in ≥2 samples. DESeq2 u
 All 137 interaction candidates are taken from `data/project1/FULL_interaction_DEGs_padj0.05_log2FC1.tsv`. Match common peaks to gene body OR strand-aware TSS upstream 2,000 / downstream 500 bp. Keep both overlap flags. A peak may match multiple genes. This mapping window differs from the 500 bp GeneActivity extension. Existing differential statistics are reused; there is no new gene-level test or enrichment test.
 
 No new GO analysis, motif analysis, co-accessibility, peak-to-gene links, expression-accessibility correlation model or causal regulatory network was performed. Same-nucleus identity matching and ATAC checks are the completed joint comparison; deeper joint modeling would be additional work.
+
+## Local supplemental methods, 2026-10-15
+
+See [supplemental_review.md](supplemental_review.md) for the predeclared counts>=5 filter, ten model-diagnostic figures, numerical initial-dispersion boundary proportions, and RNA-only selection of 15 response examples. Primary counts>=10 inference, sample replication and QC are unchanged. No new RNA model or Control 1 attribution experiment was run. Publication of these reviewed additions was authorized on 2026-10-18.

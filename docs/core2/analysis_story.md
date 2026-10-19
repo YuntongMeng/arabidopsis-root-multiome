@@ -73,6 +73,25 @@ The unit in this summary is a candidate gene, not a peak. A nearby peak p value 
 
 ## Where this iteration stops
 
-We retain the single candidate, the sparse/null comparison results and the uncertainty. No threshold relaxation was used to produce a longer candidate list. No new ATAC GO analysis was performed. Same-nucleus RNA–ATAC comparison is already part of Core 2; The user cancelled Core 3 on 2026-10-15 and concluded the project at Core 2; see the [scope decision](../project_scope.md). Further mechanistic analysis would require its own question and validation, not merely another stage name.
+We retain the single candidate, the sparse/null comparison results and the uncertainty. The original threshold remains the primary analysis. A separately labelled broader count-filter sensitivity run is now retained without selecting its threshold by discovery count; it does not replace the primary result. No new ATAC GO analysis was performed. Same-nucleus RNA–ATAC comparison is already part of Core 2; The user cancelled Core 3 on 2026-10-15 and concluded the project at Core 2; see the [scope decision](../project_scope.md). Further mechanistic analysis would require its own question and validation, not merely another stage name.
 
 [Methods](methods.md) · [Control 1](control1_review.md) · [Decisions](decision_log.md) · [Validation](validation.md)
+
+## Supplementary review, local revision 2026-10-15
+
+The additional counts>=5 analysis preserves the Atrichoblast candidate and yields
+one Pericycle FDR-significant region with estimated log2FC .743, below the twofold
+priority cutoff. That region is not significant in the primary fit and is reported
+as filter-sensitive. No additional twofold priority candidates were obtained.
+Among 15 RNA-response examples, none has a nearby primary FDR-significant ATAC
+peak; this does not negate the RNA response. Two Root_cap examples lack eligible
+primary model peaks. The existing RNA and ATAC contrasts use different retained
+nucleus sets, disclosed rather than treated as identical matched-nucleus tests.
+
+The p-value distributions show particularly few small p values in four populations.
+Initial dispersion boundary proportions are about 81% in all five, so that feature
+does not by itself distinguish the better-reproduced population or identify a
+cause. These are evidence limits, not proof that Control 1 caused the sparse result
+or that the fitted model is erroneous. Ten independent diagnostic figures and
+their proportion panels are in supplementary material. Further Control 1
+attribution is paused. See [full supplementary review](supplemental_review.md).

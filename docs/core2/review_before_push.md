@@ -43,3 +43,11 @@ git push origin main
 Do not force-push, silently discard later edits, or rerun the analysis as part
 of uploading. A future remote or local change may require handling that new
 state before push. Publication was explicitly authorized by the user on 2026-10-15; actual success must be checked against the remote commit.
+
+## Subsequent local revision: push explicitly withheld
+
+The user authorized supplemental changes on 2026-10-15 and explicitly instructed
+**do not push**. The earlier publication authorization above does not authorize
+uploading these later changes. They were held locally for review. On 2026-10-18 the user reviewed the private PDF and explicitly authorized publishing the completed supplemental changes.
+The private review PDF is excluded from the repository. See
+[supplemental_review.md](supplemental_review.md) for changes, outcomes and checks.

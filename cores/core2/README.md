@@ -2,7 +2,7 @@
 
 [Project overview](../../README.md) · [Core 1: corrected RNA](../core1/README.md) · [Final project scope](../../docs/project_scope.md)
 
-**Status: analysis completed; assembled downstream workflow manually rerun and matched; pending user review before commit/push.**
+**Status: primary analysis published and manually validated. Supplementary revisions completed and verified on 2026-10-15; publication authorized on 2026-10-18. Project 3 concludes at Core 2; Core 3 is cancelled.**
 This is an independent training reanalysis, not a numerical reproduction of the original study.
 
 ## Questions and findings
@@ -16,9 +16,19 @@ We asked whether osmotic stress changes chromatin accessibility within RNA-defin
 - Of 137 P1 candidates, 120 have a matching common peak under the fixed gene-body / TSS-nearby rule. **None has a matched peak passing the current population-level FDR criterion.** This is not a gene-level null result or evidence against their stress roles.
 - Control 1's low-signal subgroup predates our recounting and is present in the published ATAC matrix. Independent recounting found no error in the checked metrics or matrix. The specific experimental cause remains unknown.
 
-The result is limited biological evidence from a completed analysis, rather than a requirement to obtain many significant regions. We did not relax thresholds to increase discoveries, run new GO tests, infer a regulatory network or claim causal target genes.
+The result is limited biological evidence from a completed analysis, rather than a requirement to obtain many significant regions. The primary thresholds remain fixed. A declared broader count-filter sensitivity analysis and exploratory RNA-response comparison are documented separately; no new GO tests, regulatory network or causal target claims were added.
 
-## Results
+## Supplementary revision
+
+[Supplementary review and limits](../../docs/core2/supplemental_review.md) documents
+ten standalone p-value/dispersion figures with explicit dispersion-boundary
+proportions, a counts>=5 sensitivity run beside the primary counts>=10 run, and
+15 RNA-response examples. The original Atrichoblast candidate persists; one
+additional Pericycle region is FDR-significant only in the sensitivity run and
+does not meet the twofold priority rule. The supplementary results remain separate from the primary analysis.
+The diagnostic figures are supplementary, not added to the main figure gallery.
+
+## Primary results (unchanged)
 
 | RNA population | Peaks in model | FDR <0.05 | Significant estimated ≥2-fold increase in stress |
 | --- | ---: | ---: | ---: |

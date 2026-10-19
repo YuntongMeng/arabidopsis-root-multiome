@@ -1,0 +1,11 @@
+"population","setting","min_count","min_samples","peaks_in_model","finite_pvalues","adjusted_pvalues","FDR_significant","significant_higher_2fold","significant_lower_2fold"
+"Atrichoblast_lineage","primary_count10",10,2,27634,27634,27634,1,1,0
+"Atrichoblast_lineage","exploratory_count5",5,2,27674,27674,27674,1,1,0
+"Cortex_lineage","primary_count10",10,2,27384,27384,27384,0,0,0
+"Cortex_lineage","exploratory_count5",5,2,27631,27631,27631,0,0,0
+"Endodermis_lineage","primary_count10",10,2,25508,25508,25508,0,0,0
+"Endodermis_lineage","exploratory_count5",5,2,27396,27396,27396,0,0,0
+"Pericycle","primary_count10",10,2,23757,23757,23757,0,0,0
+"Pericycle","exploratory_count5",5,2,27297,27297,27297,1,0,0
+"Root_cap","primary_count10",10,2,2487,2487,2487,0,0,0
+"Root_cap","exploratory_count5",5,2,14664,14664,14664,0,0,0

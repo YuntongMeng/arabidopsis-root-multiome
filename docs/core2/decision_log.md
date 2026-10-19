@@ -34,3 +34,30 @@ The user manually reran the assembled downstream pipeline in RStudio from the fo
 ## Final closure, 2026-10-15
 
 The user cancelled the separate Core 3 plan and authorized GitHub publication. Project 3 now concludes with Core 1 and Core 2. No further biological analysis or new correction algorithm was run during closure. See [final scope](../project_scope.md).
+
+## Authorized local supplement, 2026-10-15
+
+After discussion, the user authorized the agreed revisions, explicitly prohibited
+push, and paused further Control 1 attribution. Preserve counts>=10 primary results;
+add one broader counts>=5 setting in at least two samples. Do not require all four
+samples or tune by discoveries. TSS>1 and biological replication stay unchanged.
+Retain five p histograms and five dispersion figures separately as supplements;
+quantify the initial-boundary proportions with bars. Add 15 RNA-selected response
+examples using existing Core 1 statistics, disclose retained-set differences and
+retain all nearby peak statuses. Correct stale submission text. No commit or push.
+
+The same Atrichoblast candidate persists. The sensitivity fit adds one Pericycle
+FDR region below twofold, explicitly filter-sensitive. No nearby primary FDR ATAC
+support appears for the 15 RNA examples. All original consumed inputs are unchanged;
+five primary statistics tables were reproduced from saved models. The separate
+private PDF is temporary, excluded from all repository deliverables. Detailed
+[supplementary methods and outcomes](supplemental_review.md) preserve limitations.
+
+## Supplement publication authorized, 2026-10-18
+
+After reviewing the private PDF, the user explicitly authorized publishing the
+completed supplemental revisions. This supersedes the earlier hold on push for
+these changes only. Original primary results and Core 1/frozen outputs remain
+unchanged. No new biological analysis is needed for publication. The private PDF,
+raw reads, fragments, large models and runtimes remain excluded. Further Control 1
+attribution remains paused. Git history records the resulting publication commit.

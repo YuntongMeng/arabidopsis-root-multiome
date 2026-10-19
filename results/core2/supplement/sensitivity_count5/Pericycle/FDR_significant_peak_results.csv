@@ -1,0 +1,2 @@
+"peak","baseMean","log2FoldChange","lfcSE","stat","pvalue","padj","normalized_control_rep1","normalized_control_rep2","normalized_stress_rep1","normalized_stress_rep2","raw_control_rep1","raw_control_rep2","raw_stress_rep1","raw_stress_rep2","population","FDR_significant","priority_change","replicate_pattern"
+"2-3313938-3315145",136.215458400741,0.742978660860128,0.142795671320477,5.20308951937807,1.96002394426966e-07,0.00535027736067289,104.019663183323,100.108509605247,184.412028161107,156.321632653287,71,197,147,146,"Pericycle",TRUE,FALSE,"Both_stress_above_both_control"
