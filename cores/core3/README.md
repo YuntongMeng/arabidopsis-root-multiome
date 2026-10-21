@@ -8,5 +8,5 @@ This page preserves the history of the former placeholder and older links;
 it does not describe a pending analysis. The same-nucleus RNA–ATAC comparison
 was completed within Core 2. No Core 3 workflow or results were produced.
 
-Read the [final scope decision](../../docs/project_scope.md) for the completed
+Read the [project scope and history](../../docs/project_scope.md) for the completed
 deliverables, rationale and retained interpretation limits.

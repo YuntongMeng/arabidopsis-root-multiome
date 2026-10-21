@@ -1,6 +1,6 @@
 # Project 3 — Core 1: corrected RNA analysis under osmotic stress
 
-[Project 3 overview](../../README.md) · [Core 2 — ATAC and paired RNA](../core2/README.md) · [Final project scope](../../docs/project_scope.md)
+[Project 3 overview](../../README.md) · [Core 2 — ATAC and paired RNA](../core2/README.md) · [Project scope and history](../../docs/project_scope.md)
 
 Core 1 studies wild-type root-tip transcription under sorbitol osmotic stress and contextualizes Project 1 BRL3 × drought candidates. The first version mistakenly included ATAC peaks in its RNA assay. Its scripts and results are preserved as historical evidence; the corrected analysis starts with gene-expression rows only.
 
@@ -9,8 +9,8 @@ Core 1 studies wild-type root-tip transcription under sorbitol osmotic stress an
 - Each sample supplies 32,833 gene features; zero coordinate-shaped peak IDs remain after input filtering.
 - Gene-only QC and per-capture scDblFinder retain 21,550 predicted singlets.
 - Unintegrated PCA is primary; sample-based Harmony is a sensitivity branch. At 25 dimensions there are 18 and 17 clusters respectively, yielding nine and ten DE-eligible broad populations under the same >=50 nuclei per biological sample rule. These counts are observations, not required answers.
-- Pericycle has 19 significant P1 candidates in both branches (120/117 fitted candidates respectively). P1 candidates are enriched relative to ordinary testable genes, but no population shows BH-significant extra enrichment relative to the P1 drought-DEG control.
-- Seven GO views summarize 13 unique overlapping candidate genes, not new P3 GO enrichment tests. Only three terms have nonzero P3 DEG overlap.
+- Pericycle has 19 significant Project 1 genes in both branches (120/117 fitted candidates respectively). The Project 1 genes are enriched relative to ordinary testable genes, but no population shows BH-significant extra enrichment relative to the Project 1 drought-DEG control.
+- Seven GO views summarize 13 unique overlapping candidate genes, not new Project 3 GO enrichment tests. Only three terms have nonzero overlap with Project 3 DEGs.
 
 ## Analysis overview
 
@@ -46,4 +46,4 @@ Rscript scripts/run_core1_corrected.R all
 
 ## Interpretation boundary
 
-Two biological replicates per condition limit inference. Broad lineage, low-confidence and cell-state labels remain visible. Harmony improves replicate mixing while attenuating condition-associated geometry; this is not proof of biological overcorrection. Raw counts remain unchanged for DE. No verified empty-droplet input is available, so ambient correction is not forced. P1/P3 overlap gives stress context, not cell-specific BRL3 interaction validation; zero GO overlap is not absence of a biological program.
+Two biological replicates per condition limit inference. Broad lineage, low-confidence and cell-state labels remain visible. Harmony improves replicate mixing while attenuating condition-associated geometry; this is not proof of biological overcorrection. Raw counts remain unchanged for DE. No verified empty-droplet input is available, so ambient correction is not forced. Overlap between Project 1 genes and Project 3 DEGs gives stress context, not cell-specific BRL3 interaction validation; zero GO overlap is not absence of a biological program.

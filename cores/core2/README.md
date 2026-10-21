@@ -1,8 +1,7 @@
 # Project 3 — Core 2: ATAC and paired-nucleus RNA context
 
-[Project overview](../../README.md) · [Core 1: corrected RNA](../core1/README.md) · [Final project scope](../../docs/project_scope.md)
+[Project overview](../../README.md) · [Core 1: corrected RNA](../core1/README.md) · [Project scope and history](../../docs/project_scope.md)
 
-**Status: primary analysis published and manually validated. Supplementary revisions completed and verified on 2026-10-15 and published on 2026-10-18. Project 3 concludes at Core 2; Core 3 is cancelled.**
 This is an independent training reanalysis, not a numerical reproduction of the original study.
 
 ## Questions and findings
@@ -13,7 +12,7 @@ I asked whether osmotic stress changes chromatin accessibility within RNA-define
 - ATAC QC plus exact-nucleus corrected RNA QC/singlet pairing retained **14,146 nuclei**: 1,239 / 3,817 / 4,841 / 4,249 in control 1 / control 2 / stress 1 / stress 2.
 - Five ATAC clusters have provisional, sometimes mixed RNA compositions. Same-nucleus barcode matching, RNA identity overlays, cluster composition and marker-region checks are already the RNA–ATAC joint comparison in this core.
 - Five population-level, four-sample pseudobulk comparisons identified **one peak at within-population FDR <0.05**, in Atrichoblast_lineage. Its estimated stress/control log2FC is 1.860 and adjusted p is 0.004526. Both stress replicates exceed both controls at this region.
-- Of 137 P1 candidates, 120 have a matching common peak under the fixed gene-body / TSS-nearby rule. **None has a matched peak passing the current population-level FDR criterion.** This is not a gene-level null result or evidence against their stress roles.
+- Of the 137 Project 1 genes, 120 have a matching common peak under the fixed gene-body / TSS-nearby rule. **None has a matched peak passing the current population-level FDR criterion.** This is not a gene-level null result or evidence against their stress roles.
 - Control 1's low-signal subgroup predates my recounting and is present in the published ATAC matrix. Independent recounting found no error in the checked metrics or matrix. The specific experimental cause remains unknown.
 
 The result is limited biological evidence from a completed analysis, rather than a requirement to obtain many significant regions. The primary thresholds remain fixed. A declared broader count-filter sensitivity analysis and exploratory RNA-response comparison are documented separately; no new GO tests, regulatory network or causal target claims were added.
@@ -64,7 +63,7 @@ Rscript scripts/run_core2.R help
 
 Help runs no analysis. [Running instructions](../../docs/core2/running.md) separate existing-result inspection, local QC, optional upstream reconstruction and explicit downstream rebuild stages. Default downstream rebuild outputs are separate from the reviewed run. Raw reads, fragments, large matrices and RDS checkpoints are not in Git.
 
-Earlier interactive downstream steps have now been reconstructed as callable scripts. Syntax, synthetic selection/count-alignment checks, saved-result consistency and saved-coordinate figure rendering were checked. **I have since rerun the assembled downstream workflow in RStudio from the four existing unfiltered QC objects. All ten comparisons matched the recorded run, with differential-statistic tolerance 1e-7. Upstream reconstruction and QC metric recalculation were not repeated.** See [validation scope](../../docs/core2/validation.md).
+Earlier interactive downstream steps have now been reconstructed as callable scripts. Syntax, synthetic selection/count-alignment checks, saved-result consistency and saved-coordinate figure rendering were checked. I have since rerun the assembled downstream workflow in RStudio from the four existing unfiltered QC objects. All ten comparisons matched the recorded run, with differential-statistic tolerance 1e-7. Upstream reconstruction and QC metric recalculation were not repeated. See [validation scope](../../docs/core2/validation.md).
 
 ## Interpretation boundary
 

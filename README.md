@@ -1,208 +1,221 @@
-# Arabidopsis root-tip multiome stress contextualization
+# Arabidopsis root-tip multiome: osmotic-stress context for Project 1 genes
 
-Project 3 reanalyzes wild-type Arabidopsis root-tip multiome RNA and ATAC data to ask how
-Project 1 BRL3 genotype × drought interaction candidates relate to population-level
-stress responses. Project 2 supplies normal-root cellular context; Project 3 adds
-condition-resolved context. These datasets do not establish a cell-specific BRL3 interaction.
-
-
+Project 1 found 137 genes whose drought response differs between
+BRL3-overexpressing and wild-type roots. Here I asked whether those genes also
+respond to osmotic stress in specific root-tip cell populations, and whether
+nearby chromatin accessibility changes with them. I reanalyzed paired
+single-nucleus RNA and ATAC data from control and sorbitol-treated wild-type
+root tips (GEO GSE235495; Liu et al., 2024), with two biological replicates per
+condition.
 
 Related repositories: [Project 1](https://github.com/YuntongMeng/arabidopsis-drought-rnaseq) · [Project 2](https://github.com/YuntongMeng/arabidopsis-root-singlecell).
 
-## Analysis status
+## Key findings
 
-**The project was completed on 2026-10-15 with Core 1 and Core 2.**
-I cancelled the planned Core 3 rather than leaving it pending. The same-nucleus
-RNA–ATAC comparison is already included in Core 2. See the
-[final scope decision](docs/project_scope.md).
+- **RNA (Core 1):** after removing ATAC peak rows that were mixed into the RNA
+  input, 21,550 nuclei remained, and nine broad populations had enough nuclei
+  for replicate-based pseudobulk DE. The Project 1 genes are enriched among
+  osmotic-stress DEGs relative to the ordinary gene background in every
+  eligible population, but not beyond Project 1's other drought-responsive
+  genes.
+- **ATAC (Core 2):** across 14,146 paired nuclei and five populations, one
+  region passed within-population FDR < 0.05, in Atrichoblast_lineage near
+  AT4G08570.
+- **Linking the two:** 120 of the 137 Project 1 genes have a nearby common ATAC
+  region, but none of those regions is significant. With two replicates per
+  condition, this is weak evidence either way, not evidence that chromatin is
+  unchanged.
 
-Core 1 was rerun on 2026-10-06 after discovering that the original RNA input
-included ATAC peaks. The current analysis uses gene-expression rows only and
-retains 21,550 predicted singlets. Unintegrated clustering is primary; sample-based
-Harmony is retained as a sensitivity comparison. Annotation remains provisional.
-I reran stages 01–07 from the original inputs; all eight structural checks passed.
-Core 2 now includes common-region ATAC recounting, QC and exact-nucleus RNA context
-for 14,146 paired nuclei. Five population-level pseudobulk comparisons identify one
-candidate peak at within-population FDR <0.05; none of the 137 Project 1 interaction genes has
-significant matched nearby ATAC support under the fixed mapping rule. Results are
-limited and labels remain provisional. The project concludes at Core 2;
-there is no remaining Core 3 deliverable.
+## Analysis overview
 
-A [supplementary revision](docs/core2/supplemental_review.md) adds model diagnostics, a fixed count-filter sensitivity analysis and exploratory RNA-response context. The primary results remain unchanged. The supplement was published on 2026-10-18.
+The analysis has two parts:
 
-The current version is a documented working analysis, not a claim of a uniquely
-correct solution. Earlier assumptions, errors, alternatives and remaining uncertainty
-are recorded separately from the executable current workflow.
-
-## Project cores
-
-| Core | Status | Overview |
+| Part | What it does | Details |
 | --- | --- | --- |
-| Core 1 | Corrected RNA workflow; manual rerun checked | [RNA analysis](cores/core1/README.md) |
-| Core 2 | ATAC / paired RNA analysis complete; assembled downstream workflow manually rerun and matched | [ATAC and paired context](cores/core2/README.md) |
+| Core 1 (snRNA-seq analysis) | Gene-only QC, predicted doublets, clustering, provisional annotation, pseudobulk DE and Project 1 context | [Core 1 page](cores/core1/README.md) |
+| Core 2 (snATAC-seq and paired RNA–ATAC analysis) | Common-region ATAC recounting, QC, same-nucleus pairing with Core 1, pseudobulk differential accessibility and Project 1 neighbourhood context | [Core 2 page](cores/core2/README.md) |
+
+My first version of Core 1 read the multiome matrices without separating gene
+rows from peak rows, so ATAC peaks entered the RNA analysis. When I found this
+I rebuilt Core 1 from gene-expression rows only; the first version is kept in
+`archive/` and `results/core1_frozen/` for comparison. A planned Core 3 was
+dropped because the paired RNA–ATAC comparison already belongs to Core 2. The
+[project scope and history](docs/project_scope.md) has the dates and details.
 
 ## Inputs and provenance
 
-- GEO GSE235495: four processed multiome feature matrices, two samples per condition.
-- Only feature rows whose third column is exactly `Gene Expression` enter RNA analysis.
-- Raw matrices and sample metadata: `data/rna/`.
-- Project 1 contextualization inputs: `data/project1/`.
-- Reviewed annotation, Shahan 2022 Data S2 and extracted panels: `data/core1_corrected_reference/`.
-- Other existing references remain under `data/reference/` and `data/core1_reference/`.
+- GEO GSE235495: four processed multiome matrices (control_rep1/2,
+  stress_rep1/2). Only feature rows whose third column is exactly
+  `Gene Expression` enter the RNA analysis; the `Peaks` rows are used for ATAC.
+- ATAC fragments were reconstructed from the four SRA runs with Chromap and
+  recounted on 27,677 common nuclear intervals.
+- Project 1 inputs (137 interaction genes, seven GO terms, drought DEGs):
+  `data/project1/` and `data/core1_corrected_reference/`.
+- Annotation references (Shahan et al. 2022 Data S2 and extracted marker
+  panels): `data/core1_corrected_reference/`. Core 2 reference intervals and
+  reviewed cluster assignments: `data/core2_reference/`.
 
-No verified unfiltered empty-droplet matrix is available locally. Ambient RNA
-was assessed qualitatively; correction was not forced.
+The GEO matrices, SRA reads, fragments and RDS checkpoints are not in Git.
+[Data sources](docs/data_sources.md) explains how to restore them.
 
-## Running Core 1
+## Running the analysis
 
-From the project root:
-
-```bash
-Rscript scripts/run_core1_corrected.R help
-```
-
-This displays the available stages without rerunning biological analysis.
-Run a stage explicitly: `audit`, `qc`, `embeddings`, `evidence`, `de`, `context`,
-`compare`, `diagnostics`, or `figures`. `all` explicitly recomputes stages 01–07
-and renders figures. Historical `diagnostics` are optional and excluded from `all`.
-The entry filename is retained for continuity; its implementation now lives in `scripts/core1/`.
-
-Set `P3_ROOT` when running outside the project root. `P3_R_LIB` can specify a local
-R package library. The default root is the current working directory and standard R package libraries
-are used. Optional machine settings belong in an untracked `.Renviron`; personal
-absolute paths are not part of the executable defaults. Install missing dependencies
-with `Rscript scripts/install_core1_dependencies.R`. This is not a version lock;
-reviewed session versions are recorded alongside the results.
-Core packages include Seurat, Matrix, scDblFinder, Harmony and DESeq2. Stage-specific
-versions are recorded in `results/core1/diagnostics/`.
-
-Sourcing the stage files defines functions. The reviewed annotation is bound to
-the saved partition MD5: changed clustering requires another evidence review before DE.
-Do not rerun archived scripts to generate current results.
-
-## Core 2 workflow and current findings
-
-[Start with Core 2](cores/core2/README.md) for the conclusions, figures and interpretation boundaries.
-Four peak sets were union/reduced and recounted from reconstructed fragments into
-27,677 common nuclear intervals. ATAC QC and corrected RNA singlet matching retain
-1,239 / 3,817 / 4,841 / 4,249 nuclei across C1/C2/S1/S2. Shared capture + barcode
-identifiers preserve exact same-nucleus pairing; Gene Expression and peak features
-remain separate assays.
-
-The single differential candidate is chr4:5,457,000–5,457,860 in Atrichoblast_lineage
-(estimated log2FC 1.860; population-wise adjusted p 0.004526). It is near AT4G08570,
-not a validated regulatory link. All other tested populations have no significant
-peaks at the current criterion, with Root_cap explicitly exploratory. Of the 137 Project 1
-interaction genes, 120 match common regions; none has a matched FDR-significant region.
-Lack of significance does not establish absence of stress effects.
-
-Control 1 contains a pre-existing low-nuclear-signal, organelle-rich subgroup.
-Independent full-fragment recounting and matrix comparison found no error in the
-checked quantities; the specific experimental cause remains unresolved.
-[Evidence and audit limits](docs/core2/control1_review.md).
+Both runners print their stages with `help` and run nothing until a stage is
+named. From the project root:
 
 ```sh
+Rscript scripts/install_core1_dependencies.R
+Rscript scripts/run_core1_corrected.R help
+Rscript scripts/run_core1_corrected.R all      # Core 1 stages 01–07 plus figures
+
 Rscript scripts/run_core2.R help
-python3 scripts/verify_core2.py
+python3 scripts/verify_core2.py                # check the published Core 2 record
+python3 scripts/verify_core2_supplement.py     # check the supplementary analysis
 ```
 
-These inspect stages and validate the published record without rerunning biological
-analysis. [Explicit execution instructions](docs/core2/running.md) require a local
-upstream workspace. The previously interactive stages have now been assembled into
-scripts, and I reran them from the four existing unfiltered QC objects.
-All ten recorded comparisons matched, including raw pseudobulk counts, reviewed
-ATAC assignments and five population differential statistics (tolerance 1e-7).
-FASTQ reconstruction and QC metric calculation were not repeated. Saved-coordinate
-PCA figures were redrawn with equal x/y unit scale; their independent panels are
-not directly comparable coordinate spaces.
+Core 1 stages can also be run one at a time (`audit`, `qc`, `embeddings`,
+`evidence`, `de`, `context`, `compare`, `figures`). Core 2 needs a local
+upstream workspace; its stages and requirements are in
+[Core 2 running instructions](docs/core2/running.md). `P3_ROOT`, `P3_R_LIB`
+and `P3_CORE2_WORK` set the project root, an R library and the Core 2
+workspace. Core packages include Seurat, Signac, scDblFinder, Harmony and
+DESeq2; session versions are recorded under `results/core1/diagnostics/` and
+`results/core2/diagnostics/`.
 
-No new ATAC GO analysis is reported. The project ends at Core 2; Core 3 is cancelled. See the [directory guide](docs/core2/directory_map.md) for current scripts, reviewed results and local-only data.
+The reviewed annotation is tied to the MD5 of the saved partition, so a
+changed clustering stops before DE until the annotation evidence is reviewed
+again. Archived scripts should not be used to generate current results.
 
-## Core 1 main analysis
+## Main analysis
 
-1. Audit feature types and retain gene-only RNA counts.
-2. Inspect gene-only QC distributions, select sample-specific thresholds and call doublets per capture.
-3. Compare unintegrated and Harmony embeddings, PC stability and annotation evidence.
-4. Aggregate raw counts by population × biological sample and run DESeq2 for eligible populations.
-5. Contextualize the 137 Project 1 candidates and seven existing GO terms.
+### Core 1 (snRNA-seq analysis)
 
-The main analysis uses the unintegrated branch. Harmony results and all diagnostic
-comparisons remain available; their existence does not imply that integration is mandatory.
+1. Audit feature types and keep gene-only RNA counts (32,833 genes per sample).
+2. Set per-sample QC thresholds from the gene-only distributions and call
+   doublets per capture with scDblFinder: 24,474 input nuclei, 430 removed by
+   QC, 2,494 predicted doublets removed, 21,550 retained.
+3. Compare unintegrated and Harmony embeddings. The unintegrated branch is
+   primary and Harmony is a sensitivity branch.
+4. Annotate broad populations from atlas signatures and canonical markers, sum
+   raw counts by population × biological sample, and run DESeq2 for the nine
+   eligible populations.
+5. Test the 137 Project 1 genes for enrichment among stress DEGs, against both
+   the ordinary gene background and Project 1's other drought DEGs, and
+   summarize overlap with the seven Project 1 GO terms.
+
+### Core 2 (snATAC-seq and paired RNA–ATAC analysis)
+
+1. Merge the four published peak lists into 27,677 common intervals and
+   recount reconstructed fragments.
+2. Apply ATAC QC and keep nuclei that are also Core 1 singlets, matched by
+   capture and barcode: 1,239 / 3,817 / 4,841 / 4,249 nuclei, 14,146 in total.
+3. Cluster the ATAC data and describe each cluster by its RNA population
+   composition.
+4. Sum counts by RNA population × biological sample and test differential
+   accessibility in five populations with DESeq2.
+5. Map the 137 Project 1 genes to nearby common intervals with a fixed
+   gene-body / TSS rule.
+
+## Biological interpretation
+
+The Project 1 genes do respond to osmotic stress in the root tip. In every
+eligible population they are over-represented among stress DEGs compared with
+ordinary genes; Pericycle, for example, has 19 of them among its DEGs in both
+branches. But they are no more enriched than Project 1's other
+drought-responsive genes. So this dataset links them to a general
+water-stress response, not to the BRL3-dependent part of their behaviour.
+
+Of the seven Project 1 GO terms, only jasmonic-acid metabolism, long-chain
+fatty-acid metabolism and response to cold have any overlap with stress DEGs
+here, and these terms share genes.
+
+Chromatin accessibility changed little at the thresholds used. The one
+significant region, in Atrichoblast_lineage, is higher in both stress
+replicates than in both controls. It lies near AT4G08570, but proximity alone
+does not make it a regulatory region for that gene.
 
 ## Robustness checks
 
-QC sensitivity, PC/ARI comparisons, replicate mixing, canonical markers, condition
-preservation, population eligibility and branch-level DE concordance are retained.
-Some sensitivity checks change only retention or eligibility, not the whole downstream workflow.
-No cluster count, population count or DEG total is asserted as a required answer.
+- **Core 1:** QC sensitivity, PC/ARI stability, replicate mixing, canonical
+  markers, condition preservation, population eligibility at 25/50/100 nuclei
+  and DE concordance between the two branches. No cluster count, population
+  count or DEG total is treated as a required answer.
+- **Core 2:** a broader count filter (counts ≥ 5) beside the primary counts ≥ 10
+  run, model diagnostics, an independent recount of Control 1's
+  low-signal subgroup, and a read-only audit of 111 count, model and mapping
+  checks. Control 1's subgroup is already present in the published matrix; its
+  experimental cause is unknown.
+- **Reruns:** I reran Core 1 stages 01–07 from the original inputs (all eight
+  structural checks passed) and the assembled Core 2 downstream workflow from
+  the saved QC objects (all ten comparisons matched). FASTQ processing was not
+  repeated.
 
-## Outputs
-
-- [Current result tables](results/core1/tables/) (large tables published as `.csv.gz`).
-- [Current figures](results/core1/figures/).
-- Saved checkpoints are generated locally and excluded from Git.
-- [Environment and diagnostic records](results/core1/diagnostics/).
-- [Analysis story](docs/core1/analysis_story.md): start here to follow my reasoning.
-- [Decision log](docs/core1/decision_log.md): parameters, evidence and uncertainty.
-- [Version comparison](docs/core1/version_comparison.md): what changed and what remains supported.
-- [Detailed comparison report](docs/core1/comparison_report.md): full numerical review.
-- [Manual review checklist](docs/core1/manual_review.md).
-- [Manual rerun validation](docs/core1/manual_rerun_validation.md).
-- [Figure review and rendering guide](docs/core1/figure_review.md): 22 main figures and two supplementary ARI diagnostics.
-
-## Core 2 outputs
-
-- [Result tables](results/core2/tables/), [main figures](results/core2/figures/) and [diagnostics/provenance](results/core2/diagnostics/).
-- [Conclusions](docs/core2/analysis_story.md), [methods](docs/core2/methods.md), [decision trail](docs/core2/decision_log.md) and [validation limits](docs/core2/validation.md).
-- Local fragments, reads, runtimes and RDS checkpoints are excluded from Git. Large CSV results are losslessly compressed.
-
-## Repository structure
-
-```text
-scripts/core2/          Core 2 explicit stages and recorded upstream reconstruction
-scripts/run_core2.R    Explicit Core 2 runner; help performs no analysis
-results/core2/         ATAC tables, figures, diagnostic/provenance records
-docs/core2/            ATAC conclusions, methods, audit, running and review
-data/core2_reference/  Common BED, reviewed cluster binding and provenance
-scripts/core1/          Current Core 1 workflow functions
-scripts/run_core1_corrected.R  Explicit stage runner
-results/core1/          Current tables, figures, checkpoints and diagnostics
-docs/core1/             Reasoning, decisions, comparison and review guide
-exploration/core1/      Additional diagnostics and reference-extraction tools
-archive/core1_initial/  Earlier scripts, documents and intermediate result versions
-results/core1_frozen/   Unchanged original frozen analysis, for comparison only
-data/                  Original inputs and reference provenance
-```
-
-The historical archive README explains validity and location changes. Historical
-text retains its original assumptions and paths; those paths are not current run instructions.
-The frozen analysis stays at its original location for traceability.
-
-See [data sources and file layout](docs/data_sources.md) for restoring the GEO matrices.
+Details: [Core 1 decision log](docs/core1/decision_log.md),
+[Core 2 validation](docs/core2/validation.md) and
+[Core 2 supplementary review](docs/core2/supplemental_review.md).
 
 ## Interpretation boundary
 
-Two biological replicates per condition limit inference. Broad lineage labels
-and unresolved states must be distinguished. Predicted doublets are not a ground-truth
-classification; ambient contamination is not ruled out. Sample-based Harmony may
-attenuate condition geometry, but these comparisons cannot disentangle every
-technical and biological contribution.
+There are two biological replicates per condition, and nuclei are not
+replicates. Population labels are provisional; some are broad lineages or
+mixed groups, and Root_cap is exploratory in Core 2. Predicted doublets are not
+ground truth, and ambient RNA was not corrected because no empty-droplet matrix
+is available. Harmony may weaken condition structure, and these comparisons
+cannot separate every technical and biological contribution. FDR in Core 2 is
+corrected within each population, not across all five.
 
-Project 1 interaction genes show stress-DEG enrichment relative to the ordinary gene background,
-but no population passes BH correction for additional enrichment relative to the
-Project 1 noninteraction drought-DEG control. The seven GO views summarize overlapping
-candidate gene sets; they are not new Project 3 GO enrichment tests.
+This is wild-type data under sorbitol, not BRL3 plants under drought. It can
+show whether the Project 1 genes respond to a related stress in particular
+root-tip populations. It cannot test the BRL3 × drought interaction itself.
+Project 2 adds where these genes are normally expressed; this project adds how
+they respond to stress, but neither establishes a cell-specific BRL3 effect.
 
-## Data and attribution statement
+## Outputs and repository structure
 
-This is an independent computational reanalysis for bioinformatics training and
-reproducibility. Experimental design, plant material and primary data generation
-belong to the original studies. Cross-project contextualization is not an independent
-experimental replication or mechanistic validation.
+- Core 1: [tables](results/core1/tables/) (large tables as `.csv.gz`),
+  [figures](results/core1/figures/), [diagnostics](results/core1/diagnostics/).
+- Core 2: [tables](results/core2/tables/), [figures](results/core2/figures/),
+  [diagnostics and provenance](results/core2/diagnostics/),
+  [supplement](results/core2/supplement/).
+- Core 1 reasoning: [analysis story](docs/core1/analysis_story.md) (start
+  here), [decision log](docs/core1/decision_log.md),
+  [version comparison](docs/core1/version_comparison.md),
+  [detailed comparison](docs/core1/comparison_report.md),
+  [manual review order](docs/core1/manual_review.md),
+  [manual rerun](docs/core1/manual_rerun_validation.md),
+  [figure guide](docs/core1/figure_review.md).
+- Core 2 reasoning: [conclusions](docs/core2/analysis_story.md),
+  [methods](docs/core2/methods.md), [decision log](docs/core2/decision_log.md),
+  [Control 1 review](docs/core2/control1_review.md),
+  [directory guide](docs/core2/directory_map.md).
+
+```text
+scripts/core1/                 Core 1 stage functions
+scripts/run_core1_corrected.R  Core 1 stage runner
+scripts/core2/                 Core 2 stages and recorded upstream reconstruction
+scripts/run_core2.R            Core 2 stage runner
+results/core1/                 Core 1 tables, figures and diagnostics (checkpoints stay local)
+results/core2/                 Core 2 tables, figures, diagnostics and supplement
+docs/core1/, docs/core2/       Reasoning, methods, decisions and validation
+data/                          Inputs, references and provenance
+exploration/core1/             Extra diagnostics and reference-extraction tools
+archive/core1_initial/         First Core 1 version (mixed input), for the record
+results/core1_frozen/          Frozen first-version results, for comparison only
+```
+
+## Data and attribution
+
+This is an independent computational reanalysis of public data. The
+experimental design, plant material, sequencing and the conclusions of the
+original publication belong to its authors (Liu et al., 2024). The scripts, statistics, figures
+and interpretations here come from this reanalysis.
+
+I did this as a bioinformatics training and reproducibility exercise, not as an
+experimental replication of the original study.
 
 ## References
 
 - [GEO GSE235495](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235495).
-- [Shahan et al. (2022), Arabidopsis root atlas](https://doi.org/10.1016/j.devcel.2022.01.008).
 - [Liu et al. (2024), original root-tip multiome study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11199978/).
+- [Shahan et al. (2022), Arabidopsis root atlas](https://doi.org/10.1016/j.devcel.2022.01.008).
 - [scDblFinder method and assumptions](https://plger.github.io/scDblFinder/articles/scDblFinder.html).

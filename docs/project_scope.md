@@ -1,7 +1,28 @@
-# Project 3: final scope and closure
+# Project 3: scope, status and history
 
 Decision date: 2026-10-15. I decided to conclude Project 3 at Core 2
 and publish the reviewed work to GitHub. Core 3 is cancelled, not deferred.
+
+## Timeline
+
+- **2026-10-06, Core 1 rebuilt.** I found that the original RNA input included
+  ATAC peaks and rebuilt Core 1 from gene-expression rows only. It retains
+  21,550 predicted singlets; unintegrated clustering is primary and Harmony is a
+  sensitivity comparison. I reran stages 01–07 from the original inputs, and all
+  eight structural checks passed.
+- **2026-10-13, Core 2 checked.** The interactive Core 2 downstream steps were
+  assembled into scripts and rerun from the four saved QC objects; all ten
+  recorded comparisons matched. A read-only scientific audit passed 111 checks.
+- **2026-10-15, project concluded.** Project 3 was published with Core 1 and
+  Core 2, and Core 3 was cancelled (see below).
+- **2026-10-18, supplement published.** Model diagnostics, a counts>=5
+  sensitivity run and RNA-response examples were added in a
+  [supplementary review](core2/supplemental_review.md). The primary results did
+  not change.
+
+The current version is a documented working analysis, not a claim of a single
+correct solution. Earlier assumptions, errors, alternatives and remaining
+uncertainty are recorded separately from the current workflow.
 
 ## Completed scope
 
@@ -18,7 +39,7 @@ mechanistic story solely to extend the project. It also does not establish
 that further questions are impossible or that stress effects are absent.
 
 The final record keeps the one within-population FDR-significant ATAC candidate,
-the absence of significant matched nearby ATAC support for P1 under the fixed
+the absence of significant matched nearby ATAC support for the Project 1 genes under the fixed
 rule, uncertain mixed-population labels, replicate limitations and the unresolved
 experimental cause of Control 1's low-signal subgroup.
 
