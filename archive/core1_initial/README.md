@@ -4,10 +4,10 @@ These files preserve the earlier reasoning and implementation. They are not the
 current workflow. Mixed RNA/ATAC input invalidates the original grouping and downstream
 interpretation as formal results; see ../../docs/core1/analysis_story.md.
 
-- `github_snapshot/`: the complete lightweight previously published layout, including its old runner and interpretation; historical only.
+- The complete first published version, including its README, runner and interpretation, is the [core1-v1 release](https://github.com/YuntongMeng/arabidopsis-root-multiome/releases/tag/core1-v1). It is historical only.
 - `scripts/`: original 00–04 scripts; the old preprocessing entry is disabled.
-- `docs/`: original summary, checksums, integrity notes and manual-review checklist.
-- Earlier personal working notes remain local. The previously public README and four-script workflow are retained under `github_snapshot/`.
+- `docs/`: original file checksums. The first version's summary, integrity notes and review checklist were working notes and are kept locally.
+- Earlier personal working notes remain local.
 - `results/reproducibility/`: original full Seurat checkpoint and PC assignments (large RDS stays local and is not distributed).
 - `results/tables/`, `results/figures/`: legacy output locations.
 - `results/core1_rerun_20261005_*`: earlier rerun/intermediate output folders; not promoted as current results.
