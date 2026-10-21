@@ -22,7 +22,7 @@ identity mapping is already included in Core 2. See the [scope decision](../proj
 
 `P3_CORE2_WORK` points to a separate workspace. Its `outputs/` contains four
 `*_upstream/` directories, `core2_qc/`, the reviewed `core2_analysis/`, and the
-user's fresh `core2_validation_rstudio/`. Its `work/` contains FASTQ/SRA staging,
+fresh validation run `core2_validation_rstudio/`. Its `work/` contains FASTQ/SRA staging,
 tools, reference annotation and the R library. These large local files are not
 published in Git. RDS fragment references and upstream scripts depend on their
 locations, so directory organization preserves them in place.
@@ -38,4 +38,4 @@ The local sequencing workspace remains necessary for reconstruction.
 
 ## Local supplementary revision
 
-`results/core2/supplement/` contains the ten full-size diagnostic figures and numeric summaries, separate count-filter sensitivity results, exploratory RNA/ATAC context, input-integrity checks and execution record. It is outside the main figure gallery. Large fitted RDS models remain in the external workspace `outputs/core2_supplement_2026-10-15/`. The private discussion PDF is temporary and is not included in the project, result snapshot, or Git. The user authorized publication of these revisions on 2026-10-18; the private review PDF remains excluded.
+`results/core2/supplement/` contains the ten full-size diagnostic figures and numeric summaries, separate count-filter sensitivity results, exploratory RNA/ATAC context, input-integrity checks and execution record. It is outside the main figure gallery. Large fitted RDS models remain in the external workspace `outputs/core2_supplement_2026-10-15/`. These revisions were published on 2026-10-18.

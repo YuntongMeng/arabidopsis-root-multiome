@@ -1,6 +1,6 @@
 # Repository edition: paths/tools configured by P3_ROOT and P3_CORE2_WORK.
 #!/usr/bin/env python3
-"""Finish three authorized samples sequentially, stopping before nucleus QC."""
+"""Process the remaining three samples sequentially, stopping before nucleus QC."""
 import json
 import os
 from pathlib import Path

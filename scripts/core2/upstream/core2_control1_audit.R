@@ -1,5 +1,5 @@
 # Repository edition: paths/tools configured by P3_ROOT and P3_CORE2_WORK.
-# Focused Control 1 audit. User-run only; no filtering, alignment or overwriting QC.
+# Focused Control 1 audit. Run manually only; no filtering, alignment or overwriting QC.
 # A: compare published ATAC-only counts to rebuilt counts by identical barcode,
 #    using all four samples as a baseline (units/peak sets differ).
 # B: independently rescan Control 1 with the exact fragment-QC function used for

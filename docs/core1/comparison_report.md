@@ -1,75 +1,174 @@
-# Core 1 修正版：实际重跑与旧版比较
+# Core 1 corrected version: rerun and comparison with the initial version
 
-2026-10-06 · 本地 Project 3 · 已运行完成；用户人工运行 01–07 的 summary 与八项结构检查已核对。最新发布整理见 decision_log.md 与 manual_rerun_validation.md。
+2026-10-06 · Project 3 · Run completed. The summaries and eight structural
+checks from my manual 01–07 rerun were checked. The final publication changes
+are in `decision_log.md` and `manual_rerun_validation.md`.
 
-## 结论先读
+## Summary
 
-**这次结果不是旧版的原样复现。无需你再从零重复跑一次才能知道差别，但旧版的生物学结论必须据新结果修改。** 本轮从原始 multiome 矩阵重新筛选 Gene Expression、QC、scDblFinder、PCA/Harmony、marker/annotation、DESeq2、P1 Fisher 和 GO，未把 frozen 结果当作新结果复用。
+**These results are not a reproduction of the initial version, and the initial
+biological conclusions have to be revised to match them.** This round started
+again from the raw multiome matrices: Gene Expression filtering, QC,
+scDblFinder, PCA/Harmony, markers/annotation, DESeq2, Project 1 Fisher tests
+and GO. Frozen results were not reused as new results.
 
-- **仍有支持：** population × biological sample 的 pseudobulk 设计；P1 候选具有 P3 osmotic-stress context；Pericycle 的候选相对同群体可检验基因背景显著富集；若干群体的 DE 方向和相当部分基因与旧版一致。
-- **需要撤回或重写：** 旧 cluster 编号/标签；“Pericycle overlap 比例最高”；“Pericycle 涉及全部 7 个 GO”；“GO-linked genes 全部下调”。
-- **新增解释边界：** P1 interaction 候选相对普通基因背景显著富集，但相对 **P1 非 interaction drought DEGs**，两个分支都未检出额外富集。不能据此宣称 P3 提供了 BRL3 interaction 特异性验证。
-- **一个纠正先前 review 的实证：** 旧 checkpoint 的 2,000 个 HVGs 中，坐标型 peak 为 **0**。ATAC 确实污染输入、QC、归一化分母和 marker 检验，但“peaks 大量进入 HVG、直接主导 PCA”没有获得这个 checkpoint 的支持。
+- **Still supported:** the population × biological sample pseudobulk design;
+  the Project 3 osmotic-stress context for the Project 1 candidates;
+  significant enrichment of the candidates in Pericycle relative to the
+  testable genes of the same population; DE direction and a sizeable share of
+  genes in several populations agree with the initial version.
+- **Withdrawn or rewritten:** old cluster numbers and labels; "Pericycle has
+  the highest overlap proportion"; "Pericycle is involved in all 7 GO terms";
+  "GO-linked genes are all downregulated".
+- **New interpretation limit:** the Project 1 interaction candidates are
+  significantly enriched relative to the ordinary gene background, but neither
+  branch shows extra enrichment relative to **Project 1 non-interaction drought
+  DEGs**. This does not let me claim that Project 3 validates BRL3
+  interaction specificity.
+- **A finding that corrects an earlier review:** none of the 2,000 HVGs in the
+  old checkpoint were coordinate peaks (**0**). The ATAC rows did contaminate
+  the input, QC, normalization denominator and marker tests, but this
+  checkpoint does not support "peaks entered the HVGs in large numbers and
+  drove the PCA".
 
-本次同时改变了输入处理、QC、doublets 和 annotation，另加 Harmony 分支；各结果差异不能全部单独归因于 ATAC 过滤。没有做逐项因素消融实验。
+This round changed input handling, QC, doublets and annotation at the same
+time, and added a Harmony branch. Differences cannot all be attributed to the
+ATAC filtering alone. No one-factor-at-a-time ablation was done.
 
-## 1. 输入修正与 QC
+## 1. Input correction and QC
 
-原每个样本混有 19,858 / 24,317 / 24,490 / 25,001 个 Peaks。严格按 feature 文件 **第 3 列等于 Gene Expression** 保留行，逐一校验矩阵行顺序、ID、维度、非负整数计数及唯一 barcode。每个样本均为 32,833 genes，共同 gene universe 也为 32,833；筛选后坐标型 peak ID = 0。不是因为数字接近基因总数就认定它们是基因。
+Each original sample contained 19,858 / 24,317 / 24,490 / 25,001 Peaks rows.
+Rows were kept strictly when **column 3 of the features file equals Gene
+Expression**, and matrix row order, IDs, dimensions, non-negative integer
+counts and unique barcodes were checked one by one. Every sample has 32,833
+genes, and the shared gene universe is also 32,833; after filtering there are
+0 coordinate-style peak IDs. The rows were not accepted as genes just because
+the count is close to the total gene number.
 
-先查看 gene-only quantiles、density 和 scatter，再制定样本内 log1p-MAD 阈值：低 features/counts 用 3 MAD、最低 500；极端高 counts 用 4 MAD；高 mt 用 3 MAD。实际最低 features 为 500/500/583/602，最高 mt 为 10.41/4.76/4.53/4.57%。cp 仅诊断。没有沿用旧 mixed-feature 的 800–15,000 features / 50,000 counts。
+I first looked at gene-only quantiles, densities and scatter plots, then set
+within-sample log1p-MAD thresholds: 3 MAD for low features/counts with a floor
+of 500; 4 MAD for extremely high counts; 3 MAD for high mt. The resulting
+minimum features are 500/500/583/602, and the maximum mt is
+10.41/4.76/4.53/4.57%. cp is diagnostic only. The old mixed-feature limits of
+800–15,000 features / 50,000 counts were not reused.
 
-| 样本 | 输入 nuclei | QC 去除 | 预测 doublets 去除 | 保留 singlets |
+| Sample | Input nuclei | Removed by QC | Predicted doublets removed | Singlets retained |
 | --- | --- | --- | --- | --- |
 | control_rep1 | 3431 | 85 | 236 | 3110 |
 | control_rep2 | 6631 | 180 | 666 | 5785 |
 | stress_rep1 | 7827 | 94 | 917 | 6816 |
 | stress_rep2 | 6585 | 71 | 675 | 5839 |
 
-从 24,474 输入 nuclei 中，QC 去除 430、scDblFinder 再去除 2,494，最终 **21,550**。每个 capture 独立检测；rate prior=0.008/1,000 captured cells，版本及随机种子已保存。这是预测 doublets，不是已确认的 doublets；实际 loading rate 未知，homotypic doublets 可能残留。
+Of 24,474 input nuclei, QC removed 430 and scDblFinder removed another 2,494,
+leaving **21,550**. Each capture was processed separately; the rate prior was
+0.008 per 1,000 captured cells, and versions and random seeds are saved. These
+are predicted doublets, not confirmed ones; the actual loading rate is
+unknown, and homotypic doublets may remain.
 
-旧版保留 24,277，与新版共享 21,488；旧独有 2,789、新独有 62。用原 mixed-count 规则重建的旧 barcode 集合与冻结 metadata 完全匹配。阈值的 800-gene floor 和 mt 4-MAD 备选只做了保留数量诊断，没有声称已完成整套 QC 参数敏感性重跑。
+The initial version retained 24,277 nuclei, of which 21,488 are shared with
+the new version; 2,789 are unique to the old set and 62 to the new set.
+Rebuilding the old barcode set with the original mixed-count rules matches the
+frozen metadata exactly. The 800-gene floor and the mt 4-MAD alternative were
+only checked for how many nuclei they retain; a full QC-parameter sensitivity
+rerun is not claimed.
 
-**Ambient RNA：** 本地 GEO RAW.tar 只有同样的 12 个 processed matrix/features/barcodes 文件，没有已验证的 raw/empty droplets。因此没有强行运行 SoupX，也没有把跨谱系表达直接视为污染比例。canonical DotPlot 可供检查，但不能排除环境 RNA。[GEO 数据来源](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235495)
+**Ambient RNA:** the local GEO `RAW.tar` contains only the same 12 processed
+matrix/features/barcodes files, with no verified raw or empty droplets. So I
+did not force SoupX, and cross-lineage expression was not treated as a
+contamination fraction. The canonical DotPlot can be inspected, but ambient
+RNA cannot be ruled out.
+[GEO data source](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235495)
 
-## 2. PC robustness 与 Harmony 的取舍
+## 2. PC stability and the Harmony decision
 
-共同使用 gene-only singlets 和 RNA assay，LogNormalize 10,000、初选 2,000 HVGs；移除其中 1 个 organelle HVG 后，embedding 实际用 1,999 个。与旧版 HVG 共有 1,524 个基因。原始 counts 保留全部 gene features，逐样本确认到最终对象前后计数总和完全一致。
+Both branches use the gene-only singlets and the RNA assay, LogNormalize with
+10,000, and an initial 2,000 HVGs; after removing 1 organelle HVG, the
+embedding uses 1,999. 1,524 of these genes are shared with the old HVGs. Raw
+counts keep all gene features, and per-sample count totals were confirmed to
+be identical before and after building the final object.
 
-两分支均计算 10/15/20/25/30/40/50 dimensions、resolution=0.5。选 25 PCs 是依据 20–30 区域的局部稳定性与维度简约性：未整合 ARI(20,25)=0.809、ARI(25,30)=0.880；Harmony 为 0.886、0.903。40–50 PCs 形成另一稳定区域，和 25 PCs 的 partition 仍有明显差异，不能称整个 PC 范围完全稳定。
+Both branches were computed at 10/15/20/25/30/40/50 dimensions with
+resolution = 0.5. I chose 25 PCs for local stability in the 20–30 range and
+for parsimony: unintegrated ARI(20,25) = 0.809 and ARI(25,30) = 0.880; Harmony
+0.886 and 0.903. 40–50 PCs form another stable region whose partition still
+differs clearly from 25 PCs, so the whole PC range cannot be called stable.
 
-25 PCs 下未整合恰好仍为 **18 clusters**，Harmony 为 **17**；这并不意味着复现旧 partition。旧/新未整合在共享 nuclei 上的 **ARI=0.639**；新未整合/Harmony 为 0.622。
+At 25 PCs the unintegrated branch happens to give **18 clusters** again, and
+Harmony gives **17**; this does not mean the old partition was reproduced. The
+old/new unintegrated ARI on shared nuclei is **0.639**; new unintegrated vs.
+Harmony is 0.622.
 
-| 诊断 | 未整合 | Harmony |
+| Diagnostic | Unintegrated | Harmony |
 | --- | --- | --- |
-| 同 condition、同较可信 atlas identity 内的 replicate mixing ratio，分组平均 | 0.876 | 0.984 |
-| broad atlas identity 邻域一致比例 | 0.485 | 0.485 |
-| 同 condition 邻居比例 | 0.859 | 0.600 |
-| 稀疏 stress-marker 原表达与邻居平滑值 Spearman | 0.229 | 0.184 |
+| Replicate mixing ratio within the same condition and the same higher-confidence atlas identity, group mean | 0.876 | 0.984 |
+| Neighbourhood agreement of broad atlas identity | 0.485 | 0.485 |
+| Fraction of same-condition neighbours | 0.859 | 0.600 |
+| Spearman between raw and neighbour-smoothed expression of sparse stress markers | 0.229 | 0.184 |
 
-选择 **未整合作主分析，Harmony 作敏感性分析**。Harmony 改善 control 重复混合，但没有相应提高这项 identity 一致性指标，并削弱 condition-associated geometry。这里 sample 嵌套于 condition，没有独立真值能证明被去除的部分全是 batch 或全是生物信号。四个 stress diagnostic genes 很稀疏，这个相关指标只是辅助证据。低维 condition 分离本身也不能证明生物信号保留正确。两条分支都实际跑了 raw-count DE，以下并列报告。
+I chose **unintegrated as the primary analysis and Harmony as a sensitivity
+analysis**. Harmony improves mixing of the control replicates, but it does not
+improve this identity-agreement metric to match, and it weakens
+condition-associated structure. Here sample is nested in condition, and no
+independent ground truth can show whether the removed variation is all batch
+or all biology. The four stress diagnostic genes are sparse, so that
+correlation is only supporting evidence. Low-dimensional separation by
+condition does not by itself show that biological signal was preserved
+correctly. Raw-count DE was run in both branches, and both are reported below.
 
-## 3. Annotation：有来源，也保留不确定性
+## 3. Annotation: sourced, with uncertainty kept
 
-主面板来自 [Shahan et al., 2022, Developmental Cell](https://doi.org/10.1016/j.devcel.2022.01.008)：原始 **Data S2K** 的 14 类、每类 top 50 signature genes；**S2F/G** 的 canonical markers 和其原始来源、空间表达范围；**S2J** 的 cell-cycle markers。原 xlsx、抽取后的面板、引用和每个新 cluster 的理由均在交付包内。不是把旧 placeholder 列表换个名字继续使用。
+The main panel comes from
+[Shahan et al., 2022, Developmental Cell](https://doi.org/10.1016/j.devcel.2022.01.008):
+the original **Data S2K** 14 classes with the top 50 signature genes each;
+**S2F/G** canonical markers with their original sources and spatial
+expression ranges; and **S2J** cell-cycle markers. The original xlsx, the
+extracted panels, the citations and the reasoning for each new cluster are in
+`data/core1_corrected_reference/`. This is not the old placeholder list under
+a new name.
 
-AddModuleScore 仅作支持，与新数据 strict markers 和 canonical DotPlot 联合判断。严格 marker 标准统一为 Wilcoxon、min.pct=.25、logFC=.25、返回 p<.01；marker 表另含调整后 p 值。marker 的细胞级 p 值不用于取代生物重复 DE。canonical panel 与 atlas panel 来自相关文献，不能声称完全独立验证。
+AddModuleScore is supporting evidence only and is judged together with strict
+markers from this dataset and the canonical DotPlot. Strict markers use one
+standard: Wilcoxon, min.pct = .25, logFC = .25, returning p < .01; the marker
+tables also include adjusted p values. Cell-level marker p values do not
+replace replicate-based DE. The canonical and atlas panels come from related
+literature, so they are not fully independent validation.
 
-- 用 broad lineage 合并有共同身份支持、但 developmental/condition 状态不同的子群。例如 Pericycle 的 control-enriched 与 stress-enriched 未整合子群合并后做 DE。
-- Atrichoblast/Cortex/Endodermis/Trichoblast 的 `_lineage` 包含强弱不同的子群，不能把弱子群升级为确定的成熟细胞身份。
-- **Root_cap** 有 SMB/BRN1/BRN2 等证据，但共享 marker 不足以可靠区分 LRC 与 columella。
-- **Meristematic_unresolved、Epidermal_initial_like** 保留低置信度；**Dividing_meristematic** 是有 cell-cycle 证据的状态，不是单一谱系。
-- Phloem、小型 unresolved、样本特异状态保留描述；不满足每个 replicate 的门槛就不进入正式 DE。
+- Broad lineages merge subgroups that share identity support but differ in
+  developmental or condition state. For example, the control-enriched and
+  stress-enriched unintegrated Pericycle subgroups are merged before DE.
+- The Atrichoblast/Cortex/Endodermis/Trichoblast `_lineage` groups contain
+  stronger and weaker subgroups; weaker subgroups are not upgraded to a
+  definite mature identity.
+- **Root_cap** has evidence such as SMB/BRN1/BRN2, but shared markers cannot
+  reliably separate LRC from columella.
+- **Meristematic_unresolved** and **Epidermal_initial_like** stay low
+  confidence; **Dividing_meristematic** is a state with cell-cycle evidence,
+  not a single lineage.
+- Phloem, small unresolved groups and sample-specific states keep their
+  descriptions; groups that do not meet the per-replicate threshold do not
+  enter formal DE.
 
-旧 LRC_like 的细胞大量分散到新 Atrichoblast_lineage 和 Cortex_lineage。因此旧 LRC 特异性解释不能直接继承。新 Root_cap 中 88.6% 细胞来自旧 Columella，支持根冠层面的连续性，但不据此强行恢复旧细标签。
+Cells from the old LRC_like group are largely spread across the new
+Atrichoblast_lineage and Cortex_lineage. The old LRC-specific interpretation
+therefore cannot be carried over. 88.6% of cells in the new Root_cap come from
+the old Columella, which supports continuity at the root-cap level, but the
+old fine labels are not forced back.
 
-## 4. Pseudobulk 与 DE
+## 4. Pseudobulk and DE
 
-每个 population × biological sample 汇总**原始整数 gene counts**；共同基因 universe 内，四样本 row-total≥10 预过滤；DESeq2 `~condition`，stress/control，padj<.05 且 |log2FC|≥1。没有把 rep1/rep2 伪装成配对设计，也没有把细胞当 replicate。
+Each population × biological sample sums **raw integer gene counts**. Within
+the shared gene universe, genes are pre-filtered at row total ≥ 10 across the
+four samples. DESeq2 uses `~condition`, stress vs. control, with padj < .05
+and |log2FC| ≥ 1. rep1/rep2 are not treated as a paired design, and cells are
+not treated as replicates.
 
-主分析有 **9 populations**、Harmony 有 **10** 达标；入选群体最小样本数均≥100，所以本轮 ≥25 / ≥50 / ≥100 三种 eligibility 给出同一集合。两条件各 n=2，结论仍为探索性。低置信度 population 的 DE 只能按该保守标签解释。
+The primary analysis has **9 eligible populations** and Harmony has **10**.
+The smallest per-sample count in every selected population is ≥ 100, so the
+≥ 25 / ≥ 50 / ≥ 100 eligibility rules give the same set in this run. With n = 2
+per condition, conclusions remain exploratory. DE in low-confidence
+populations can only be read under those conservative labels.
 
-| Population | 主分析 DEGs | Harmony DEGs |
+| Population | Primary DEGs | Harmony DEGs |
 | --- | --- | --- |
 | Atrichoblast_lineage | 1.56e+03 | 1.55e+03 |
 | Cortex_lineage | 1.46e+03 | 846 |
@@ -82,13 +181,17 @@ AddModuleScore 仅作支持，与新数据 strict markers 和 canonical DotPlot 
 | Root_cap | 148 | 155 |
 | Trichoblast_lineage | 1.75e+03 | 1.53e+03 |
 
-表内 Procambium_like 的主分析为 NA，表示该标签只在 Harmony 分支定义，不是零个 DEGs。
+NA for Procambium_like in the primary analysis means the label exists only in
+the Harmony branch, not that it has zero DEGs.
 
-这些是重新定义的 population，不能把某行数字与旧版同名或近名群体视为严格一一对应。全部 fitted/valid-pvalue/finite-padj 分母、原始 pseudobulk、样本 correlation、细胞数、size factors 和全量 DE 均已保存。
+These populations are redefined, so a row cannot be treated as a strict
+one-to-one match with an old group of the same or a similar name. All
+fitted / valid-pvalue / finite-padj denominators, raw pseudobulk, sample
+correlations, cell counts, size factors and full DE results are saved.
 
-**新两分支的稳定性：**
+**Stability between the two new branches:**
 
-| Population | log2FC Spearman | DEG Jaccard | 细胞成员 Jaccard |
+| Population | log2FC Spearman | DEG Jaccard | Cell membership Jaccard |
 | --- | --- | --- | --- |
 | Atrichoblast_lineage | 0.946 | 0.717 | 0.827 |
 | Cortex_lineage | 0.851 | 0.339 | 0.713 |
@@ -100,15 +203,29 @@ AddModuleScore 仅作支持，与新数据 strict markers 和 canonical DotPlot 
 | Root_cap | 0.963 | 0.836 | 0.904 |
 | Trichoblast_lineage | 0.988 | 0.825 | 0.858 |
 
-所有共同显著基因的符号在两分支一致；但 Cortex 的 DEG Jaccard 仅 0.339，Meristematic_unresolved 为 0.480，成员和检出数量明显依赖分支。Pericycle 两分支有 524 个共同 DEG、log2FC Spearman=0.901；分裂状态和 Root_cap 更稳定。不能把“方向一致”解释为所有群体完全稳健。
+Every gene significant in both branches has the same sign in both. But the DEG
+Jaccard is only 0.339 for Cortex and 0.480 for Meristematic_unresolved, so
+membership and the number of detected genes clearly depend on the branch.
+Pericycle has 524 shared DEGs between branches, with log2FC Spearman = 0.901;
+the dividing state and Root_cap are more stable. "Same direction" does not
+mean every population is fully stable.
 
-与旧版成员接近的群体中，Dividing_meristematic 的 log2FC Spearman=0.945、DEG Jaccard=0.709；Pericycle 为 0.873 / 0.631；新 Root_cap 对旧 Columella 为 0.900 / 0.738。详细比较带成员交集，避免只比较名字。
+Among populations whose membership is close to the old version,
+Dividing_meristematic has log2FC Spearman = 0.945 and DEG Jaccard = 0.709;
+Pericycle 0.873 / 0.631; and the new Root_cap vs. the old Columella
+0.900 / 0.738. The detailed comparison includes membership intersections, so
+it does not compare names alone.
 
-## 5. P1 137 候选与 Fisher enrichment
+## 5. The 137 Project 1 candidates and Fisher enrichment
 
-Fisher 主背景为每个 population 内 **padj 非缺失、确实可进入显著性判定**的 genes。表格为 P1 / 非 P1 × stress DEG / 非 DEG，单侧富集检验，BH 在每个分支的各 population 内校正。另保存含 independent-filtered genes 的全部 fitted 背景敏感性版本，不混用分母。
+The main Fisher background is, for each population, the genes with a
+**non-missing padj that actually enter significance testing**. The table is
+Project 1 / non-Project 1 × stress DEG / non-DEG, with a one-sided enrichment
+test and BH correction across populations within each branch. A sensitivity
+version using all fitted genes, including independently filtered ones, is
+saved separately; the denominators are not mixed.
 
-| Population | P1 stress DEG | 可检验 P1 | OR | Fisher BH |
+| Population | Project 1 stress DEGs | Testable Project 1 genes | OR | Fisher BH |
 | --- | --- | --- | --- | --- |
 | Atrichoblast_lineage | 26 | 108 | 3.28 | 3.83e-06 |
 | Cortex_lineage | 19 | 87 | 2.38 | 0.00177 |
@@ -120,48 +237,100 @@ Fisher 主背景为每个 population 内 **padj 非缺失、确实可进入显�
 | Root_cap | 5 | 56 | 6.34 | 0.00177 |
 | Trichoblast_lineage | 30 | 102 | 3.47 | 4.8e-07 |
 
-主分析所有 9 个 population 相对普通背景均有富集，Harmony 的 10 个也均有；这并不证明精确 cell-type specificity，尤其低置信度标签不可精确定位。每个 Fisher family 分别校正；没有把多种备选检验混成一次全局 BH。
+All 9 primary populations, and all 10 Harmony populations, are enriched
+relative to the ordinary background. This does not show precise cell-type
+specificity, especially for low-confidence labels. Each Fisher family is
+corrected separately; the alternative tests are not pooled into one global BH.
 
-**Pericycle：** 主分析 19 个 P1 stress DEGs（6 up、13 down），19/120 fitted=15.83%；真正 Fisher 背景中为 19/97，OR=5.51，BH=8.48×10⁻⁸。Harmony 也有 19 个（6 up、13 down），19/117 fitted，19/78 finite-padj，OR=5.93，BH=1.45×10⁻⁷。旧版是 23/118，不应继续引用。主分析最高 fitted overlap 比例现在是 Trichoblast_lineage，30/115=26.09%，不是 Pericycle；比例排名本身仍不是富集特异性检验。
+**Pericycle:** the primary analysis has 19 Project 1 stress DEGs (6 up, 13
+down), 19/120 fitted = 15.83%; in the actual Fisher background it is 19/97,
+OR = 5.51, BH = 8.48×10⁻⁸. Harmony also has 19 (6 up, 13 down), 19/117 fitted,
+19/78 finite-padj, OR = 5.93, BH = 1.45×10⁻⁷. The old figure of 23/118 should
+no longer be cited. The highest fitted overlap proportion in the primary
+analysis is now Trichoblast_lineage, 30/115 = 26.09%, not Pericycle; ranking
+by proportion is still not a test of enrichment specificity.
 
-**更合适的对照：** P1 WT drought DEGs 共 1,480；去掉 137 interaction 候选中的重叠者后，得到 1,442 个对照；再要求 interaction padj 有值且≥.05，得到 1,389 个严格对照。相对两种对照，两个分支**没有任何 population 达到 BH<.05 的 interaction 候选额外富集**。Pericycle 主分析相对第一种对照 OR=1.39、BH=0.437；Harmony OR=1.36、BH=0.688。
+**A more suitable control:** Project 1 has 1,480 WT drought DEGs. Removing
+those that overlap the 137 interaction candidates leaves 1,442 control genes;
+also requiring a non-missing interaction padj ≥ .05 leaves 1,389 strict
+control genes. Against both controls, **no population in either branch reaches
+BH < .05 for extra enrichment of the interaction candidates**. For Pericycle,
+the primary analysis against the first control gives OR = 1.39, BH = 0.437;
+Harmony gives OR = 1.36, BH = 0.688.
 
-所以保留“候选与独立 osmotic-stress response 收敛”的描述，撤去“interaction-specific validation”或“Pericycle 唯一/最强”的表述。未显著不证明两集合等效；没有做 expression-matched control，表达量及检出功效混杂仍在。
+So I keep the description "the candidates converge with an independent
+osmotic-stress response" and drop "interaction-specific validation" and
+"Pericycle is unique or strongest". A non-significant result does not show
+that the two sets are equivalent; no expression-matched control was used, so
+confounding by expression level and detection power remains.
 
-## 6. 七个 GO annotations
+## 6. The seven GO annotations
 
-重新映射后仍为 7 terms、36 term–gene memberships、13 distinct genes。使用的是 **P1 原 enrichment 表中列出的 candidate members**，不是完整 GO 注释基因库；此次没有新跑 P3 GO enrichment。
+After remapping there are still 7 terms, 36 term–gene memberships and 13
+distinct genes. These are the **candidate members listed in the original
+Project 1 enrichment table**, not the full set of genes annotated to each GO
+term. No new Project 3 GO enrichment was run.
 
-两个分支只有 **3/7 terms** 有至少一个满足当前 P1×P3 DEG 条件的 overlap：JA metabolism、long-chain fatty acid metabolism、response to cold。cold acclimation / water / water deprivation / acid response 均为 0。这是阈值下没有候选 overlap，不能解释成程序不存在。
+In both branches only **3 of 7 terms** have at least one overlap meeting the
+current Project 1 × Project 3 DEG criteria: JA metabolism, long-chain fatty
+acid metabolism and response to cold. Cold acclimation, response to water,
+water deprivation and acid response are all 0. This means no candidate overlap
+at these thresholds, not that the program is absent.
 
-Pericycle 主分析 cold response 从旧版 3 genes 降至 **1**，Harmony 为 **2**。JA 和长链脂肪酸条目各有 1 个下调基因，但它们共享成员，不能当两个独立发现。Atrichoblast_lineage 中这两个条目的 overlap 现在为上调，因此旧版“GO-linked 全部 down”不再成立。
+In Pericycle, cold response drops from 3 genes in the old version to **1** in
+the primary analysis and **2** in Harmony. The JA and long-chain fatty acid
+terms each have 1 downregulated gene, but they share members and are not two
+independent findings. In Atrichoblast_lineage the overlap for these two terms
+is now upregulated, so the old statement "GO-linked genes are all down" no
+longer holds.
 
-全 7×population 矩阵包含零列/零行，pairwise gene-set overlap/Jaccard 也已导出。原七个 term 本来就强烈重叠，不能称为七个独立程序被重复验证。
+The full 7 × population matrix includes zero rows and columns, and pairwise
+gene-set overlap and Jaccard values are exported. The seven terms overlap
+strongly to begin with, so they cannot be described as seven independent
+programs that were each confirmed.
 
-## 7. 哪些旧结论可以继续用
+## 7. Which old conclusions still hold
 
-| 旧结论或方法 | 本次处理 |
+| Old conclusion or method | Status now |
 | --- | --- |
-| P1 → population → stress pseudobulk → contextualization 的研究框架 | 保留 |
-| biological sample 为统计重复；gene-only common universe | 保留并直接验证 |
-| PC25、18 clusters | PC25 有新稳定性支持；18 只是未整合分支的巧合，partition 不同 |
-| 旧 13 populations 和标签 | 重做；正式 DE 为 9/10，低置信度标签保守解释 |
-| Pericycle 有较强 stress/P1 context | 两分支继续支持，但不能称唯一、最高或 interaction 特异 |
-| Pericycle 23/118 | 替换为新分支的结果及清楚区分的分母 |
-| Pericycle 全部 7 GO、全部 GO overlap 下调 | 撤回，改用上述 3-term 结果及方向 |
-| 完全不需要考虑 Harmony | 改为实测敏感性比较；目前未整合作主分析 |
-| peak 直接大量进入 HVG 驱动 PCA | 旧 checkpoint 不支持；不要继续当事实陈述 |
+| Framework: Project 1 → population → stress pseudobulk → contextualization | Kept |
+| Biological sample as the statistical replicate; gene-only shared universe | Kept and checked directly |
+| PC25, 18 clusters | PC25 has new stability support; 18 is a coincidence in the unintegrated branch, and the partition differs |
+| Old 13 populations and labels | Redone; formal DE uses 9/10 populations, low-confidence labels read conservatively |
+| Pericycle has strong stress/Project 1 context | Still supported in both branches, but not unique, highest or interaction-specific |
+| Pericycle 23/118 | Replaced by the new branch results, with clearly separated denominators |
+| Pericycle in all 7 GO terms; all GO overlaps downregulated | Withdrawn; replaced by the 3-term result and directions above |
+| Harmony does not need to be considered at all | Replaced by a measured sensitivity comparison; unintegrated is currently primary |
+| Peaks entered the HVGs in large numbers and drove the PCA | Not supported by the old checkpoint; should not be stated as fact |
 
-## 8. 文件、复现和审阅
+## 8. Files, reproduction and review
 
-本地完整 checkpoint 在 `Project 3/results/core1/checkpoints/`，包括 gene-only counts、singlets、两分支对象和 pseudobulk；约 5.6 GB，本审阅包不重复复制它们。包内提供 scripts、全部 CSV 表格、图、面板来源、方法记录、运行日志与 sessionInfo。原始 matrix 文件保留原位。
+The full local checkpoints in `results/core1/checkpoints/` (gene-only counts,
+singlets, both branch objects and pseudobulk; about 5.6 GB) are not in Git.
+The repository has the scripts, all CSV tables, figures, panel sources, method
+records, run logs and sessionInfo. The original matrix files stay where they
+were.
 
-**入口：** 项目根目录 `Rscript scripts/run_core1_corrected.R help`。可逐阶段运行 audit / qc / embeddings / evidence / de / context / compare / diagnostics，或显式 all。R 函数冲突处均写 `package::function()`。默认使用标准 R libraries；可用未跟踪的本机 P3_R_LIB 设置覆盖。common helper 不再含个人绝对路径。
+**Entry point:** from the project root, `Rscript scripts/run_core1_corrected.R help`.
+Stages can be run one at a time (audit / qc / embeddings / evidence / de /
+context / compare / diagnostics) or explicitly with `all`. Ambiguous R
+functions are always written as `package::function()`. Standard R libraries
+are used by default; an untracked local `P3_R_LIB` setting can override this.
+The common helper no longer contains personal absolute paths.
 
-手工 annotation 是本次 evidence review 的产物，绑定 partition MD5。未来 partition 变化会要求重新审查，不能跳过检查后套标签。旧混合输入的 stage-1 入口已加阻止误运行提示，旧代码和 frozen archive 仍保留。
+The manual annotation is the product of this evidence review and is tied to
+the partition MD5. A future change in the partition requires a new review;
+labels should not be applied without that check. The old mixed-input stage-1
+entry point now warns against accidental use, and the old code and the frozen
+archive are kept.
 
-已检查：10 份新 R 文件语法；8 项结构性 invariants；152 个 Fisher p 值用独立 hypergeometric 求和复核、BH 用独立排序算法复核；27 个 frozen 文件与既有 SHA256 记录一致。图已检查可读性。**没有 GitHub commit/push。**
+Checked: syntax of the 10 new R files; 8 structural invariants; 152 Fisher p
+values recomputed by independent hypergeometric sums, and BH recomputed with an
+independent sorting implementation; 27 frozen files match their existing
+SHA-256 records. Figures were checked for readability.
 
-建议你先审阅每个 cluster 的 annotation 理由、canonical DotPlot，以及 Cortex/Meristematic 的分支敏感性，再决定是否接受这些 population 定义；不必为了核对本报告而重跑所有步骤。
-
-主要方法与数据来源：[Shahan atlas 及补充表](https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/)、[scDblFinder 作者说明](https://plger.github.io/scDblFinder/articles/scDblFinder.html)、[P3 GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235495)、[root osmotic-stress marker 研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC10573044/)。
+Main methods and data sources:
+[Shahan atlas and supplementary tables](https://pmc.ncbi.nlm.nih.gov/articles/PMC9014886/),
+[scDblFinder documentation](https://plger.github.io/scDblFinder/articles/scDblFinder.html),
+[Project 3 GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235495),
+[root osmotic-stress marker study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10573044/).

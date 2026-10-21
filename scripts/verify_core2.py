@@ -99,7 +99,7 @@ def verify(root):
         assert int(row["with_common_peak"]) == 120
         assert int(row["with_FDR_peak"]) == int(row["with_priority_peak"]) == 0
 
-    # Preserve the real user rerun and read-only audit as separate evidence.
+    # Check the manual rerun and the read-only audit as separate evidence.
     diagnostics = root / "results/core2/diagnostics"
     rerun = read_csv(diagnostics / "manual_rerun/validation_comparison.csv")
     assert len(rerun) == 10 and all(true(r["matches_recorded_run"]) for r in rerun)

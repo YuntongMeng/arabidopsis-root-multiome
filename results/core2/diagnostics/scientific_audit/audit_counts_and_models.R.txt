@@ -1,6 +1,6 @@
 # Read-only scientific data-lineage/statistics audit; writes only new audit records.
 task <- getwd()
-project <- '/Users/tt/Documents/arabidopsis_root_multiome'
+project <- '<project_root>'
 .libPaths(c(file.path(task,'work','R_library'),.libPaths()))
 for(p in c('Signac','SeuratObject','GenomicRanges','IRanges','DESeq2','rtracklayer','Matrix')) stopifnot(requireNamespace(p,quietly=TRUE))
 out <- file.path(task,'outputs','core2_scientific_audit_2026-10-13')

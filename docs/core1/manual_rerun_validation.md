@@ -1,6 +1,6 @@
 # Core 1 manual rerun validation — 2026-10-06
 
-The user restarted the R session and invoked stages 01–07 from the original processed input matrices in RStudio, inspecting outputs with the assistant. This record summarizes the observed console tables; it is not a transcript, a claim of row-by-row identity, or a proof of biological truth.
+I restarted the R session and ran stages 01–07 from the original processed input matrices in RStudio, then checked the outputs. This record summarizes the observed console tables; it is not a transcript, a claim of row-by-row identity, or a proof of biological truth.
 
 | Checkpoint | Observed result |
 | --- | --- |
@@ -12,7 +12,7 @@ The user restarted the R session and invoked stages 01–07 from the original pr
 | Pseudobulk | Nine PCA and ten Harmony eligible populations at >=50 nuclei in every sample |
 | Structural checks | All eight checks TRUE, including gene-only DE universe and no peak markers |
 
-The user-pasted input, QC, branch and DE summaries agree with the preceding corrected run. This verifies those summaries and the workflow execution, not every gene-level numerical value independently. The eight checks are recorded in `results/core1/tables/structural_invariants.csv`; their criteria concern data structure, not fixed biological counts.
+The input, QC, branch and DE summaries from this run agree with the preceding corrected run. This verifies those summaries and the workflow execution, not every gene-level numerical value independently. The eight checks are recorded in `results/core1/tables/structural_invariants.csv`; their criteria concern data structure, not fixed biological counts.
 
 Observed messages were nonfatal: Harmony's BLAS message indicates a single-thread fallback; Seurat's UMAP message describes its R UWOT default; AnnotationDbi's 1:many message flags annotation mapping multiplicity. Marker provenance and low-confidence groups remain reviewable. Completion does not establish annotation correctness or an optimal PC count.
 

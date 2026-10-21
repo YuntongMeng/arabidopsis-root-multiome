@@ -51,7 +51,7 @@ core2_qc_scan_fragments <- function(path, peaks, cells, nuclear_plain = NULL,
   repeat {
     lines <- readLines(input, n = chunk_size, warn = FALSE)
     if (!length(lines)) break
-    # Our upstream files have five columns and no header/comment records.
+    # These upstream files have five columns and no header/comment records.
     if (any(lengths(regmatches(lines, gregexpr("\t", lines, fixed = TRUE))) != 4L)) {
       stop("Expected exactly five tab-separated columns in: ", path)
     }

@@ -1,6 +1,6 @@
 # Core 2: supplementary diagnostics and exploratory checks
 
-Supplementary revision completed on 2026-10-15. The user reviewed the separate private PDF and authorized GitHub publication on 2026-10-18.
+Supplementary revision completed on 2026-10-15 and published to GitHub on 2026-10-18.
 The original counts>=10 analysis remains primary. This supplement does not change
 QC, cell identities, sample membership, FDR, or the two biological replicates per condition.
 Project 3 still concludes at Core 2; further Control 1 attribution is paused.
@@ -127,9 +127,8 @@ new output directory and refuses overwrite. Five original models' raw inputs and
 saved statistics were checked against the pseudobulk and tables (tolerance 1e-7).
 The 18 consumed input files, including original models, primary results, Core 1
 tables and references, have identical before/after hashes.
-Large supplemental model RDS files remain local. A separate private Chinese PDF
-review is held only in temporary storage; it is not part of the repository.
+Large supplemental model RDS files remain local.
 
 Run `python3 scripts/verify_core2.py` for the original results and
 `python3 scripts/verify_core2_supplement.py` for the supplement. Neither refits models.
-The 2026-10-15 analysis execution did not commit or push. On 2026-10-18 the user authorized publication of the reviewed supplement; Git history records the publication commit.
+The supplement was published on 2026-10-18; Git history records the publication commit.

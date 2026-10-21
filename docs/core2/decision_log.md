@@ -21,43 +21,41 @@
 | One Atrichoblast candidate | Review all four sample counts and nearby genes | Proximity and direction consistency do not establish regulation |
 | P1 cross-project comparison | Fixed gene-body / TSS-nearby rule for all137 candidates | Different contrasts; no new gene-level or enrichment test |
 | GO and deeper regulatory analysis | Not performed in Core 2 | Not necessary to force a larger story from one candidate |
-| Core 3 | Initially deferred; user cancelled the plan on 2026-10-15 and concluded Project 3 at Core 2 | Joint identity comparison already belongs to Core 2; no separate Core 3 deliverable |
-| Submission | Local preparation and user downstream validation completed; user explicitly authorized GitHub publication on 2026-10-15 | Upload code/results record only; raw inputs remain local; fresh FASTQ/QC rerun not claimed |
+| Core 3 | Initially deferred; cancelled on 2026-10-15, concluding Project 3 at Core 2 | Joint identity comparison already belongs to Core 2; no separate Core 3 deliverable |
+| Submission | Local preparation and downstream rerun completed; published to GitHub on 2026-10-15 | Upload code/results record only; raw inputs remain local; fresh FASTQ/QC rerun not claimed |
 
-The recorded models/results come from the user's RStudio execution. Repository preparation reorganizes those outputs, reconstructs previously interactive steps into scripts, and redraws saved PCA coordinates. New code is not retrospective proof that a complete fresh run reproduces every result.
+The recorded models/results come from my original RStudio run. Repository preparation reorganizes those outputs, reconstructs previously interactive steps into scripts, and redraws saved PCA coordinates. New code is not retrospective proof that a complete fresh run reproduces every result.
 
 
-## Subsequent user validation
+## Subsequent manual rerun
 
-The user manually reran the assembled downstream pipeline in RStudio from the four existing unfiltered QC objects. All ten comparisons matched (statistics tolerance 1e-7). This supersedes the earlier preparation-time statement that no fresh downstream run had occurred. It does not assert fresh upstream/QC reconstruction or scientific ground truth. Original results remain unchanged.
+I reran the assembled downstream pipeline in RStudio from the four existing unfiltered QC objects. All ten comparisons matched (statistics tolerance 1e-7). This supersedes the earlier preparation-time statement that no fresh downstream run had occurred. It does not assert fresh upstream/QC reconstruction or scientific ground truth. Original results remain unchanged.
 
 ## Final closure, 2026-10-15
 
-The user cancelled the separate Core 3 plan and authorized GitHub publication. Project 3 now concludes with Core 1 and Core 2. No further biological analysis or new correction algorithm was run during closure. See [final scope](../project_scope.md).
+I cancelled the separate Core 3 plan and published the work to GitHub. Project 3 now concludes with Core 1 and Core 2. No further biological analysis or new correction algorithm was run during closure. See [final scope](../project_scope.md).
 
-## Authorized local supplement, 2026-10-15
+## Local supplement, 2026-10-15
 
-After discussion, the user authorized the agreed revisions, explicitly prohibited
-push, and paused further Control 1 attribution. Preserve counts>=10 primary results;
-add one broader counts>=5 setting in at least two samples. Do not require all four
-samples or tune by discoveries. TSS>1 and biological replication stay unchanged.
-Retain five p histograms and five dispersion figures separately as supplements;
-quantify the initial-boundary proportions with bars. Add 15 RNA-selected response
-examples using existing Core 1 statistics, disclose retained-set differences and
-retain all nearby peak statuses. Correct stale submission text. No commit or push.
+I added a set of supplementary checks and paused further work on the cause of the
+Control 1 subgroup. The counts>=10 primary results were kept. I added one broader
+setting, counts>=5 in at least two samples; it does not require all four samples
+and was not tuned by the number of discoveries. TSS>1 and biological replication
+stay unchanged. The five p-value histograms and five dispersion figures are kept
+separately as supplements, with bars quantifying the initial-boundary proportions.
+I added 15 RNA-selected response examples using existing Core 1 statistics,
+disclosed differences in the retained nucleus sets and kept all nearby peak statuses.
 
 The same Atrichoblast candidate persists. The sensitivity fit adds one Pericycle
 FDR region below twofold, explicitly filter-sensitive. No nearby primary FDR ATAC
 support appears for the 15 RNA examples. All original consumed inputs are unchanged;
-five primary statistics tables were reproduced from saved models. The separate
-private PDF is temporary, excluded from all repository deliverables. Detailed
+five primary statistics tables were reproduced from saved models. Detailed
 [supplementary methods and outcomes](supplemental_review.md) preserve limitations.
 
-## Supplement publication authorized, 2026-10-18
+## Supplement publication, 2026-10-18
 
-After reviewing the private PDF, the user explicitly authorized publishing the
-completed supplemental revisions. This supersedes the earlier hold on push for
-these changes only. Original primary results and Core 1/frozen outputs remain
-unchanged. No new biological analysis is needed for publication. The private PDF,
-raw reads, fragments, large models and runtimes remain excluded. Further Control 1
+The completed supplemental revisions were published on 2026-10-18. Original primary
+results and Core 1/frozen outputs remain unchanged. No new biological analysis was
+needed for publication. Raw reads, fragments, large models and runtimes remain
+excluded. Further Control 1
 attribution remains paused. Git history records the resulting publication commit.

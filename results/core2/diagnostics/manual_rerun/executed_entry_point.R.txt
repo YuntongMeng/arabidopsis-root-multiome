@@ -5,8 +5,8 @@
 # alignment, peak recounting or fragment-level QC measurements.
 
 core2_validate_in_rstudio <- function(
-    project_dir = "/Users/tt/Documents/arabidopsis_root_multiome",
-    task_dir = "/Users/tt/Documents/Codex/2026-10-10/referenced-chatgpt-conversation-this-is-an",
+    project_dir = "<project_root>",
+    task_dir = "<P3_CORE2_WORK>",
     validation_name = "core2_validation_rstudio",
     include_marker_plots = FALSE,
     allow_existing = FALSE,

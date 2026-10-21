@@ -4,11 +4,11 @@
 
 The ATAC reanalysis provides limited condition-associated evidence. One Atrichoblast-lineage peak passes the current within-population FDR criterion, while the other four evaluated populations yield no significant regions. None of the 137 Project 1 interaction candidates has a nearby matched peak that passes this criterion. These observations describe the available evidence; they do not establish that stress has no chromatin effects or that P1 candidates lack stress functions.
 
-The purpose was also to learn and document the complete ATAC analysis chain. We established common measurement intervals, reconstructed fragments, calculated fragment-level QC, matched nuclei to corrected RNA calls, inspected embeddings and population identity, and compared biological-sample pseudobulks. Completing that chain does not guarantee strong biological discoveries.
+The purpose was also to learn and document the complete ATAC analysis chain. I established common measurement intervals, reconstructed fragments, calculated fragment-level QC, matched nuclei to corrected RNA calls, inspected embeddings and population identity, and compared biological-sample pseudobulks. Completing that chain does not guarantee strong biological discoveries.
 
 ## Why the original matrices could not simply be merged
 
-The four published peak lists contained 19,858 / 24,317 / 24,490 / 25,001 regions. Exact coordinate-string intersection was zero, although many intervals overlapped. We used union/reduce of those existing intervals and recounted fragments in 27,677 common nuclear regions. Expanding or renaming matrix rows alone would not recover fragments outside the original regions. No new peak calling was performed.
+The four published peak lists contained 19,858 / 24,317 / 24,490 / 25,001 regions. Exact coordinate-string intersection was zero, although many intervals overlapped. I used union/reduce of those existing intervals and recounted fragments in 27,677 common nuclear regions. Expanding or renaming matrix rows alone would not recover fragments outside the original regions. No new peak calling was performed.
 
 The RNA assay uses only Gene Expression rows. The ATAC assay uses only peak-region counts. This preserves the correction established in Core 1 and prevents mixed gene/peak features from being interpreted as RNA expression.
 
@@ -73,7 +73,7 @@ The unit in this summary is a candidate gene, not a peak. A nearby peak p value 
 
 ## Where this iteration stops
 
-We retain the single candidate, the sparse/null comparison results and the uncertainty. The original threshold remains the primary analysis. A separately labelled broader count-filter sensitivity run is now retained without selecting its threshold by discovery count; it does not replace the primary result. No new ATAC GO analysis was performed. Same-nucleus RNA–ATAC comparison is already part of Core 2; The user cancelled Core 3 on 2026-10-15 and concluded the project at Core 2; see the [scope decision](../project_scope.md). Further mechanistic analysis would require its own question and validation, not merely another stage name.
+I kept the single candidate, the sparse/null comparison results and the uncertainty. The original threshold remains the primary analysis. A separately labelled broader count-filter sensitivity run is now retained without selecting its threshold by discovery count; it does not replace the primary result. No new ATAC GO analysis was performed. Same-nucleus RNA–ATAC comparison is already part of Core 2, so I cancelled Core 3 on 2026-10-15 and concluded the project at Core 2; see the [scope decision](../project_scope.md). Further mechanistic analysis would require its own question and validation, not merely another stage name.
 
 [Methods](methods.md) · [Control 1](control1_review.md) · [Decisions](decision_log.md) · [Validation](validation.md)
 

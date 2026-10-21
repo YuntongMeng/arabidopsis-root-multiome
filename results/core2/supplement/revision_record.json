@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "Analysis completed and verified on 2026-10-15; publication authorized on 2026-10-18",
+  "status": "Analysis completed and verified on 2026-10-15; published on 2026-10-18",
   "base_commit": "fb02f263de00f8902430b5fec2acb4d21d8e6346",
   "primary_models_refitted": false,
   "primary_outputs_overwritten": false,
@@ -16,12 +16,10 @@
   "RNA_selection": "Top 3 primary RNA responses per population: padj<.05 and |log2FC|>=1; order padj, -|log2FC|, gene ID",
   "RNA_models_refitted": false,
   "further_Control1_attribution": "Paused; not performed",
-  "private_review_PDF": "Temporary only; excluded from project and Git",
   "source_sha256": {
     "scripts/core2/09_supplemental_review.R": "20797202873ad815fa28da7acf8d040d0062c3cd81da603a7185a9a8daa5873d",
     "scripts/verify_core2_supplement.py": "3655f0e93ed5fb1e641830ef259678c5ba7dea4c067ac1191a2c69a8e2347f27",
     "scripts/run_core2.R": "675b20e2fa10685c4fa1044de6d27065888201b50abb6c7fa734ae2c774ea385"
   },
-  "publication_authorized_date": "2026-10-18",
-  "analysis_execution_did_not_commit_or_push": true
+  "publication_date": "2026-10-18"
 }

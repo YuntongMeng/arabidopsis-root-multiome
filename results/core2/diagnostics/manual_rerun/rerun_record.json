@@ -1,5 +1,5 @@
 {
-  "performed_by": "User in RStudio",
+  "performed_by": "Project author, in RStudio",
   "recorded_date": "2026-10-13",
   "scope": "Fresh downstream run from the four existing unfiltered ATAC QC objects",
   "stages": [
@@ -24,7 +24,8 @@
     "optional marker and coverage plot stage"
   ],
   "output_directory": "${P3_CORE2_WORK}/outputs/core2_validation_rstudio",
-  "entry_point_sha256": "eee80f97cbde3509bf6af3ad2447c0674a9d2962ea1774da99e4adf3ccea86bb",
+  "entry_point_path_note": "Local absolute paths in executed_entry_point.R.txt were replaced with <project_root> and <P3_CORE2_WORK> after the run; entry_point_sha256 is for the redacted file.",
+  "entry_point_sha256": "f8feff06acc9889170f06c8971bfdf61ff5295af5d6a5740ed7a18570b992d98",
   "stage_source_sha256": {
     "scripts/core2/00_common.R": "3d53718b8bd8f11efc98fbbeed9dc7dc68c4cac4ca7028a36b6b1853f6841c19",
     "scripts/core2/01_pair_and_merge.R": "3e8fd30dd4da5d5eb62f0ca593e1f8d083b58cb609619832c3231aa1ff75744e",

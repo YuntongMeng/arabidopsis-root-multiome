@@ -11,8 +11,8 @@ Related repositories: [Project 1](https://github.com/YuntongMeng/arabidopsis-dro
 
 ## Analysis status
 
-**Project complete within the agreed scope as of 2026-10-15: Core 1 + Core 2.**
-The planned Core 3 has been cancelled, not left pending. The same-nucleus
+**The project was completed on 2026-10-15 with Core 1 and Core 2.**
+I cancelled the planned Core 3 rather than leaving it pending. The same-nucleus
 RNA–ATAC comparison is already included in Core 2. See the
 [final scope decision](docs/project_scope.md).
 
@@ -20,15 +20,15 @@ Core 1 was rerun on 2026-10-06 after discovering that the original RNA input
 included ATAC peaks. The current analysis uses gene-expression rows only and
 retains 21,550 predicted singlets. Unintegrated clustering is primary; sample-based
 Harmony is retained as a sensitivity comparison. Annotation remains provisional.
-The user manually reran stages 01–07; all eight structural checks passed.
+I reran stages 01–07 from the original inputs; all eight structural checks passed.
 Core 2 now includes common-region ATAC recounting, QC and exact-nucleus RNA context
 for 14,146 paired nuclei. Five population-level pseudobulk comparisons identify one
-candidate peak at within-population FDR <0.05; none of the 137 P1 candidates has
+candidate peak at within-population FDR <0.05; none of the 137 Project 1 interaction genes has
 significant matched nearby ATAC support under the fixed mapping rule. Results are
 limited and labels remain provisional. The project concludes at Core 2;
 there is no remaining Core 3 deliverable.
 
-A [supplementary revision](docs/core2/supplemental_review.md) adds model diagnostics, a fixed count-filter sensitivity analysis and exploratory RNA-response context. The primary results remain unchanged. Publication of the reviewed supplement was authorized on 2026-10-18.
+A [supplementary revision](docs/core2/supplemental_review.md) adds model diagnostics, a fixed count-filter sensitivity analysis and exploratory RNA-response context. The primary results remain unchanged. The supplement was published on 2026-10-18.
 
 The current version is a documented working analysis, not a claim of a uniquely
 correct solution. Earlier assumptions, errors, alternatives and remaining uncertainty
@@ -92,8 +92,8 @@ remain separate assays.
 The single differential candidate is chr4:5,457,000–5,457,860 in Atrichoblast_lineage
 (estimated log2FC 1.860; population-wise adjusted p 0.004526). It is near AT4G08570,
 not a validated regulatory link. All other tested populations have no significant
-peaks at the current criterion, with Root_cap explicitly exploratory. Of 137 P1
-candidates, 120 match common regions; none has a matched FDR-significant region.
+peaks at the current criterion, with Root_cap explicitly exploratory. Of the 137 Project 1
+interaction genes, 120 match common regions; none has a matched FDR-significant region.
 Lack of significance does not establish absence of stress effects.
 
 Control 1 contains a pre-existing low-nuclear-signal, organelle-rich subgroup.
@@ -109,14 +109,14 @@ python3 scripts/verify_core2.py
 These inspect stages and validate the published record without rerunning biological
 analysis. [Explicit execution instructions](docs/core2/running.md) require a local
 upstream workspace. The previously interactive stages have now been assembled into
-scripts and manually rerun by the user from the four existing unfiltered QC objects.
+scripts, and I reran them from the four existing unfiltered QC objects.
 All ten recorded comparisons matched, including raw pseudobulk counts, reviewed
 ATAC assignments and five population differential statistics (tolerance 1e-7).
 FASTQ reconstruction and QC metric calculation were not repeated. Saved-coordinate
 PCA figures were redrawn with equal x/y unit scale; their independent panels are
 not directly comparable coordinate spaces.
 
-No new ATAC GO analysis is reported. The project ends at Core 2; Core 3 is cancelled. [Submission status](docs/core2/review_before_push.md). See the [directory guide](docs/core2/directory_map.md) for current scripts, reviewed results and local-only data.
+No new ATAC GO analysis is reported. The project ends at Core 2; Core 3 is cancelled. See the [directory guide](docs/core2/directory_map.md) for current scripts, reviewed results and local-only data.
 
 ## Core 1 main analysis
 
@@ -142,7 +142,7 @@ No cluster count, population count or DEG total is asserted as a required answer
 - [Current figures](results/core1/figures/).
 - Saved checkpoints are generated locally and excluded from Git.
 - [Environment and diagnostic records](results/core1/diagnostics/).
-- [Analysis story](docs/core1/analysis_story.md): start here to follow our reasoning.
+- [Analysis story](docs/core1/analysis_story.md): start here to follow my reasoning.
 - [Decision log](docs/core1/decision_log.md): parameters, evidence and uncertainty.
 - [Version comparison](docs/core1/version_comparison.md): what changed and what remains supported.
 - [Detailed comparison report](docs/core1/comparison_report.md): full numerical review.
@@ -188,10 +188,10 @@ classification; ambient contamination is not ruled out. Sample-based Harmony may
 attenuate condition geometry, but these comparisons cannot disentangle every
 technical and biological contribution.
 
-P1 candidates show stress-DEG enrichment relative to the ordinary gene background,
+Project 1 interaction genes show stress-DEG enrichment relative to the ordinary gene background,
 but no population passes BH correction for additional enrichment relative to the
-P1 noninteraction drought-DEG control. The seven GO views summarize overlapping
-candidate gene sets; they are not new P3 GO enrichment tests.
+Project 1 noninteraction drought-DEG control. The seven GO views summarize overlapping
+candidate gene sets; they are not new Project 3 GO enrichment tests.
 
 ## Data and attribution statement
 

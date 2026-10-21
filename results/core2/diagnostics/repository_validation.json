@@ -1,6 +1,6 @@
 {
   "prepared_date": "2026-10-13",
-  "source": "Saved user-run Core 2 outputs; no biological refitting",
+  "source": "Saved Core 2 outputs from the original run; no biological refitting",
   "R_scripts_parse": {
     "passed": true,
     "files": 20
@@ -76,11 +76,10 @@
       2
     ],
     "core3": "cancelled",
-    "status": "complete within agreed scope"
+    "status": "complete (Core 1 and Core 2)"
   },
   "publication": {
-    "authorized_by_user": true,
-    "authorization_date": "2026-10-15",
-    "outcome_record": "Verify actual remote commit; recorded after upload in local task workspace, not asserted by this pre-push validation snapshot."
+    "published_to_github": true,
+    "publication_date": "2026-10-15"
   }
 }

@@ -38,7 +38,7 @@ Optional `P3_R_LIB` selects a local R library; otherwise the existing workspace 
 
 ## Reconstructed downstream steps
 
-The user ran the original analysis in RStudio. The previously interactive steps are now organized into callable files. Source defines their functions; the runner invokes only the selected stage. Run one stage at a time and inspect it:
+I ran the original analysis in RStudio. The previously interactive steps are now organized into callable files. Source defines their functions; the runner invokes only the selected stage. Run one stage at a time and inspect it:
 
 ```sh
 Rscript scripts/run_core2.R select
@@ -56,7 +56,7 @@ There is intentionally no implicit `all` command. These stages compute or overwr
 
 The reviewed cell-level ATAC partition is stored as `data/core2_reference/reviewed_cell_clusters.csv.gz`. On rebuilding, old descriptions are attached only if the same nuclei have exactly the reviewed cluster assignments. Otherwise descriptions remain unreviewed; cluster ID numbers alone never justify reusing annotations. RNA populations still require exact Core 1 cell matching. A changed partition needs renewed ATAC description review.
 
-The user has now completed a **fresh real-data downstream run in RStudio**, starting from the four existing unfiltered QC objects. All ten comparisons matched the recorded run, including exact pseudobulk counts and reviewed cell-level ATAC assignments; differential-statistic tolerance was 1e-7. This does not include remapping FASTQ or recalculating QC metrics. Original published results were not overwritten. See results/core2/diagnostics/manual_rerun for evidence.
+I have since completed a fresh real-data downstream run in RStudio, starting from the four existing unfiltered QC objects. All ten comparisons matched the recorded run, including exact pseudobulk counts and reviewed cell-level ATAC assignments; differential-statistic tolerance was 1e-7. This does not include remapping FASTQ or recalculating QC metrics. Original published results were not overwritten. See results/core2/diagnostics/manual_rerun for evidence.
 
 ## RStudio entry for a separate validation run
 

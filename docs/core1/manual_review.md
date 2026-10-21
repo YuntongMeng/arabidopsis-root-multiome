@@ -1,12 +1,16 @@
-# Core 1 人工审阅顺序
+# Core 1 manual review order
 
-1. 从 README 和 analysis_story.md 确认当前版本、研究问题和决策过程。
-2. 核对 results/core1/tables/input_matrix_audit.csv：feature type 与 coordinate IDs。
-3. 看 QC figures、阈值、doublet calls 和 decision_log.md 的假设；不要以保留数量相似代替检查。
-4. 看 PCA/UMAP、PC ARI、replicate mixing 和 condition preservation；区分主分析与 Harmony sensitivity。
-5. 对照 canonical DotPlot、strict markers、atlas scores 和 cluster_annotation_review.csv，尤其低置信度 groups。
-6. 查看 population × sample counts、eligibility、raw-count preservation 和 DE tables。
-7. 查看 P1 Fisher 背景定义、BH test family、drought control 和 GO gene-set overlap。
-8. 用 comparison_report.md 检查旧结论的保留/撤回边界。
+1. Use the README and `analysis_story.md` to confirm the current version, the research question and the decision process.
+2. Check `results/core1/tables/input_matrix_audit.csv`: feature types and coordinate IDs.
+3. Look at the QC figures, thresholds, doublet calls and the assumptions in `decision_log.md`. Similar retention numbers are not a substitute for checking.
+4. Look at PCA/UMAP, PC ARI, replicate mixing and condition preservation, keeping the primary analysis separate from the Harmony sensitivity branch.
+5. Compare the canonical DotPlot, strict markers, atlas scores and `cluster_annotation_review.csv`, especially for low-confidence groups.
+6. Check population × sample counts, eligibility, raw-count preservation and the DE tables.
+7. Check the Project 1 Fisher background definition, the BH test family, the drought control and the GO gene-set overlap.
+8. Use `comparison_report.md` to check which old conclusions are kept or withdrawn.
 
-用户已实际运行 01–07，观察到的 summary 与此前修正版一致，八项结构检查全通过。简短记录见 [manual_rerun_validation.md](manual_rerun_validation.md)。细胞身份与生物学解释仍有明确限制；运行完成不等于科学结论已经证实。
+I reran stages 01–07; the observed summaries matched the previous corrected
+run, and all eight structural checks passed. A short record is in
+[manual_rerun_validation.md](manual_rerun_validation.md). Cell identities and
+biological interpretation still have clear limits; a completed run does not
+confirm the scientific conclusions.

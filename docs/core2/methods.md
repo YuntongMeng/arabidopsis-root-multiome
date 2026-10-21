@@ -12,7 +12,7 @@ Reference: Ensembl Plants release 62 TAIR10 toplevel FASTA, including Mt/Pt. FAS
 
 Original Peaks intervals are interpreted as zero-based half-open BED. Import to GRanges adds 1 to start only. `GenomicRanges::reduce` merges the union, followed by 20 < width <10,000 bp. All 27,677 reduced regions pass; widths range 154–2,134 bp, median 884 bp. The common BED is [stored here](../../data/core2_reference/common_peaks.bed).
 
-One deduplicated fragment row contributes once to every overlapping peak. Column 5 PCR support is not a weight. A fragment overlapping multiple peaks can contribute to multiple matrix rows. FRiP instead counts each fragment at most once in its numerator. Our fragment-region matrix is not required to equal original Cell Ranger cut-site counts.
+One deduplicated fragment row contributes once to every overlapping peak. Column 5 PCR support is not a weight. A fragment overlapping multiple peaks can contribute to multiple matrix rows. FRiP instead counts each fragment at most once in its numerator. My fragment-region matrix is not required to equal original Cell Ranger cut-site counts.
 
 ## QC and pairing
 
@@ -30,7 +30,7 @@ Nuclear-only fragment copies are indexed for nuclear QC; original fragments reta
 
 FRiP and organelle percentage have no additional hard filter. The union-defined peak universe affects FRiP interpretation; a high ratio is not a test that peak calling is correct. No arbitrary upper count threshold was used. Corrected, gene-only Core 1 scDblFinder calls are matched by capture + barcode; retain RNA QC-pass predicted singlets, and exclude not-tested nuclei from paired inference. This is not an independent ATAC doublet call.
 
-The paper's nCount_ATAC threshold and our nuclear-fragment threshold are different quantities. The working TSS and nucleosome cutoffs are informed by the original study, not a literal reproduction of all its QC rules. The original study used Cell Ranger ARC 2.0.2; our reconstruction, count unit and downstream choices differ. [Liu et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC11199978/)
+The paper's nCount_ATAC threshold and my nuclear-fragment threshold are different quantities. The working TSS and nucleosome cutoffs are informed by the original study, not a literal reproduction of all its QC rules. The original study used Cell Ranger ARC 2.0.2; my reconstruction, count unit and downstream choices differ. [Liu et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC11199978/)
 
 ## Embedding, matching and marker checks
 
@@ -61,4 +61,4 @@ No new GO analysis, motif analysis, co-accessibility, peak-to-gene links, expres
 
 ## Local supplemental methods, 2026-10-15
 
-See [supplemental_review.md](supplemental_review.md) for the predeclared counts>=5 filter, ten model-diagnostic figures, numerical initial-dispersion boundary proportions, and RNA-only selection of 15 response examples. Primary counts>=10 inference, sample replication and QC are unchanged. No new RNA model or Control 1 attribution experiment was run. Publication of these reviewed additions was authorized on 2026-10-18.
+See [supplemental_review.md](supplemental_review.md) for the predeclared counts>=5 filter, ten model-diagnostic figures, numerical initial-dispersion boundary proportions, and RNA-only selection of 15 response examples. Primary counts>=10 inference, sample replication and QC are unchanged. No new RNA model or Control 1 attribution experiment was run. These additions were published on 2026-10-18.
