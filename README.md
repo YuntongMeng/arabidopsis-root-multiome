@@ -8,7 +8,7 @@ single-nucleus RNA and ATAC data from control and sorbitol-treated wild-type
 root tips (GEO GSE235495; Liu et al., 2024), with two biological replicates per
 condition.
 
-Related repositories: [Project 1](https://github.com/YuntongMeng/arabidopsis-drought-rnaseq) · [Project 2](https://github.com/YuntongMeng/arabidopsis-root-singlecell).
+Related repositories: [Project 1](https://github.com/YuntongMeng/arabidopsis-drought-rnaseq) · [Project 2](https://github.com/YuntongMeng/arabidopsis-root-singlecell). Part of [Arabidopsis root omics](https://github.com/YuntongMeng/arabidopsis-root-omics).
 
 ## Key findings
 
